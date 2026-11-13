@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["crates/policy-poc"]
+members = ["crates/policy-poc", "crates/measure-agent"]
 
 [workspace.package]
 edition = "2021"
