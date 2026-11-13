@@ -4,6 +4,8 @@ These are the decisions the design cannot make for you. Each has a recommendatio
 
 The three that matter most are decisions 1, 2 and 7. Decision 1 commits ten to fifteen months before anything replaces what you run today. Decision 2 determines the pace of governance for every weight the network will ever adopt. Decision 7 is the cheapest way to learn whether the learning half of the design is worth building at all.
 
+Rulings of 2026-11-13 are David's; Ben's confirmation is pending.
+
 ---
 
 ## Decision 1 — Rebuild beside x0x and cut over when the new network measures better, or evolve x0x in place
@@ -16,7 +18,9 @@ The three that matter most are decisions 1, 2 and 7. Decision 1 commits ten to f
 
 > **This is one of the three that matter most.**
 
-Status: OPEN
+**Ruling (2026-11-13, David):** Rebuild beside x0x and cut over when the new network measures better. Until cutover, x0x takes security and correctness fixes and no new protocol surface. The two stop-conditions in docs/roadmap.md stand: a Phase 1 whose simulated kernel cannot meet the invariants, or a Phase 2 with no measurable improvement over x0x on real hosts, returns us to evolving x0x.
+
+Status: RULED (2026-11-13)
 
 ---
 
@@ -30,7 +34,9 @@ Status: OPEN
 
 > **This is one of the three that matter most.**
 
-Status: OPEN
+**Ruling (2026-11-13, David):** Adopt the study's reading and put it to the community. The two-stage vote covers the fixed rules, the ceiling on harm, the outer limit, the trial rules and the list of admitted policy forms. A node's own weights are local, on the four conditions the kernel enforces. The two follow-on questions (at what share of nodes a widely followed weight set becomes a network parameter in fact, and whether rung 3/4 nodes count as part of "the x0x codebase") go to the same community vote.
+
+Status: RULED (2026-11-13)
 
 ---
 
@@ -92,7 +98,9 @@ Status: OPEN
 
 > **This is one of the three that matter most.**
 
-Status: OPEN
+**Ruling (2026-11-13, David):** Yes. Fund ~50 devices of different kinds in Measure mode for about a month, comparing the best single table, a formula with per-node constants, and a table per node. This runs before and independent of the rebuild's learning half and decides whether learning is ever worth switching on.
+
+Status: RULED (2026-11-13)
 
 ---
 
