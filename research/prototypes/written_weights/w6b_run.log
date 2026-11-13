@@ -1,0 +1,246 @@
+
+[loss penalty] spread 0.0 (20s)
+   fixed margin of 3, true worst case              : mean  +3.5%, 9 in 10 under  +3.5%, worst node  +3.5%, over the ceiling   0%
+   self-set, 2,000 decisions seen, target 5%   : mean  +3.9%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0% | own table inside it: mean -1.5%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.0%, 9 in 10 under  +3.5%, worst node  +4.6%, over the ceiling   0% | own table inside it: mean -1.3%
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.9%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0% | own table inside it: mean -1.5%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.2%, 9 in 10 under  +3.5%, worst node  +3.5%, over the ceiling   0% | own table inside it: mean -1.4%
+   own table as yardstick, 5% band: true worst     : mean  +0.5%, 9 in 10 under  +0.5%, worst node  +0.9%, over the ceiling   0%
+
+[loss penalty] spread 0.5 (39s)
+   fixed margin of 3, true worst case              : mean  +3.5%, 9 in 10 under  +3.9%, worst node  +4.1%, over the ceiling   0%
+   self-set, 2,000 decisions seen, target 5%   : mean  +3.9%, 9 in 10 under  +4.8%, worst node  +5.2%, over the ceiling   6% | own table inside it: mean -1.5%
+   self-set, 2,000 decisions seen, target 4%   : mean  +2.9%, 9 in 10 under  +3.8%, worst node  +4.8%, over the ceiling   0% | own table inside it: mean -1.3%
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.7%, 9 in 10 under  +4.7%, worst node  +5.2%, over the ceiling   2% | own table inside it: mean -1.5%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.0%, 9 in 10 under  +3.8%, worst node  +4.0%, over the ceiling   0% | own table inside it: mean -1.3%
+   own table as yardstick, 5% band: true worst     : mean  +0.5%, 9 in 10 under  +0.6%, worst node  +0.7%, over the ceiling   0%
+
+[loss penalty] spread 1.0 (57s)
+   fixed margin of 3, true worst case              : mean  +3.8%, 9 in 10 under  +4.3%, worst node  +7.6%, over the ceiling   4%
+   self-set, 2,000 decisions seen, target 5%   : mean  +3.7%, 9 in 10 under  +4.9%, worst node  +5.5%, over the ceiling   8% | own table inside it: mean -1.6%
+   self-set, 2,000 decisions seen, target 4%   : mean  +2.9%, 9 in 10 under  +4.0%, worst node  +4.3%, over the ceiling   0% | own table inside it: mean -1.4%
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.6%, 9 in 10 under  +4.5%, worst node  +5.2%, over the ceiling   2% | own table inside it: mean -1.6%
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.9%, 9 in 10 under  +3.8%, worst node  +4.2%, over the ceiling   0% | own table inside it: mean -1.4%
+   own table as yardstick, 5% band: true worst     : mean  +0.5%, 9 in 10 under  +0.5%, worst node  +0.7%, over the ceiling   0%
+
+[loss penalty] spread 1.5 (76s)
+   fixed margin of 3, true worst case              : mean  +4.0%, 9 in 10 under  +4.4%, worst node +12.8%, over the ceiling   8%
+   self-set, 2,000 decisions seen, target 5%   : mean  +3.7%, 9 in 10 under  +4.7%, worst node  +5.5%, over the ceiling   6% | own table inside it: mean -1.7%
+   self-set, 2,000 decisions seen, target 4%   : mean  +2.8%, 9 in 10 under  +3.8%, worst node  +4.9%, over the ceiling   0% | own table inside it: mean -1.5%
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.7%, 9 in 10 under  +4.4%, worst node  +5.5%, over the ceiling   2% | own table inside it: mean -1.7%
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.6%, 9 in 10 under  +3.8%, worst node  +4.2%, over the ceiling   0% | own table inside it: mean -1.4%
+   own table as yardstick, 5% band: true worst     : mean  +0.5%, 9 in 10 under  +0.6%, worst node  +0.8%, over the ceiling   0%
+
+[exponents] spread 0.0 (95s)
+   fixed margin of 3, true worst case              : mean  +3.9%, 9 in 10 under  +3.9%, worst node  +3.9%, over the ceiling   0%
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.0%, 9 in 10 under  +5.4%, worst node  +5.4%, over the ceiling  12% | own table inside it: mean -1.8%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.0%, 9 in 10 under  +3.9%, worst node  +3.9%, over the ceiling   0% | own table inside it: mean -1.6%
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.9%, 9 in 10 under  +3.9%, worst node  +3.9%, over the ceiling   0% | own table inside it: mean -1.8%
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.9%, 9 in 10 under  +3.9%, worst node  +3.9%, over the ceiling   0% | own table inside it: mean -1.6%
+   own table as yardstick, 5% band: true worst     : mean  +0.4%, 9 in 10 under  +0.4%, worst node  +0.8%, over the ceiling   0%
+
+[exponents] spread 0.5 (114s)
+   fixed margin of 3, true worst case              : mean  +4.4%, 9 in 10 under  +5.2%, worst node  +6.9%, over the ceiling  14%
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.0%, 9 in 10 under  +4.9%, worst node  +5.7%, over the ceiling   8% | own table inside it: mean -2.1%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.0%, 9 in 10 under  +3.9%, worst node  +5.4%, over the ceiling   1% | own table inside it: mean -1.8%
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.0%, 9 in 10 under  +4.6%, worst node  +5.0%, over the ceiling   0% | own table inside it: mean -2.1%
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.8%, 9 in 10 under  +3.6%, worst node  +4.0%, over the ceiling   0% | own table inside it: mean -1.8%
+   own table as yardstick, 5% band: true worst     : mean  +0.3%, 9 in 10 under  +0.4%, worst node  +0.7%, over the ceiling   0%
+
+[exponents] spread 1.0 (133s)
+   fixed margin of 3, true worst case              : mean  +5.7%, 9 in 10 under  +9.0%, worst node +14.8%, over the ceiling  44%
+   self-set, 2,000 decisions seen, target 5%   : mean  +3.9%, 9 in 10 under  +4.8%, worst node  +6.3%, over the ceiling   8% | own table inside it: mean -2.4%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.0%, 9 in 10 under  +4.0%, worst node  +4.8%, over the ceiling   0% | own table inside it: mean -2.0%
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.8%, 9 in 10 under  +4.5%, worst node  +5.2%, over the ceiling   2% | own table inside it: mean -2.3%
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.8%, 9 in 10 under  +3.6%, worst node  +4.0%, over the ceiling   0% | own table inside it: mean -1.9%
+   own table as yardstick, 5% band: true worst     : mean  +0.3%, 9 in 10 under  +0.4%, worst node  +0.5%, over the ceiling   0%
+
+[exponents] spread 1.5 (152s)
+   fixed margin of 3, true worst case              : mean  +7.1%, 9 in 10 under +12.7%, worst node +23.3%, over the ceiling  64%
+   self-set, 2,000 decisions seen, target 5%   : mean  +3.9%, 9 in 10 under  +5.2%, worst node  +6.6%, over the ceiling  14% | own table inside it: mean -2.6%
+   self-set, 2,000 decisions seen, target 4%   : mean  +2.9%, 9 in 10 under  +3.9%, worst node  +5.5%, over the ceiling   1% | own table inside it: mean -2.1%
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.8%, 9 in 10 under  +4.6%, worst node  +6.1%, over the ceiling   2% | own table inside it: mean -2.6%
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.8%, 9 in 10 under  +3.7%, worst node  +4.3%, over the ceiling   0% | own table inside it: mean -2.0%
+   own table as yardstick, 5% band: true worst     : mean  +0.3%, 9 in 10 under  +0.4%, worst node  +0.6%, over the ceiling   0%
+
+[three ways] spread 0.0 (170s)
+   fixed margin of 3, true worst case              : mean  +3.9%, 9 in 10 under  +3.9%, worst node  +3.9%, over the ceiling   0%
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.0%, 9 in 10 under  +5.4%, worst node  +5.4%, over the ceiling  12% | own table inside it: mean -1.8%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.0%, 9 in 10 under  +3.9%, worst node  +3.9%, over the ceiling   0% | own table inside it: mean -1.6%
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.9%, 9 in 10 under  +3.9%, worst node  +3.9%, over the ceiling   0% | own table inside it: mean -1.8%
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.9%, 9 in 10 under  +3.9%, worst node  +3.9%, over the ceiling   0% | own table inside it: mean -1.6%
+   own table as yardstick, 5% band: true worst     : mean  +0.4%, 9 in 10 under  +0.4%, worst node  +0.8%, over the ceiling   0%
+
+[three ways] spread 0.5 (188s)
+   fixed margin of 3, true worst case              : mean  +4.4%, 9 in 10 under  +5.8%, worst node  +8.7%, over the ceiling  26%
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.0%, 9 in 10 under  +4.8%, worst node  +6.1%, over the ceiling   7% | own table inside it: mean -2.1%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.0%, 9 in 10 under  +3.8%, worst node  +4.8%, over the ceiling   0% | own table inside it: mean -1.8%
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.9%, 9 in 10 under  +4.7%, worst node  +4.9%, over the ceiling   0% | own table inside it: mean -2.1%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.0%, 9 in 10 under  +3.7%, worst node  +4.0%, over the ceiling   0% | own table inside it: mean -1.8%
+   own table as yardstick, 5% band: true worst     : mean  +0.4%, 9 in 10 under  +0.4%, worst node  +0.6%, over the ceiling   0%
+
+[three ways] spread 1.0 (207s)
+   fixed margin of 3, true worst case              : mean  +5.9%, 9 in 10 under  +9.6%, worst node +14.7%, over the ceiling  53%
+   self-set, 2,000 decisions seen, target 5%   : mean  +3.8%, 9 in 10 under  +4.8%, worst node  +5.6%, over the ceiling   8% | own table inside it: mean -2.3%
+   self-set, 2,000 decisions seen, target 4%   : mean  +2.9%, 9 in 10 under  +3.9%, worst node  +5.1%, over the ceiling   1% | own table inside it: mean -2.0%
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.7%, 9 in 10 under  +4.5%, worst node  +5.2%, over the ceiling   2% | own table inside it: mean -2.3%
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.9%, 9 in 10 under  +3.7%, worst node  +4.2%, over the ceiling   0% | own table inside it: mean -1.9%
+   own table as yardstick, 5% band: true worst     : mean  +0.3%, 9 in 10 under  +0.4%, worst node  +0.7%, over the ceiling   0%
+
+[three ways] spread 1.5 (227s)
+   fixed margin of 3, true worst case              : mean  +7.4%, 9 in 10 under +12.8%, worst node +23.7%, over the ceiling  65%
+   self-set, 2,000 decisions seen, target 5%   : mean  +3.6%, 9 in 10 under  +4.9%, worst node  +6.1%, over the ceiling   7% | own table inside it: mean -2.4%
+   self-set, 2,000 decisions seen, target 4%   : mean  +2.7%, 9 in 10 under  +3.7%, worst node  +4.8%, over the ceiling   0% | own table inside it: mean -2.0%
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.3%, 9 in 10 under  +4.5%, worst node  +5.1%, over the ceiling   1% | own table inside it: mean -2.3%
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.6%, 9 in 10 under  +3.6%, worst node  +4.4%, over the ceiling   0% | own table inside it: mean -1.9%
+   own table as yardstick, 5% band: true worst     : mean  +0.3%, 9 in 10 under  +0.5%, worst node  +0.9%, over the ceiling   0%
+
+[product] every level of round trip (the mix of W8b): fixed margin of 3 lets through +3.8%; margin 0: +0.4%, 1: +1.3%, 2: +2.3%
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.0%, 9 in 10 under  +4.0%, worst node  +5.4%, over the ceiling  10% | widths {'0': 0, '1': 0, '2': 0, '3': 36, '4': 4, '6': 0, '9': 0, '12': 0}
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.0%, 9 in 10 under  +3.8%, worst node  +3.8%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 22, '3': 18, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.8%, 9 in 10 under  +3.8%, worst node  +3.8%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 0, '3': 40, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.9%, 9 in 10 under  +3.8%, worst node  +3.8%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 25, '3': 15, '4': 0, '6': 0, '9': 0, '12': 0}
+
+[product] fast candidates only: round-trip levels 0 to 3: fixed margin of 3 lets through +13.2%; margin 0: +0.8%, 1: +2.6%, 2: +6.1%
+   self-set, 2,000 decisions seen, target 5%   : mean  +2.6%, 9 in 10 under  +2.6%, worst node  +2.6%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 2,000 decisions seen, target 4%   : mean  +2.6%, 9 in 10 under  +2.6%, worst node  +2.6%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 5%  : mean  +2.6%, 9 in 10 under  +2.6%, worst node  +2.6%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.6%, 9 in 10 under  +2.6%, worst node  +2.6%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+
+[product] fast and clean: round-trip levels 0 to 3, loss levels 0 or 1: fixed margin of 3 lets through +25.5%; margin 0: +1.7%, 1: +2.2%, 2: +7.6%
+   self-set, 2,000 decisions seen, target 5%   : mean  +2.2%, 9 in 10 under  +2.2%, worst node  +2.2%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 2,000 decisions seen, target 4%   : mean  +2.2%, 9 in 10 under  +2.2%, worst node  +2.2%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 5%  : mean  +2.2%, 9 in 10 under  +2.2%, worst node  +2.2%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.2%, 9 in 10 under  +2.2%, worst node  +2.2%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+
+[product] very fast: round-trip levels 0 or 1: fixed margin of 3 lets through +15.7%; margin 0: +1.5%, 1: +1.5%, 2: +1.5%
+   self-set, 2,000 decisions seen, target 5%   : mean  +1.5%, 9 in 10 under  +1.5%, worst node  +1.5%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 40, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 2,000 decisions seen, target 4%   : mean  +1.5%, 9 in 10 under  +1.5%, worst node  +1.5%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 40, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 5%  : mean  +1.5%, 9 in 10 under  +1.5%, worst node  +1.5%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 40, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 4%  : mean  +1.5%, 9 in 10 under  +1.5%, worst node  +1.5%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 40, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+
+[product] slow candidates only: round-trip levels 8 to 15: fixed margin of 3 lets through +4.8%; margin 0: +0.6%, 1: +1.8%, 2: +3.0%
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.5%, 9 in 10 under  +4.8%, worst node  +4.8%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 7, '3': 33, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.0%, 9 in 10 under  +3.0%, worst node  +3.0%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 40, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.4%, 9 in 10 under  +4.8%, worst node  +4.8%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 9, '3': 31, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.0%, 9 in 10 under  +3.0%, worst node  +3.0%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 40, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+
+[timeout] every level of round trip (the mix of W8b): fixed margin of 3 lets through +3.4%; margin 0: +0.4%, 1: +1.0%, 2: +2.0%
+   self-set, 2,000 decisions seen, target 5%   : mean  +3.9%, 9 in 10 under  +4.5%, worst node  +4.5%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 0, '3': 23, '4': 17, '6': 0, '9': 0, '12': 0}
+   self-set, 2,000 decisions seen, target 4%   : mean  +2.8%, 9 in 10 under  +3.4%, worst node  +3.4%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 15, '3': 25, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.8%, 9 in 10 under  +4.5%, worst node  +4.5%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 0, '3': 25, '4': 15, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.1%, 9 in 10 under  +3.4%, worst node  +3.4%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 8, '3': 32, '4': 0, '6': 0, '9': 0, '12': 0}
+
+[timeout] fast candidates only: round-trip levels 0 to 3: fixed margin of 3 lets through +12.8%; margin 0: +0.8%, 1: +2.2%, 2: +5.8%
+   self-set, 2,000 decisions seen, target 5%   : mean  +2.2%, 9 in 10 under  +2.2%, worst node  +2.2%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 2,000 decisions seen, target 4%   : mean  +2.2%, 9 in 10 under  +2.2%, worst node  +2.2%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 5%  : mean  +2.2%, 9 in 10 under  +2.2%, worst node  +2.2%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.2%, 9 in 10 under  +2.2%, worst node  +2.2%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+
+[timeout] fast and clean: round-trip levels 0 to 3, loss levels 0 or 1: fixed margin of 3 lets through +26.0%; margin 0: +1.7%, 1: +1.7%, 2: +8.2%
+   self-set, 2,000 decisions seen, target 5%   : mean  +1.7%, 9 in 10 under  +1.7%, worst node  +1.7%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 2,000 decisions seen, target 4%   : mean  +1.7%, 9 in 10 under  +1.7%, worst node  +1.7%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 5%  : mean  +1.7%, 9 in 10 under  +1.7%, worst node  +1.7%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 4%  : mean  +1.7%, 9 in 10 under  +1.7%, worst node  +1.7%, over the ceiling   0% | widths {'0': 0, '1': 40, '2': 0, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+
+[timeout] very fast: round-trip levels 0 or 1: fixed margin of 3 lets through +15.1%; margin 0: +1.5%, 1: +1.5%, 2: +1.5%
+   self-set, 2,000 decisions seen, target 5%   : mean  +1.5%, 9 in 10 under  +1.5%, worst node  +1.5%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 40, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 2,000 decisions seen, target 4%   : mean  +1.5%, 9 in 10 under  +1.5%, worst node  +1.5%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 40, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 5%  : mean  +1.5%, 9 in 10 under  +1.5%, worst node  +1.5%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 40, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 4%  : mean  +1.5%, 9 in 10 under  +1.5%, worst node  +1.5%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 40, '3': 0, '4': 0, '6': 0, '9': 0, '12': 0}
+
+[timeout] slow candidates only: round-trip levels 8 to 15: fixed margin of 3 lets through +3.2%; margin 0: +0.5%, 1: +1.1%, 2: +1.9%
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.2%, 9 in 10 under  +4.2%, worst node  +4.2%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 0, '3': 3, '4': 37, '6': 0, '9': 0, '12': 0}
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.3%, 9 in 10 under  +3.2%, worst node  +4.2%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 0, '3': 39, '4': 1, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.2%, 9 in 10 under  +4.2%, worst node  +4.2%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 0, '3': 0, '4': 40, '6': 0, '9': 0, '12': 0}
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.3%, 9 in 10 under  +3.2%, worst node  +4.2%, over the ceiling   0% | widths {'0': 0, '1': 0, '2': 0, '3': 38, '4': 2, '6': 0, '9': 0, '12': 0}
+
+[three ways] spread 0.0: attacker supplies 0% of the evidence, fast-looking peers 1x slower (252s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.0%, 9 in 10 under  +3.9%, worst node  +5.4%, over the ceiling   9%
+   self-set, 2,000 decisions seen, target 4%   : mean  +2.9%, 9 in 10 under  +3.9%, worst node  +3.9%, over the ceiling   0%
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.9%, 9 in 10 under  +3.9%, worst node  +3.9%, over the ceiling   0%
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.9%, 9 in 10 under  +3.9%, worst node  +3.9%, over the ceiling   0%
+
+[three ways] spread 0.0: attacker supplies 10% of the evidence, fast-looking peers 8x slower (263s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.5%, 9 in 10 under  +5.4%, worst node  +5.4%, over the ceiling  44%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.4%, 9 in 10 under  +3.9%, worst node  +5.4%, over the ceiling   0%
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.5%, 9 in 10 under  +5.4%, worst node  +5.4%, over the ceiling  39%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.6%, 9 in 10 under  +3.9%, worst node  +3.9%, over the ceiling   0%
+
+[three ways] spread 0.0: attacker supplies 20% of the evidence, fast-looking peers 8x slower (273s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.7%, 9 in 10 under  +5.4%, worst node  +5.4%, over the ceiling  57%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.6%, 9 in 10 under  +3.9%, worst node  +5.4%, over the ceiling   4%
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.8%, 9 in 10 under  +5.4%, worst node  +5.4%, over the ceiling  60%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.6%, 9 in 10 under  +3.9%, worst node  +5.4%, over the ceiling   1%
+
+[three ways] spread 0.0: attacker supplies 10% of the evidence, fast-looking peers 30x slower (284s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.6%, 9 in 10 under  +5.4%, worst node  +5.4%, over the ceiling  46%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.4%, 9 in 10 under  +3.9%, worst node  +5.4%, over the ceiling   2%
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.5%, 9 in 10 under  +5.4%, worst node  +5.4%, over the ceiling  43%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.5%, 9 in 10 under  +3.9%, worst node  +5.4%, over the ceiling   0%
+
+[three ways] spread 0.0: attacker supplies 20% of the evidence, fast-looking peers 30x slower (295s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.7%, 9 in 10 under  +5.4%, worst node  +5.4%, over the ceiling  54%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.4%, 9 in 10 under  +3.9%, worst node  +5.4%, over the ceiling   4%
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.6%, 9 in 10 under  +5.4%, worst node  +5.4%, over the ceiling  52%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.5%, 9 in 10 under  +3.9%, worst node  +5.4%, over the ceiling   4%
+
+[loss penalty] spread 0.0: attacker supplies 0% of the evidence, fast-looking peers 1x slower (306s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.0%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.1%, 9 in 10 under  +3.5%, worst node  +4.6%, over the ceiling   0%
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.8%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.3%, 9 in 10 under  +3.5%, worst node  +3.5%, over the ceiling   0%
+
+[loss penalty] spread 0.0: attacker supplies 10% of the evidence, fast-looking peers 8x slower (317s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.4%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.5%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0%
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.5%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.5%, 9 in 10 under  +3.5%, worst node  +4.6%, over the ceiling   0%
+
+[loss penalty] spread 0.0: attacker supplies 20% of the evidence, fast-looking peers 8x slower (327s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.5%, 9 in 10 under  +4.6%, worst node  +8.1%, over the ceiling   0%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.8%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0%
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.5%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.8%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0%
+
+[loss penalty] spread 0.0: attacker supplies 10% of the evidence, fast-looking peers 30x slower (338s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.4%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.6%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0%
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.4%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.5%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0%
+
+[loss penalty] spread 0.0: attacker supplies 20% of the evidence, fast-looking peers 30x slower (349s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.4%, 9 in 10 under  +4.6%, worst node  +8.1%, over the ceiling   2%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.7%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0%
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.4%, 9 in 10 under  +4.6%, worst node  +8.1%, over the ceiling   1%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.7%, 9 in 10 under  +4.6%, worst node  +4.6%, over the ceiling   0%
+
+[three ways] spread 1.0: attacker supplies 0% of the evidence, fast-looking peers 1x slower (360s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +3.8%, 9 in 10 under  +4.9%, worst node  +6.3%, over the ceiling   8%
+   self-set, 2,000 decisions seen, target 4%   : mean  +2.9%, 9 in 10 under  +3.9%, worst node  +5.0%, over the ceiling   0%
+   self-set, 20,000 decisions seen, target 5%  : mean  +3.8%, 9 in 10 under  +4.6%, worst node  +5.3%, over the ceiling   4%
+   self-set, 20,000 decisions seen, target 4%  : mean  +2.9%, 9 in 10 under  +3.7%, worst node  +4.2%, over the ceiling   0%
+
+[three ways] spread 1.0: attacker supplies 10% of the evidence, fast-looking peers 8x slower (371s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.2%, 9 in 10 under  +5.4%, worst node  +7.9%, over the ceiling  21%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.2%, 9 in 10 under  +4.4%, worst node  +5.4%, over the ceiling   3%
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.1%, 9 in 10 under  +5.2%, worst node  +6.8%, over the ceiling  18%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.2%, 9 in 10 under  +4.1%, worst node  +5.1%, over the ceiling   1%
+
+[three ways] spread 1.0: attacker supplies 20% of the evidence, fast-looking peers 8x slower (382s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.5%, 9 in 10 under  +6.5%, worst node  +8.7%, over the ceiling  38%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.5%, 9 in 10 under  +4.9%, worst node  +6.0%, over the ceiling   8%
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.5%, 9 in 10 under  +5.9%, worst node  +8.7%, over the ceiling  32%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.5%, 9 in 10 under  +4.8%, worst node  +5.8%, over the ceiling   7%
+
+[three ways] spread 1.0: attacker supplies 10% of the evidence, fast-looking peers 30x slower (394s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.2%, 9 in 10 under  +5.6%, worst node  +7.9%, over the ceiling  24%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.2%, 9 in 10 under  +4.5%, worst node  +5.8%, over the ceiling   4%
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.2%, 9 in 10 under  +5.3%, worst node  +6.8%, over the ceiling  20%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.2%, 9 in 10 under  +4.2%, worst node  +5.3%, over the ceiling   2%
+
+[three ways] spread 1.0: attacker supplies 20% of the evidence, fast-looking peers 30x slower (405s)
+   self-set, 2,000 decisions seen, target 5%   : mean  +4.6%, 9 in 10 under  +6.7%, worst node  +8.7%, over the ceiling  42%
+   self-set, 2,000 decisions seen, target 4%   : mean  +3.6%, 9 in 10 under  +5.1%, worst node  +7.9%, over the ceiling  13%
+   self-set, 20,000 decisions seen, target 5%  : mean  +4.6%, 9 in 10 under  +6.5%, worst node  +8.7%, over the ceiling  38%
+   self-set, 20,000 decisions seen, target 4%  : mean  +3.5%, 9 in 10 under  +5.0%, worst node  +7.2%, over the ceiling  10%

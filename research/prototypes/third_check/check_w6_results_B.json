@@ -1,0 +1,517 @@
+{
+ "A": [],
+ "B": [
+  {
+   "world": "loss penalty",
+   "spread": 1.0,
+   "best possible": {
+    "mean": -0.036963152407919475,
+    "worst_served_tenth": -0.08274430131863533,
+    "share_made_worse": 0.0,
+    "worst_node": -0.021080151086161014
+   },
+   "a table per node (27 numbers), 500 logged decisions [the study's]": {
+    "mean": -0.0250506205485026,
+    "worst_served_tenth": -0.06825127632397561,
+    "share_made_worse": 0.01,
+    "worst_node": 0.010288502840482883
+   },
+   "ordinary code + ONE constant estimated per node, 500 logged decisions": {
+    "mean": -0.03670019245779243,
+    "worst_served_tenth": -0.08238427296763265,
+    "share_made_worse": 0.0,
+    "worst_node": -0.01995505748103754
+   },
+   "ordinary code + THREE constants estimated per node, 500 logged decisions": {
+    "mean": -0.018297388073776476,
+    "worst_served_tenth": -0.05113111620077596,
+    "share_made_worse": 0.195,
+    "worst_node": 0.01544785797057635
+   },
+   "a table per node (27 numbers), 2000 logged decisions [the study's]": {
+    "mean": -0.02965692637954885,
+    "worst_served_tenth": -0.07560685328199498,
+    "share_made_worse": 0.0,
+    "worst_node": -0.006679290334024812
+   },
+   "ordinary code + ONE constant estimated per node, 2000 logged decisions": {
+    "mean": -0.03688857288526158,
+    "worst_served_tenth": -0.08266712989758032,
+    "share_made_worse": 0.0,
+    "worst_node": -0.020453835580378832
+   },
+   "ordinary code + THREE constants estimated per node, 2000 logged decisions": {
+    "mean": -0.018621159325300795,
+    "worst_served_tenth": -0.05202817639924233,
+    "share_made_worse": 0.21,
+    "worst_node": 0.01095362810673639
+   },
+   "one table for all nodes [the study's: least squares on pooled logs]": {
+    "mean": -0.014159963703011673,
+    "worst_served_tenth": -0.0019140900202223089,
+    "share_made_worse": 0.05,
+    "worst_node": 0.014700332809176153
+   },
+   "one table for all nodes, tuned directly on every node's true costs": {
+    "mean": -0.020458885574763254,
+    "worst_served_tenth": -0.006461950554450452,
+    "share_made_worse": 0.03,
+    "worst_node": 0.012528200966540837
+   },
+   "tuned_single_table_weights": {
+    "rtt": [
+     16,
+     16,
+     16,
+     12,
+     8,
+     12,
+     12,
+     8,
+     12,
+     12,
+     8,
+     8,
+     6,
+     8,
+     4
+    ],
+    "loss": [
+     4,
+     8,
+     16,
+     12,
+     16,
+     32,
+     24
+    ],
+    "delivery": [
+     8,
+     6,
+     6,
+     8,
+     8
+    ]
+   }
+  },
+  {
+   "world": "loss penalty",
+   "spread": 1.5,
+   "best possible": {
+    "mean": -0.04694170189378141,
+    "worst_served_tenth": -0.14579059080689272,
+    "share_made_worse": 0.0,
+    "worst_node": -0.02108071187929139
+   },
+   "a table per node (27 numbers), 500 logged decisions [the study's]": {
+    "mean": -0.03489803157444592,
+    "worst_served_tenth": -0.12362332496964075,
+    "share_made_worse": 0.005,
+    "worst_node": 0.00348039548682344
+   },
+   "ordinary code + ONE constant estimated per node, 500 logged decisions": {
+    "mean": -0.046708994467287164,
+    "worst_served_tenth": -0.1455047329019874,
+    "share_made_worse": 0.0,
+    "worst_node": -0.01979559747928561
+   },
+   "ordinary code + THREE constants estimated per node, 500 logged decisions": {
+    "mean": -0.02913401662713661,
+    "worst_served_tenth": -0.10943133353096268,
+    "share_made_worse": 0.235,
+    "worst_node": 0.02018536412449823
+   },
+   "a table per node (27 numbers), 2000 logged decisions [the study's]": {
+    "mean": -0.03976675943342926,
+    "worst_served_tenth": -0.13352005678110077,
+    "share_made_worse": 0.0,
+    "worst_node": -0.005035907192778799
+   },
+   "ordinary code + ONE constant estimated per node, 2000 logged decisions": {
+    "mean": -0.046870219463369674,
+    "worst_served_tenth": -0.14573031858386748,
+    "share_made_worse": 0.0,
+    "worst_node": -0.020812296013649312
+   },
+   "ordinary code + THREE constants estimated per node, 2000 logged decisions": {
+    "mean": -0.029699399269709204,
+    "worst_served_tenth": -0.10991131981340312,
+    "share_made_worse": 0.22,
+    "worst_node": 0.011831900308287624
+   },
+   "one table for all nodes [the study's: least squares on pooled logs]": {
+    "mean": -0.01290363006034779,
+    "worst_served_tenth": 0.012627516568551956,
+    "share_made_worse": 0.09,
+    "worst_node": 0.04175938984035921
+   },
+   "one table for all nodes, tuned directly on every node's true costs": {
+    "mean": -0.01967624932222353,
+    "worst_served_tenth": -0.004941645906892733,
+    "share_made_worse": 0.02,
+    "worst_node": 0.011871018469092443
+   },
+   "tuned_single_table_weights": {
+    "rtt": [
+     32,
+     16,
+     16,
+     16,
+     16,
+     12,
+     16,
+     12,
+     12,
+     8,
+     8,
+     8,
+     12,
+     6,
+     6
+    ],
+    "loss": [
+     4,
+     12,
+     16,
+     16,
+     32,
+     32,
+     32
+    ],
+    "delivery": [
+     8,
+     8,
+     8,
+     8,
+     12
+    ]
+   }
+  },
+  {
+   "world": "exponents",
+   "spread": 1.0,
+   "best possible": {
+    "mean": -0.08690822409210605,
+    "worst_served_tenth": -0.3110007958145421,
+    "share_made_worse": 0.0,
+    "worst_node": -0.02967570652467233
+   },
+   "a table per node (27 numbers), 500 logged decisions [the study's]": {
+    "mean": -0.07856067245997272,
+    "worst_served_tenth": -0.30526200266331754,
+    "share_made_worse": 0.0,
+    "worst_node": -0.015353524076424985
+   },
+   "ordinary code + THREE constants estimated per node, 500 logged decisions": {
+    "mean": -0.08623580641756737,
+    "worst_served_tenth": -0.31070678886651565,
+    "share_made_worse": 0.0,
+    "worst_node": -0.02630519466992931
+   },
+   "a table per node (27 numbers), 2000 logged decisions [the study's]": {
+    "mean": -0.08414785522262744,
+    "worst_served_tenth": -0.3089118242413277,
+    "share_made_worse": 0.0,
+    "worst_node": -0.022179361734375513
+   },
+   "ordinary code + THREE constants estimated per node, 2000 logged decisions": {
+    "mean": -0.08672585554774347,
+    "worst_served_tenth": -0.31089943884243726,
+    "share_made_worse": 0.0,
+    "worst_node": -0.029266988730282217
+   },
+   "one table for all nodes [the study's: least squares on pooled logs]": {
+    "mean": -0.015439591335028955,
+    "worst_served_tenth": -0.024907997216238764,
+    "share_made_worse": 0.2,
+    "worst_node": 0.1724489209599065
+   },
+   "one table for all nodes, tuned directly on every node's true costs": {
+    "mean": -0.019383798922468384,
+    "worst_served_tenth": -0.05843001287832646,
+    "share_made_worse": 0.195,
+    "worst_node": 0.12634208783350442
+   },
+   "tuned_single_table_weights": {
+    "rtt": [
+     32,
+     24,
+     16,
+     12,
+     12,
+     12,
+     12,
+     8,
+     8,
+     12,
+     6,
+     8,
+     4,
+     12,
+     6
+    ],
+    "loss": [
+     24,
+     16,
+     12,
+     24,
+     8,
+     16,
+     16
+    ],
+    "delivery": [
+     6,
+     4,
+     4,
+     8,
+     8
+    ]
+   }
+  },
+  {
+   "world": "exponents",
+   "spread": 1.5,
+   "best possible": {
+    "mean": -0.11797378381878804,
+    "worst_served_tenth": -0.4090933552269032,
+    "share_made_worse": 0.0,
+    "worst_node": -0.029675469989386416
+   },
+   "a table per node (27 numbers), 500 logged decisions [the study's]": {
+    "mean": -0.10925005385656344,
+    "worst_served_tenth": -0.4007820871430064,
+    "share_made_worse": 0.0,
+    "worst_node": -0.00087149924647556
+   },
+   "ordinary code + THREE constants estimated per node, 500 logged decisions": {
+    "mean": -0.11743554250523604,
+    "worst_served_tenth": -0.4088303896142178,
+    "share_made_worse": 0.0,
+    "worst_node": -0.02845215882801544
+   },
+   "a table per node (27 numbers), 2000 logged decisions [the study's]": {
+    "mean": -0.11504359974040243,
+    "worst_served_tenth": -0.4067538818666395,
+    "share_made_worse": 0.0,
+    "worst_node": -0.02468859703282078
+   },
+   "ordinary code + THREE constants estimated per node, 2000 logged decisions": {
+    "mean": -0.11780121804502126,
+    "worst_served_tenth": -0.4090572667922098,
+    "share_made_worse": 0.0,
+    "worst_node": -0.029224064225961688
+   },
+   "one table for all nodes [the study's: least squares on pooled logs]": {
+    "mean": 0.008778503884283728,
+    "worst_served_tenth": 0.10747884835456079,
+    "share_made_worse": 0.31,
+    "worst_node": 0.3439087942393082
+   },
+   "one table for all nodes, tuned directly on every node's true costs": {
+    "mean": -0.010387995355565898,
+    "worst_served_tenth": -0.009125131430402328,
+    "share_made_worse": 0.055,
+    "worst_node": 0.008356958102405665
+   },
+   "tuned_single_table_weights": {
+    "rtt": [
+     24,
+     16,
+     8,
+     16,
+     16,
+     8,
+     8,
+     16,
+     8,
+     8,
+     16,
+     12,
+     8,
+     16,
+     12
+    ],
+    "loss": [
+     16,
+     16,
+     16,
+     16,
+     12,
+     24,
+     16
+    ],
+    "delivery": [
+     6,
+     3,
+     6,
+     6,
+     8
+    ]
+   }
+  },
+  {
+   "world": "three ways",
+   "spread": 1.0,
+   "best possible": {
+    "mean": -0.08919187995814302,
+    "worst_served_tenth": -0.30521656454767354,
+    "share_made_worse": 0.0,
+    "worst_node": -0.012530424649514593
+   },
+   "a table per node (27 numbers), 500 logged decisions [the study's]": {
+    "mean": -0.0809030094426965,
+    "worst_served_tenth": -0.2984589017940708,
+    "share_made_worse": 0.005,
+    "worst_node": 0.007787237387033574
+   },
+   "ordinary code + THREE constants estimated per node, 500 logged decisions": {
+    "mean": -0.08851968891836191,
+    "worst_served_tenth": -0.30484398446713074,
+    "share_made_worse": 0.0,
+    "worst_node": -0.012277495086191803
+   },
+   "a table per node (27 numbers), 2000 logged decisions [the study's]": {
+    "mean": -0.08624167792700675,
+    "worst_served_tenth": -0.30210776026166836,
+    "share_made_worse": 0.0,
+    "worst_node": 0.0004460256697329523
+   },
+   "ordinary code + THREE constants estimated per node, 2000 logged decisions": {
+    "mean": -0.08901393929841245,
+    "worst_served_tenth": -0.30509284920571134,
+    "share_made_worse": 0.0,
+    "worst_node": -0.011861470441246524
+   },
+   "one table for all nodes [the study's: least squares on pooled logs]": {
+    "mean": -0.029863279412415428,
+    "worst_served_tenth": -0.09193354563608405,
+    "share_made_worse": 0.145,
+    "worst_node": 0.12385896344241054
+   },
+   "one table for all nodes, tuned directly on every node's true costs": {
+    "mean": -0.031222988467034148,
+    "worst_served_tenth": -0.09718555947769396,
+    "share_made_worse": 0.12,
+    "worst_node": 0.09076210618273217
+   },
+   "tuned_single_table_weights": {
+    "rtt": [
+     32,
+     24,
+     24,
+     16,
+     8,
+     12,
+     12,
+     12,
+     8,
+     12,
+     8,
+     4,
+     8,
+     8,
+     4
+    ],
+    "loss": [
+     24,
+     16,
+     16,
+     12,
+     12,
+     12,
+     12
+    ],
+    "delivery": [
+     6,
+     8,
+     12,
+     6,
+     8
+    ]
+   }
+  },
+  {
+   "world": "three ways",
+   "spread": 1.5,
+   "best possible": {
+    "mean": -0.14966838150289985,
+    "worst_served_tenth": -0.45970385659180896,
+    "share_made_worse": 0.0,
+    "worst_node": -0.006746810204927511
+   },
+   "a table per node (27 numbers), 500 logged decisions [the study's]": {
+    "mean": -0.1413289042393476,
+    "worst_served_tenth": -0.4480400738612902,
+    "share_made_worse": 0.0,
+    "worst_node": -0.0004107480940810371
+   },
+   "ordinary code + THREE constants estimated per node, 500 logged decisions": {
+    "mean": -0.149102415258378,
+    "worst_served_tenth": -0.45940738650059315,
+    "share_made_worse": 0.0,
+    "worst_node": -0.005981821452346048
+   },
+   "a table per node (27 numbers), 2000 logged decisions [the study's]": {
+    "mean": -0.14601589238707324,
+    "worst_served_tenth": -0.447474346895601,
+    "share_made_worse": 0.0,
+    "worst_node": -0.004445049898507136
+   },
+   "ordinary code + THREE constants estimated per node, 2000 logged decisions": {
+    "mean": -0.1494996494049042,
+    "worst_served_tenth": -0.459634534127748,
+    "share_made_worse": 0.0,
+    "worst_node": -0.005773192753056433
+   },
+   "one table for all nodes [the study's: least squares on pooled logs]": {
+    "mean": -0.04046493605383091,
+    "worst_served_tenth": -0.17044714589806614,
+    "share_made_worse": 0.275,
+    "worst_node": 0.5506728365053968
+   },
+   "one table for all nodes, tuned directly on every node's true costs": {
+    "mean": -0.04847301422230418,
+    "worst_served_tenth": -0.18347963944484244,
+    "share_made_worse": 0.24,
+    "worst_node": 0.3029279551243349
+   },
+   "tuned_single_table_weights": {
+    "rtt": [
+     16,
+     8,
+     8,
+     4,
+     8,
+     3,
+     4,
+     4,
+     4,
+     3,
+     4,
+     4,
+     3,
+     6,
+     2
+    ],
+    "loss": [
+     8,
+     8,
+     6,
+     8,
+     6,
+     6,
+     8
+    ],
+    "delivery": [
+     8,
+     4,
+     6,
+     4,
+     4
+    ]
+   }
+  }
+ ],
+ "C": [],
+ "D": []
+}

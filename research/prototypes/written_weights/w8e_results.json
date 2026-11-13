@@ -1,0 +1,302 @@
+[
+ {
+  "world": "product",
+  "policy": "honest fitted policy",
+  "change_in_total_cost": -0.01890718388527679,
+  "change_in_typical_contested_decision": -0.22233777219945072,
+  "contested_share": 0.059915,
+  "rules": {
+   "typical": {
+    "adopted": 0.995,
+    "stopped": 0.005,
+    "rejected": 0.0,
+    "median_decisions": 10181.089877326212,
+    "mean_copies": 131.74
+   },
+   "total": {
+    "adopted": 0.995,
+    "stopped": 0.005,
+    "rejected": 0.0,
+    "median_decisions": 20420.59584411249,
+    "mean_copies": 235.24
+   },
+   "both": {
+    "adopted": 0.9925,
+    "stopped": 0.0075,
+    "rejected": 0.0,
+    "median_decisions": 20203.621797546526,
+    "mean_copies": 240.86
+   }
+  }
+ },
+ {
+  "world": "product",
+  "policy": "worst possible policy inside the band",
+  "change_in_total_cost": 0.039335619884323325,
+  "change_in_typical_contested_decision": 0.374510737688454,
+  "contested_share": 0.10780333333333333,
+  "rules": {
+   "typical": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 1623.326427754244,
+    "mean_copies": 49.28
+   },
+   "total": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 2792.1214557372996,
+    "mean_copies": 79.14
+   },
+   "both": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 1372.8703503293034,
+    "mean_copies": 42.6
+   }
+  }
+ },
+ {
+  "world": "product",
+  "policy": "gap policy: best option on cheap decisions, worst on expensive ones",
+  "change_in_total_cost": 0.013311061430530957,
+  "change_in_typical_contested_decision": -0.010971220357870348,
+  "contested_share": 0.06427666666666666,
+  "rules": {
+   "typical": {
+    "adopted": 0.03,
+    "stopped": 0.07,
+    "rejected": 0.9,
+    "median_decisions": 317868.07032100816,
+    "mean_copies": 3746.58
+   },
+   "total": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 20792.926411865374,
+    "mean_copies": 411.08
+   },
+   "both": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 20645.1278328061,
+    "mean_copies": 378.2
+   }
+  }
+ },
+ {
+  "world": "product",
+  "policy": "careless: random inside the band",
+  "change_in_total_cost": 0.010089079290390712,
+  "change_in_typical_contested_decision": 0.11878358939318501,
+  "contested_share": 0.08676166666666667,
+  "rules": {
+   "typical": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 15404.268398102082,
+    "mean_copies": 397.06
+   },
+   "total": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 56344.00753020727,
+    "mean_copies": 946.06
+   },
+   "both": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 15225.618072497455,
+    "mean_copies": 388.56
+   }
+  }
+ },
+ {
+  "world": "product",
+  "policy": "no effect: changes picks but not costs",
+  "change_in_total_cost": 0.0,
+  "change_in_typical_contested_decision": 0.0,
+  "contested_share": 0.10780333333333333,
+  "rules": {
+   "typical": {
+    "adopted": 0.005,
+    "stopped": 0.11,
+    "rejected": 0.885,
+    "median_decisions": 189511.76525153828,
+    "mean_copies": 3715.8
+   },
+   "total": {
+    "adopted": 0.0075,
+    "stopped": 0.075,
+    "rejected": 0.9175,
+    "median_decisions": 189534.95562907762,
+    "mean_copies": 3835.78
+   },
+   "both": {
+    "adopted": 0.0,
+    "stopped": 0.145,
+    "rejected": 0.855,
+    "median_decisions": 189465.3844964596,
+    "mean_copies": 3606.3
+   }
+  }
+ },
+ {
+  "world": "timeout",
+  "policy": "honest fitted policy",
+  "change_in_total_cost": -0.015626056332835425,
+  "change_in_typical_contested_decision": -0.2012615853355224,
+  "contested_share": 0.06288166666666667,
+  "rules": {
+   "typical": {
+    "adopted": 0.9975,
+    "stopped": 0.0025,
+    "rejected": 0.0,
+    "median_decisions": 10416.390574889341,
+    "mean_copies": 167.7
+   },
+   "total": {
+    "adopted": 0.995,
+    "stopped": 0.005,
+    "rejected": 0.0,
+    "median_decisions": 20522.674865488087,
+    "mean_copies": 315.08
+   },
+   "both": {
+    "adopted": 0.9975,
+    "stopped": 0.0025,
+    "rejected": 0.0,
+    "median_decisions": 20570.383524609715,
+    "mean_copies": 316.02
+   }
+  }
+ },
+ {
+  "world": "timeout",
+  "policy": "worst possible policy inside the band",
+  "change_in_total_cost": 0.034629905997009436,
+  "change_in_typical_contested_decision": 0.3654786888099797,
+  "contested_share": 0.10392,
+  "rules": {
+   "typical": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 1544.45727482679,
+    "mean_copies": 45.98
+   },
+   "total": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 3315.0500384911475,
+    "mean_copies": 95.86
+   },
+   "both": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 1549.2686682063127,
+    "mean_copies": 44.2
+   }
+  }
+ },
+ {
+  "world": "timeout",
+  "policy": "gap policy: best option on cheap decisions, worst on expensive ones",
+  "change_in_total_cost": 0.009823562243444828,
+  "change_in_typical_contested_decision": -0.012482650679137564,
+  "contested_share": 0.0682,
+  "rules": {
+   "typical": {
+    "adopted": 0.0525,
+    "stopped": 0.065,
+    "rejected": 0.8825,
+    "median_decisions": 299662.75659824046,
+    "mean_copies": 3756.2
+   },
+   "total": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 37294.72140762463,
+    "mean_copies": 667.9
+   },
+   "both": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 38086.510263929624,
+    "mean_copies": 653.92
+   }
+  }
+ },
+ {
+  "world": "timeout",
+  "policy": "careless: random inside the band",
+  "change_in_total_cost": 0.008641621502311514,
+  "change_in_typical_contested_decision": 0.10742077326216437,
+  "contested_share": 0.08676166666666667,
+  "rules": {
+   "typical": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 15415.794225560443,
+    "mean_copies": 448.1
+   },
+   "total": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 57899.99423708627,
+    "mean_copies": 1113.98
+   },
+   "both": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions": 27460.283919549725,
+    "mean_copies": 478.6
+   }
+  }
+ },
+ {
+  "world": "timeout",
+  "policy": "no effect: changes picks but not costs",
+  "change_in_total_cost": 0.0,
+  "change_in_typical_contested_decision": 0.0,
+  "contested_share": 0.10392,
+  "rules": {
+   "typical": {
+    "adopted": 0.005,
+    "stopped": 0.075,
+    "rejected": 0.92,
+    "median_decisions": 196810.04618937644,
+    "mean_copies": 3819.84
+   },
+   "total": {
+    "adopted": 0.0025,
+    "stopped": 0.0675,
+    "rejected": 0.93,
+    "median_decisions": 196838.9145496536,
+    "mean_copies": 3863.78
+   },
+   "both": {
+    "adopted": 0.0,
+    "stopped": 0.12,
+    "rejected": 0.88,
+    "median_decisions": 196723.44110854503,
+    "mean_copies": 3722.64
+   }
+  }
+ }
+]

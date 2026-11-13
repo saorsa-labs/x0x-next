@@ -1,0 +1,56 @@
+
+nodes depart from the textbook by s = 0.0   (8s)
+   the fixed rule of W1 to W6 (round trip and loss only)          typical x1.387 (worst node x1.387) | total time x3.286 | by size x1.04  x1.64  x3.20  x3.47
+   the formula, as code                                           typical x1.000 (worst node x1.000) | total time x1.000 | by size x1.00  x1.00  x1.00  x1.00
+   a table per size, written from the formula, no fitting         typical x1.004 (worst node x1.004) | total time x1.000 | by size x1.00  x1.01  x1.00  x1.00
+   one table per node (rung 1), 2000 logged decisions             typical x1.173 (worst node x1.191) | total time x2.009 | by size x1.08  x1.18  x1.62  x1.78
+   a table per size per node (rung 2), 2000 logged decisions      typical x1.008 (worst node x1.011) | total time x1.004 | by size x1.01  x1.01  x1.00  x1.00
+   one table per node (rung 1), 20000 logged decisions            typical x1.171 (worst node x1.175) | total time x2.022 | by size x1.07  x1.17  x1.61  x1.78
+   a table per size per node (rung 2), 20000 logged decisions     typical x1.007 (worst node x1.008) | total time x1.002 | by size x1.01  x1.01  x1.00  x1.00
+   band   5.0% of the formula's estimate: worst any policy    +0.1% (worst node    +0.1%) | best any   +0.0% | fitted   +0.0% (worst node  +0.0%) | differs on 2%
+   band  10.0% of the formula's estimate: worst any policy    +0.4% (worst node    +0.4%) | best any   +0.0% | fitted   +0.1% (worst node  +0.1%) | differs on 3%
+   band  25.0% of the formula's estimate: worst any policy    +2.4% (worst node    +2.4%) | best any   +0.0% | fitted   +0.4% (worst node  +0.4%) | differs on 5%
+   band  50.0% of the formula's estimate: worst any policy    +7.9% (worst node    +7.9%) | best any   +0.0% | fitted   +0.5% (worst node  +0.6%) | differs on 5%
+   band  none% of the formula's estimate: worst any policy  +298.4% (worst node  +298.4%) | best any   +0.0% | fitted   +0.7% (worst node  +0.8%) | differs on 5%
+
+nodes depart from the textbook by s = 0.5   (16s)
+   the fixed rule of W1 to W6 (round trip and loss only)          typical x1.390 (worst node x1.485) | total time x3.273 | by size x1.05  x1.65  x3.20  x3.48
+   the formula, as code                                           typical x1.003 (worst node x1.009) | total time x1.002 | by size x1.00  x1.00  x1.00  x1.00
+   a table per size, written from the formula, no fitting         typical x1.006 (worst node x1.014) | total time x1.002 | by size x1.01  x1.01  x1.00  x1.00
+   one table per node (rung 1), 2000 logged decisions             typical x1.167 (worst node x1.191) | total time x1.941 | by size x1.08  x1.16  x1.58  x1.73
+   a table per size per node (rung 2), 2000 logged decisions      typical x1.009 (worst node x1.012) | total time x1.006 | by size x1.01  x1.01  x1.00  x1.00
+   one table per node (rung 1), 20000 logged decisions            typical x1.165 (worst node x1.185) | total time x1.952 | by size x1.07  x1.16  x1.58  x1.74
+   a table per size per node (rung 2), 20000 logged decisions     typical x1.007 (worst node x1.008) | total time x1.003 | by size x1.01  x1.01  x1.00  x1.00
+   band   5.0% of the formula's estimate: worst any policy    +0.2% (worst node    +0.4%) | best any   -0.1% | fitted   -0.0% (worst node  +0.0%) | differs on 2%
+   band  10.0% of the formula's estimate: worst any policy    +0.6% (worst node    +0.9%) | best any   -0.2% | fitted   -0.0% (worst node  +0.1%) | differs on 3%
+   band  25.0% of the formula's estimate: worst any policy    +2.7% (worst node    +3.2%) | best any   -0.2% | fitted   +0.1% (worst node  +0.4%) | differs on 5%
+   band  50.0% of the formula's estimate: worst any policy    +8.2% (worst node    +9.0%) | best any   -0.3% | fitted   +0.2% (worst node  +0.6%) | differs on 6%
+   band  none% of the formula's estimate: worst any policy  +298.3% (worst node  +340.7%) | best any   -0.3% | fitted   +0.4% (worst node  +0.7%) | differs on 7%
+
+nodes depart from the textbook by s = 1.0   (25s)
+   the fixed rule of W1 to W6 (round trip and loss only)          typical x1.410 (worst node x1.593) | total time x3.291 | by size x1.05  x1.69  x3.28  x3.61
+   the formula, as code                                           typical x1.010 (worst node x1.052) | total time x1.004 | by size x1.01  x1.01  x1.01  x1.00
+   a table per size, written from the formula, no fitting         typical x1.014 (worst node x1.058) | total time x1.004 | by size x1.01  x1.02  x1.01  x1.00
+   one table per node (rung 1), 2000 logged decisions             typical x1.159 (worst node x1.203) | total time x1.848 | by size x1.08  x1.15  x1.54  x1.70
+   a table per size per node (rung 2), 2000 logged decisions      typical x1.009 (worst node x1.017) | total time x1.008 | by size x1.01  x1.01  x1.00  x1.01
+   one table per node (rung 1), 20000 logged decisions            typical x1.157 (worst node x1.187) | total time x1.853 | by size x1.08  x1.15  x1.54  x1.70
+   a table per size per node (rung 2), 20000 logged decisions     typical x1.007 (worst node x1.009) | total time x1.004 | by size x1.01  x1.01  x1.00  x1.00
+   band   5.0% of the formula's estimate: worst any policy    +0.3% (worst node    +0.8%) | best any   -0.2% | fitted   -0.1% (worst node  +0.0%) | differs on 2%
+   band  10.0% of the formula's estimate: worst any policy    +0.8% (worst node    +1.7%) | best any   -0.4% | fitted   -0.2% (worst node  +0.1%) | differs on 3%
+   band  25.0% of the formula's estimate: worst any policy    +3.1% (worst node    +4.9%) | best any   -0.6% | fitted   -0.3% (worst node  +0.3%) | differs on 6%
+   band  50.0% of the formula's estimate: worst any policy    +8.8% (worst node   +11.8%) | best any   -0.8% | fitted   -0.4% (worst node  +0.4%) | differs on 7%
+   band  none% of the formula's estimate: worst any policy  +306.2% (worst node  +393.6%) | best any   -1.0% | fitted   -0.3% (worst node  +0.6%) | differs on 8%
+
+nodes depart from the textbook by s = 1.5   (33s)
+   the fixed rule of W1 to W6 (round trip and loss only)          typical x1.433 (worst node x1.977) | total time x3.366 | by size x1.07  x1.73  x3.33  x3.76
+   the formula, as code                                           typical x1.027 (worst node x1.208) | total time x1.004 | by size x1.03  x1.03  x1.01  x1.00
+   a table per size, written from the formula, no fitting         typical x1.031 (worst node x1.209) | total time x1.005 | by size x1.04  x1.03  x1.01  x1.00
+   one table per node (rung 1), 2000 logged decisions             typical x1.153 (worst node x1.196) | total time x1.876 | by size x1.07  x1.13  x1.55  x1.74
+   a table per size per node (rung 2), 2000 logged decisions      typical x1.010 (worst node x1.020) | total time x1.008 | by size x1.01  x1.01  x1.01  x1.01
+   one table per node (rung 1), 20000 logged decisions            typical x1.150 (worst node x1.184) | total time x1.866 | by size x1.07  x1.13  x1.54  x1.73
+   a table per size per node (rung 2), 20000 logged decisions     typical x1.007 (worst node x1.011) | total time x1.004 | by size x1.01  x1.01  x1.00  x1.00
+   band   5.0% of the formula's estimate: worst any policy    +0.5% (worst node    +1.6%) | best any   -0.4% | fitted   -0.3% (worst node  -0.0%) | differs on 2%
+   band  10.0% of the formula's estimate: worst any policy    +1.1% (worst node    +3.2%) | best any   -0.7% | fitted   -0.5% (worst node  +0.0%) | differs on 3%
+   band  25.0% of the formula's estimate: worst any policy    +3.8% (worst node    +8.6%) | best any   -1.3% | fitted   -1.0% (worst node  +0.2%) | differs on 6%
+   band  50.0% of the formula's estimate: worst any policy    +9.9% (worst node   +18.3%) | best any   -1.8% | fitted   -1.4% (worst node  +0.3%) | differs on 8%
+   band  none% of the formula's estimate: worst any policy  +317.4% (worst node  +581.7%) | best any   -2.5% | fitted   -1.8% (worst node  +0.5%) | differs on 11%

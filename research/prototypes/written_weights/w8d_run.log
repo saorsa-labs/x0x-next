@@ -1,0 +1,77 @@
+[product] 10% at random among all candidates (as in W3)  n=   2000 | gathering costs +21.56% | fitted: band 3 -1.77%  band 6 -2.41%  no band -2.83% (worst seed -2.31%) | 1s
+[product] 10% at random among all candidates (as in W3)  n=  20000 | gathering costs +21.56% | fitted: band 3 -1.89%  band 6 -2.60%  no band -3.11% (worst seed -3.10%) | 2s
+[product] 10% at random among all candidates (as in W3)  n= 200000 | gathering costs +21.56% | fitted: band 3 -1.90%  band 6 -2.62%  no band -3.14% (worst seed -3.13%) | 6s
+[product] 10% at random among eligible candidates        n=   2000 | gathering costs  +9.61% | fitted: band 3 -1.76%  band 6 -2.40%  no band -2.81% (worst seed -2.28%) | 7s
+[product] 10% at random among eligible candidates        n=  20000 | gathering costs  +9.61% | fitted: band 3 -1.89%  band 6 -2.60%  no band -3.11% (worst seed -3.09%) | 8s
+[product] 10% at random among eligible candidates        n= 200000 | gathering costs  +9.61% | fitted: band 3 -1.90%  band 6 -2.62%  no band -3.14% (worst seed -3.13%) | 11s
+[product] 10% at random inside band 12                   n=   2000 | gathering costs  +1.18% | fitted: band 3 -1.75%  band 6 -2.37%  no band -2.77% (worst seed -2.36%) | 12s
+[product] 10% at random inside band 12                   n=  20000 | gathering costs  +1.18% | fitted: band 3 -1.89%  band 6 -2.60%  no band -3.11% (worst seed -3.08%) | 13s
+[product] 10% at random inside band 12                   n= 200000 | gathering costs  +1.18% | fitted: band 3 -1.90%  band 6 -2.62%  no band -3.14% (worst seed -3.13%) | 17s
+[product] 10% at random inside band 6                    n=   2000 | gathering costs  +0.33% | fitted: band 3 -1.76%  band 6 -2.39%  no band -2.79% (worst seed -2.31%) | 18s
+[product] 10% at random inside band 6                    n=  20000 | gathering costs  +0.33% | fitted: band 3 -1.88%  band 6 -2.60%  no band -3.10% (worst seed -3.09%) | 18s
+[product] 10% at random inside band 6                    n= 200000 | gathering costs  +0.33% | fitted: band 3 -1.90%  band 6 -2.62%  no band -3.13% (worst seed -3.13%) | 22s
+[product] 10% at random inside band 3                    n=   2000 | gathering costs  +0.10% | fitted: band 3 -1.76%  band 6 -2.39%  no band -2.79% (worst seed -2.31%) | 23s
+[product] 10% at random inside band 3                    n=  20000 | gathering costs  +0.10% | fitted: band 3 -1.88%  band 6 -2.60%  no band -3.10% (worst seed -3.09%) | 24s
+[product] 10% at random inside band 3                    n= 200000 | gathering costs  +0.10% | fitted: band 3 -1.90%  band 6 -2.62%  no band -3.13% (worst seed -3.13%) | 28s
+[product] honest  3->6: -1.88% -> -2.59% | differ on  2.5% | adopt  99.8 stop   0.2 rej   0.0 | median 52541 dec, 347 copies
+[product] honest  6->9: -2.59% -> -2.90% | differ on  1.2% | adopt  98.2 stop   1.8 rej   0.0 | median 206357 dec, 464 copies
+[product] honest  9->12: -2.90% -> -3.03% | differ on  0.6% | adopt  99.5 stop   0.5 rej   0.0 | median 419377 dec, 532 copies
+[product] honest  12->18: -3.03% -> -3.07% | differ on  0.3% | adopt  97.8 stop   2.2 rej   0.0 | median 889280 dec, 774 copies
+[product] honest  18->None: -3.07% -> -3.08% | differ on  0.0% | adopt  98.8 stop   1.2 rej   0.0 | median 14827273 dec, 458 copies
+[product] sleeper 3->6 (twin): -1.88% -> +3.47% | differ on 14.6% | adopt   0.0 stop 100.0 | median 1193 dec | harm rate +0.00% | excess +0.0
+[product] sleeper 3->6 (split): -1.88% -> +3.47% | differ on 14.6% | adopt   0.0 stop 100.0 | median 3329 dec | harm rate +0.59% | excess +21.0
+[product] sleeper 6->9 (twin): -2.59% -> +5.92% | differ on 14.6% | adopt   0.0 stop 100.0 | median 542 dec | harm rate +0.00% | excess +0.0
+[product] sleeper 6->9 (split): -2.59% -> +5.92% | differ on 14.6% | adopt   0.0 stop 100.0 | median 1111 dec | harm rate +0.93% | excess +13.7
+[product] sleeper 9->12 (twin): -2.90% -> +8.56% | differ on 14.4% | adopt   0.0 stop 100.0 | median 361 dec | harm rate +0.00% | excess +0.0
+[product] sleeper 9->12 (split): -2.90% -> +8.56% | differ on 14.4% | adopt   0.0 stop 100.0 | median 756 dec | harm rate +1.32% | excess +11.9
+[product] attacker holds 5% of peers | band    0 | fixed rule gives it 5.0% of decisions | hostile policy 5.1% | cost +0.0%
+[product] attacker holds 5% of peers | band    3 | fixed rule gives it 5.0% of decisions | hostile policy 5.8% | cost +0.1%
+[product] attacker holds 5% of peers | band    6 | fixed rule gives it 5.0% of decisions | hostile policy 6.5% | cost +0.3%
+[product] attacker holds 5% of peers | band    9 | fixed rule gives it 5.0% of decisions | hostile policy 7.3% | cost +0.8%
+[product] attacker holds 5% of peers | band   12 | fixed rule gives it 5.0% of decisions | hostile policy 8.0% | cost +1.3%
+[product] attacker holds 5% of peers | band none | fixed rule gives it 5.0% of decisions | hostile policy 13.3% | cost +12.8%
+[product] attacker holds 20% of peers | band    0 | fixed rule gives it 20.0% of decisions | hostile policy 20.5% | cost -0.0%
+[product] attacker holds 20% of peers | band    3 | fixed rule gives it 20.0% of decisions | hostile policy 22.8% | cost +0.3%
+[product] attacker holds 20% of peers | band    6 | fixed rule gives it 20.0% of decisions | hostile policy 25.2% | cost +1.2%
+[product] attacker holds 20% of peers | band    9 | fixed rule gives it 20.0% of decisions | hostile policy 27.5% | cost +2.5%
+[product] attacker holds 20% of peers | band   12 | fixed rule gives it 20.0% of decisions | hostile policy 29.7% | cost +4.2%
+[product] attacker holds 20% of peers | band none | fixed rule gives it 20.0% of decisions | hostile policy 46.1% | cost +40.5%
+[timeout] 10% at random among all candidates (as in W3)  n=   2000 | gathering costs +21.71% | fitted: band 3 -1.42%  band 6 -1.87%  no band -1.94% (worst seed -1.85%) | 43s
+[timeout] 10% at random among all candidates (as in W3)  n=  20000 | gathering costs +21.71% | fitted: band 3 -1.50%  band 6 -1.98%  no band -2.09% (worst seed -2.03%) | 44s
+[timeout] 10% at random among all candidates (as in W3)  n= 200000 | gathering costs +21.71% | fitted: band 3 -1.52%  band 6 -2.02%  no band -2.14% (worst seed -2.14%) | 48s
+[timeout] 10% at random among eligible candidates        n=   2000 | gathering costs  +7.16% | fitted: band 3 -1.42%  band 6 -1.86%  no band -1.96% (worst seed -1.75%) | 49s
+[timeout] 10% at random among eligible candidates        n=  20000 | gathering costs  +7.16% | fitted: band 3 -1.50%  band 6 -1.97%  no band -2.09% (worst seed -2.04%) | 50s
+[timeout] 10% at random among eligible candidates        n= 200000 | gathering costs  +7.16% | fitted: band 3 -1.53%  band 6 -2.02%  no band -2.15% (worst seed -2.15%) | 53s
+[timeout] 10% at random inside band 12                   n=   2000 | gathering costs  +0.97% | fitted: band 3 -1.43%  band 6 -1.89%  no band -2.00% (worst seed -1.71%) | 54s
+[timeout] 10% at random inside band 12                   n=  20000 | gathering costs  +0.97% | fitted: band 3 -1.50%  band 6 -1.97%  no band -2.09% (worst seed -1.95%) | 55s
+[timeout] 10% at random inside band 12                   n= 200000 | gathering costs  +0.97% | fitted: band 3 -1.51%  band 6 -2.00%  no band -2.15% (worst seed -2.13%) | 59s
+[timeout] 10% at random inside band 6                    n=   2000 | gathering costs  +0.28% | fitted: band 3 -1.43%  band 6 -1.88%  no band -2.00% (worst seed -1.68%) | 60s
+[timeout] 10% at random inside band 6                    n=  20000 | gathering costs  +0.28% | fitted: band 3 -1.50%  band 6 -1.97%  no band -2.10% (worst seed -1.94%) | 62s
+[timeout] 10% at random inside band 6                    n= 200000 | gathering costs  +0.28% | fitted: band 3 -1.51%  band 6 -2.00%  no band -2.14% (worst seed -2.13%) | 68s
+[timeout] 10% at random inside band 3                    n=   2000 | gathering costs  +0.09% | fitted: band 3 -1.44%  band 6 -1.90%  no band -2.00% (worst seed -1.68%) | 70s
+[timeout] 10% at random inside band 3                    n=  20000 | gathering costs  +0.09% | fitted: band 3 -1.49%  band 6 -1.96%  no band -2.08% (worst seed -1.92%) | 71s
+[timeout] 10% at random inside band 3                    n= 200000 | gathering costs  +0.09% | fitted: band 3 -1.51%  band 6 -1.99%  no band -2.14% (worst seed -2.13%) | 78s
+[timeout] honest  3->6: -1.50% -> -1.99% | differ on  2.9% | adopt  99.0 stop   1.0 rej   0.0 | median 91387 dec, 728 copies
+[timeout] honest  6->9: -1.99% -> -2.13% | differ on  1.2% | adopt  96.5 stop   3.5 rej   0.0 | median 446651 dec, 1455 copies
+[timeout] honest  9->12: -2.13% -> -2.15% | differ on  0.4% | adopt  17.5 stop   6.0 rej  76.5 | median 4580075 dec, 3704 copies
+[timeout] honest  12->18: -2.15% -> -2.13% | differ on  0.2% | adopt   0.0 stop 100.0 rej   0.0 | median 275455 dec, 134 copies
+[timeout] honest  18->None: -2.13% -> -2.13% | differ on  0.0% | adopt   0.0 stop 100.0 rej   0.0 | median 3490909 dec, 18 copies
+[timeout] sleeper 3->6 (twin): -1.50% -> +2.91% | differ on 14.6% | adopt   0.0 stop 100.0 | median 1368 dec | harm rate +0.00% | excess +0.0
+[timeout] sleeper 3->6 (split): -1.50% -> +2.91% | differ on 14.6% | adopt   0.0 stop 100.0 | median 4035 dec | harm rate +0.46% | excess +20.5
+[timeout] sleeper 6->9 (twin): -1.99% -> +4.93% | differ on 14.6% | adopt   0.0 stop 100.0 | median 710 dec | harm rate +0.00% | excess +0.0
+[timeout] sleeper 6->9 (split): -1.99% -> +4.93% | differ on 14.6% | adopt   0.0 stop 100.0 | median 1344 dec | harm rate +0.76% | excess +13.1
+[timeout] sleeper 9->12 (twin): -2.13% -> +7.16% | differ on 14.4% | adopt   0.0 stop 100.0 | median 420 dec | harm rate +0.00% | excess +0.0
+[timeout] sleeper 9->12 (split): -2.13% -> +7.16% | differ on 14.4% | adopt   0.0 stop 100.0 | median 867 dec | harm rate +1.02% | excess +10.5
+[timeout] attacker holds 5% of peers | band    0 | fixed rule gives it 5.0% of decisions | hostile policy 5.1% | cost -0.0%
+[timeout] attacker holds 5% of peers | band    3 | fixed rule gives it 5.0% of decisions | hostile policy 5.8% | cost +0.1%
+[timeout] attacker holds 5% of peers | band    6 | fixed rule gives it 5.0% of decisions | hostile policy 6.5% | cost +0.3%
+[timeout] attacker holds 5% of peers | band    9 | fixed rule gives it 5.0% of decisions | hostile policy 7.3% | cost +0.6%
+[timeout] attacker holds 5% of peers | band   12 | fixed rule gives it 5.0% of decisions | hostile policy 8.0% | cost +1.1%
+[timeout] attacker holds 5% of peers | band none | fixed rule gives it 5.0% of decisions | hostile policy 13.3% | cost +9.6%
+[timeout] attacker holds 20% of peers | band    0 | fixed rule gives it 20.0% of decisions | hostile policy 20.5% | cost -0.0%
+[timeout] attacker holds 20% of peers | band    3 | fixed rule gives it 20.0% of decisions | hostile policy 22.8% | cost +0.3%
+[timeout] attacker holds 20% of peers | band    6 | fixed rule gives it 20.0% of decisions | hostile policy 25.2% | cost +1.0%
+[timeout] attacker holds 20% of peers | band    9 | fixed rule gives it 20.0% of decisions | hostile policy 27.5% | cost +2.0%
+[timeout] attacker holds 20% of peers | band   12 | fixed rule gives it 20.0% of decisions | hostile policy 29.7% | cost +3.4%
+[timeout] attacker holds 20% of peers | band none | fixed rule gives it 20.0% of decisions | hostile policy 46.1% | cost +30.4%
+exit 0

@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = ["crates/policy-poc"]
+
+[workspace.package]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/saorsa-labs/x0x-next"
+publish = false

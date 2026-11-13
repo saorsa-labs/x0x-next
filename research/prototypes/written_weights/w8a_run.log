@@ -1,0 +1,30 @@
+[product] R=32  delivery limited=False worst patch  +62.5% | honest fit -3.12% | oracle -3.14% | 22s
+[product] R=16  delivery limited=False worst patch  +62.5% | honest fit -3.11% | oracle -3.14% | 45s
+[product] R=8   delivery limited=False worst patch  +60.8% | honest fit -3.08% | oracle -3.14% | 59s
+[product] R=4   delivery limited=False worst patch  +59.2% | honest fit -1.96% | oracle -3.14% | 69s
+[product] R=2   delivery limited=False worst patch  +58.3% | honest fit -0.43% | oracle -3.14% | 74s
+[product] R=32  delivery limited=True  worst patch  +59.2% | honest fit -3.12% | oracle -3.14% | 107s
+[product] R=16  delivery limited=True  worst patch  +55.3% | honest fit -3.11% | oracle -3.14% | 115s
+[product] R=8   delivery limited=True  worst patch  +39.0% | honest fit -3.08% | oracle -3.14% | 122s
+[product] R=4   delivery limited=True  worst patch  +18.4% | honest fit -1.96% | oracle -3.14% | 126s
+[product] R=2   delivery limited=True  worst patch   +4.7% | honest fit -0.43% | oracle -3.14% | 128s
+[product] R=32  delivery held to the smallest primary step: worst patch  +24.0% | honest fit -2.59% | 139s
+[product] R=16  delivery held to the smallest primary step: worst patch  +24.0% | honest fit -2.83% | 146s
+[product] R=8   delivery held to the smallest primary step: worst patch  +16.1% | honest fit -3.07% | 151s
+[product] R=4   delivery held to the smallest primary step: worst patch   +6.9% | honest fit -1.96% | 155s
+[product] R=2   delivery held to the smallest primary step: worst patch   +3.6% | honest fit -0.43% | 156s
+[timeout] R=32  delivery limited=False worst patch  +47.9% | honest fit -2.17% | oracle -2.72% | 172s
+[timeout] R=16  delivery limited=False worst patch  +47.9% | honest fit -2.20% | oracle -2.72% | 184s
+[timeout] R=8   delivery limited=False worst patch  +46.1% | honest fit -2.25% | oracle -2.72% | 192s
+[timeout] R=4   delivery limited=False worst patch  +43.7% | honest fit -2.26% | oracle -2.72% | 199s
+[timeout] R=2   delivery limited=False worst patch  +41.4% | honest fit -1.70% | oracle -2.72% | 203s
+[timeout] R=32  delivery limited=True  worst patch  +45.0% | honest fit -2.17% | oracle -2.72% | 220s
+[timeout] R=16  delivery limited=True  worst patch  +39.7% | honest fit -2.20% | oracle -2.72% | 243s
+[timeout] R=8   delivery limited=True  worst patch  +27.7% | honest fit -2.25% | oracle -2.72% | 250s
+[timeout] R=4   delivery limited=True  worst patch  +15.6% | honest fit -2.26% | oracle -2.72% | 254s
+[timeout] R=2   delivery limited=True  worst patch   +3.2% | honest fit -1.70% | oracle -2.72% | 255s
+[timeout] R=32  delivery held to the smallest primary step: worst patch  +32.2% | honest fit -1.34% | 261s
+[timeout] R=16  delivery held to the smallest primary step: worst patch  +32.2% | honest fit -1.70% | 267s
+[timeout] R=8   delivery held to the smallest primary step: worst patch  +23.3% | honest fit -2.16% | 271s
+[timeout] R=4   delivery held to the smallest primary step: worst patch  +11.9% | honest fit -2.26% | 274s
+[timeout] R=2   delivery held to the smallest primary step: worst patch   +2.0% | honest fit -1.70% | 275s

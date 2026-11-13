@@ -1,0 +1,10 @@
+20/100 runs, 144s
+40/100 runs, 280s
+60/100 runs, 419s
+80/100 runs, 595s
+100/100 runs, 801s
+/home/claude/work/prototype/peer_selection_sim.py:312: RuntimeWarning: Mean of empty slice
+  row[k] = float(np.nanmean(vals)); row[k + "_sd"] = float(np.nanstd(vals))
+/usr/local/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+done in 802s -> results_longbait.json

@@ -1,0 +1,1322 @@
+[
+ {
+  "world": "product",
+  "ratio_limit": 32,
+  "delivery_under_the_limit": false,
+  "delivery_rule": "no limit (Version 3)",
+  "worst_patch_harm": 0.6253951391179253,
+  "honest_fit_change": -0.03116067259509414,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32
+   ],
+   "delivery": [
+    512,
+    512,
+    512,
+    512,
+    512
+   ]
+  }
+ },
+ {
+  "world": "product",
+  "ratio_limit": 16,
+  "delivery_under_the_limit": false,
+  "delivery_rule": "no limit (Version 3)",
+  "worst_patch_harm": 0.6253951391179253,
+  "honest_fit_change": -0.03114652126630235,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+   ],
+   "delivery": [
+    128,
+    128,
+    128,
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "world": "product",
+  "ratio_limit": 8,
+  "delivery_under_the_limit": false,
+  "delivery_rule": "no limit (Version 3)",
+  "worst_patch_harm": 0.6079835249204013,
+  "honest_fit_change": -0.030784033948456302,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "delivery": [
+    128,
+    128,
+    128,
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "world": "product",
+  "ratio_limit": 4,
+  "delivery_under_the_limit": false,
+  "delivery_rule": "no limit (Version 3)",
+  "worst_patch_harm": 0.5923559640466713,
+  "honest_fit_change": -0.01960043520862309,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "loss": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "delivery": [
+    64,
+    64,
+    64,
+    64,
+    4096
+   ]
+  }
+ },
+ {
+  "world": "product",
+  "ratio_limit": 2,
+  "delivery_under_the_limit": false,
+  "delivery_rule": "no limit (Version 3)",
+  "worst_patch_harm": 0.583112599447634,
+  "honest_fit_change": -0.004296316448489268,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "loss": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "delivery": [
+    4096,
+    32,
+    48,
+    128,
+    64
+   ]
+  }
+ },
+ {
+  "world": "product",
+  "ratio_limit": 32,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "same ratio",
+  "worst_patch_harm": 0.5915608667787944,
+  "honest_fit_change": -0.03116067259509414,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    1,
+    12,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "delivery": [
+    32,
+    32,
+    32,
+    32,
+    32
+   ]
+  }
+ },
+ {
+  "world": "product",
+  "ratio_limit": 16,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "same ratio",
+  "worst_patch_harm": 0.5533987479191376,
+  "honest_fit_change": -0.03114652126630235,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "delivery": [
+    16,
+    16,
+    16,
+    16,
+    16
+   ]
+  }
+ },
+ {
+  "world": "product",
+  "ratio_limit": 8,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "same ratio",
+  "worst_patch_harm": 0.39031035249874946,
+  "honest_fit_change": -0.030784033948456302,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "delivery": [
+    8,
+    8,
+    8,
+    8,
+    8
+   ]
+  }
+ },
+ {
+  "world": "product",
+  "ratio_limit": 4,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "same ratio",
+  "worst_patch_harm": 0.18433068084768012,
+  "honest_fit_change": -0.01960043520862309,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "delivery": [
+    4,
+    4,
+    4,
+    4,
+    4
+   ]
+  }
+ },
+ {
+  "world": "product",
+  "ratio_limit": 2,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "same ratio",
+  "worst_patch_harm": 0.04667566770132181,
+  "honest_fit_change": -0.004296316448489268,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "loss": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "delivery": [
+    2,
+    2,
+    2,
+    2,
+    2
+   ]
+  }
+ },
+ {
+  "world": "product",
+  "ratio_limit": 32,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "held to the smallest primary step",
+  "worst_patch_harm": 0.24049015552480868,
+  "honest_fit_change": -0.025859551346513632,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32
+   ],
+   "delivery": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "world": "product",
+  "ratio_limit": 16,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "held to the smallest primary step",
+  "worst_patch_harm": 0.24049015552480868,
+  "honest_fit_change": -0.02826538730180217,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+   ],
+   "delivery": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "world": "product",
+  "ratio_limit": 8,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "held to the smallest primary step",
+  "worst_patch_harm": 0.16085673908576004,
+  "honest_fit_change": -0.030697134031627993,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "delivery": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "world": "product",
+  "ratio_limit": 4,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "held to the smallest primary step",
+  "worst_patch_harm": 0.06920108754690202,
+  "honest_fit_change": -0.01960043520862309,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "delivery": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "world": "product",
+  "ratio_limit": 2,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "held to the smallest primary step",
+  "worst_patch_harm": 0.03648651565236882,
+  "honest_fit_change": -0.004296316448489268,
+  "oracle_change": -0.031423922344030464,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "loss": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "delivery": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 32,
+  "delivery_under_the_limit": false,
+  "delivery_rule": "no limit (Version 3)",
+  "worst_patch_harm": 0.4791925534495256,
+  "honest_fit_change": -0.02167261802729392,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    32,
+    16,
+    32,
+    32,
+    32,
+    16,
+    32
+   ],
+   "delivery": [
+    512,
+    512,
+    512,
+    512,
+    512
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 16,
+  "delivery_under_the_limit": false,
+  "delivery_rule": "no limit (Version 3)",
+  "worst_patch_harm": 0.4791925534495256,
+  "honest_fit_change": -0.022034265144299736,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+   ],
+   "delivery": [
+    128,
+    128,
+    128,
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 8,
+  "delivery_under_the_limit": false,
+  "delivery_rule": "no limit (Version 3)",
+  "worst_patch_harm": 0.46123387168241803,
+  "honest_fit_change": -0.022506141410630454,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "delivery": [
+    128,
+    128,
+    128,
+    128,
+    128
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 4,
+  "delivery_under_the_limit": false,
+  "delivery_rule": "no limit (Version 3)",
+  "worst_patch_harm": 0.436729325340957,
+  "honest_fit_change": -0.022579202901896633,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "delivery": [
+    48,
+    48,
+    48,
+    48,
+    48
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 2,
+  "delivery_under_the_limit": false,
+  "delivery_rule": "no limit (Version 3)",
+  "worst_patch_harm": 0.41446170349309885,
+  "honest_fit_change": -0.01701696600973901,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "delivery": [
+    32,
+    32,
+    32,
+    32,
+    32
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 32,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "same ratio",
+  "worst_patch_harm": 0.45036934081511837,
+  "honest_fit_change": -0.02167261802729392,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    12,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "delivery": [
+    32,
+    32,
+    32,
+    32,
+    32
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 16,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "same ratio",
+  "worst_patch_harm": 0.39668128654653567,
+  "honest_fit_change": -0.022034265144299736,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "delivery": [
+    16,
+    16,
+    16,
+    16,
+    16
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 8,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "same ratio",
+  "worst_patch_harm": 0.2770842804362099,
+  "honest_fit_change": -0.022506141410630454,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    4
+   ],
+   "delivery": [
+    8,
+    8,
+    8,
+    8,
+    8
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 4,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "same ratio",
+  "worst_patch_harm": 0.1560152223698026,
+  "honest_fit_change": -0.022579202901896633,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3
+   ],
+   "delivery": [
+    4,
+    4,
+    4,
+    4,
+    4
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 2,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "same ratio",
+  "worst_patch_harm": 0.0318621184574317,
+  "honest_fit_change": -0.01701696600973901,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "delivery": [
+    2,
+    2,
+    2,
+    2,
+    2
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 32,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "held to the smallest primary step",
+  "worst_patch_harm": 0.3220931366814177,
+  "honest_fit_change": -0.013375622843732282,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32
+   ],
+   "delivery": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 16,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "held to the smallest primary step",
+  "worst_patch_harm": 0.3220931366814177,
+  "honest_fit_change": -0.017030174954144495,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+   ],
+   "delivery": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 8,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "held to the smallest primary step",
+  "worst_patch_harm": 0.2327964716447739,
+  "honest_fit_change": -0.02160833805304274,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "delivery": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 4,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "held to the smallest primary step",
+  "worst_patch_harm": 0.11864093303006751,
+  "honest_fit_change": -0.022579202901896633,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "delivery": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ {
+  "world": "timeout",
+  "ratio_limit": 2,
+  "delivery_under_the_limit": true,
+  "delivery_rule": "held to the smallest primary step",
+  "worst_patch_harm": 0.02032323411379755,
+  "honest_fit_change": -0.01701696600973901,
+  "oracle_change": -0.027200559830457216,
+  "worst_weights": {
+   "rtt": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "loss": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "delivery": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ }
+]

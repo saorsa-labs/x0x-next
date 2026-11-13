@@ -1,0 +1,33 @@
+[package]
+name = "policy-poc"
+version = "0.1.0"
+description = "Rung-1 policy plane proof of concept: fixed rule, points table, checker, band, twin, trial, watch and signed patches"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[features]
+default = ["pqc"]
+# ML-DSA-65 signing of weight patches (design study §5, poc-spec §9).
+pqc = ["dep:saorsa-pqc"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+saorsa-pqc = { version = "=0.5.2", optional = true }
+
+[[bin]]
+name = "poc-demo"
+path = "src/bin/poc-demo.rs"
+required-features = ["pqc"]
+
+[lints.rust]
+missing_docs = "warn"
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "warn"
+expect_used = "warn"
+panic = "warn"

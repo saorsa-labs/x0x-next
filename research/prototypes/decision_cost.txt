@@ -1,0 +1,11 @@
+ewma_update_ns 2.19
+ucb32_select_update_ns 109.6
+isotonic_lookup_ns 36.00
+gbdt_50x4_ns 284.7
+mlp_int8_32x64x16_3072w_ns 619.9
+mlp_int8_128x256x64_49152w_ns 11902.8
+mldsa65_sign_us 8739
+mldsa65_verify_us 178   (pk 1952 B, sig 3309 B)
+mlkem768_encaps_us 65
+mlkem768_decaps_us 82   (ek 1184 B, ct 1088 B)
+sha256_1KiB_us 0.97

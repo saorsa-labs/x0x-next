@@ -1,0 +1,550 @@
+[
+ {
+  "world": "product",
+  "n_logged": 500,
+  "rule_ms": 161.035808,
+  "oracle_ms": 155.93782339999998,
+  "steps_ms": 157.2207156,
+  "steps_share_of_gap": 0.748353064856254,
+  "steps_worst_seed_ms": 158.01315420000003,
+  "steps_plus_unit_ms": 157.2207156,
+  "steps_plus_unit_share_of_gap": 0.748353064856254,
+  "steps_plus_unit_worst_seed_ms": 158.01315420000003,
+  "unit_used_in_seeds": 0,
+  "every_policy_passes_the_table": true,
+  "table_check_seconds_numpy": 0.00730133056640625,
+  "detail": [
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 2,
+    "proposed": [
+     2,
+     2,
+     -2
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": [
+     2,
+     2,
+     -2
+    ]
+   }
+  ]
+ },
+ {
+  "world": "product",
+  "n_logged": 2000,
+  "rule_ms": 161.035808,
+  "oracle_ms": 155.93782339999998,
+  "steps_ms": 156.416412,
+  "steps_share_of_gap": 0.9061219996623722,
+  "steps_worst_seed_ms": 156.4814332,
+  "steps_plus_unit_ms": 156.416412,
+  "steps_plus_unit_share_of_gap": 0.9061219996623722,
+  "steps_plus_unit_worst_seed_ms": 156.4814332,
+  "unit_used_in_seeds": 0,
+  "every_policy_passes_the_table": true,
+  "table_check_seconds_numpy": 0.0076274871826171875,
+  "detail": [
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": [
+     2,
+     2,
+     -2
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   }
+  ]
+ },
+ {
+  "world": "product",
+  "n_logged": 20000,
+  "rule_ms": 161.035808,
+  "oracle_ms": 155.93782339999998,
+  "steps_ms": 155.9841438,
+  "steps_share_of_gap": 0.9909139780453607,
+  "steps_worst_seed_ms": 156.0029748,
+  "steps_plus_unit_ms": 155.9841438,
+  "steps_plus_unit_share_of_gap": 0.9909139780453607,
+  "steps_plus_unit_worst_seed_ms": 156.0029748,
+  "unit_used_in_seeds": 0,
+  "every_policy_passes_the_table": true,
+  "table_check_seconds_numpy": 0.008462905883789062,
+  "detail": [
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": [
+     1,
+     1,
+     2
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   }
+  ]
+ },
+ {
+  "world": "product",
+  "n_logged": 200000,
+  "rule_ms": 161.035808,
+  "oracle_ms": 155.93782339999998,
+  "steps_ms": 155.94683419999998,
+  "steps_share_of_gap": 0.9982324779874779,
+  "steps_worst_seed_ms": 155.9551994,
+  "steps_plus_unit_ms": 155.94683419999998,
+  "steps_plus_unit_share_of_gap": 0.9982324779874779,
+  "steps_plus_unit_worst_seed_ms": 155.9551994,
+  "unit_used_in_seeds": 0,
+  "every_policy_passes_the_table": true,
+  "table_check_seconds_numpy": 0.008980989456176758,
+  "detail": [
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": [
+     1,
+     1,
+     4
+    ]
+   }
+  ]
+ },
+ {
+  "world": "timeout",
+  "n_logged": 500,
+  "rule_ms": 136.2462834118349,
+  "oracle_ms": 132.54042497831412,
+  "steps_ms": 134.1147142967854,
+  "steps_share_of_gap": 0.5751890292863645,
+  "steps_worst_seed_ms": 134.51004742271644,
+  "steps_plus_unit_ms": 134.1147142967854,
+  "steps_plus_unit_share_of_gap": 0.5751890292863645,
+  "steps_plus_unit_worst_seed_ms": 134.51004742271644,
+  "unit_used_in_seeds": 0,
+  "every_policy_passes_the_table": true,
+  "table_check_seconds_numpy": 0.0070722103118896484,
+  "detail": [
+   {
+    "scale": "cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 21,
+    "proposed": [
+     1,
+     1,
+     4
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 9,
+    "proposed": [
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 7,
+    "proposed": [
+     3,
+     2,
+     4
+    ]
+   }
+  ]
+ },
+ {
+  "world": "timeout",
+  "n_logged": 2000,
+  "rule_ms": 136.2462834118349,
+  "oracle_ms": 132.54042497831412,
+  "steps_ms": 133.6418771239443,
+  "steps_share_of_gap": 0.7027808359684833,
+  "steps_worst_seed_ms": 133.75265984454134,
+  "steps_plus_unit_ms": 133.6418771239443,
+  "steps_plus_unit_share_of_gap": 0.7027808359684833,
+  "steps_plus_unit_worst_seed_ms": 133.75265984454134,
+  "unit_used_in_seeds": 1,
+  "every_policy_passes_the_table": true,
+  "table_check_seconds_numpy": 0.0076482295989990234,
+  "detail": [
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 15,
+    "proposed": [
+     1,
+     2,
+     0
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 7,
+    "proposed": [
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 0,
+    "proposed": null
+   },
+   {
+    "scale": "log cost",
+    "unit": null,
+    "v": 0,
+    "shrunk_by": 8,
+    "proposed": [
+     2,
+     1,
+     2
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": [
+     2,
+     1,
+     4
+    ],
+    "v": -3,
+    "shrunk_by": 8,
+    "proposed": [
+     2,
+     1,
+     4
+    ]
+   }
+  ]
+ },
+ {
+  "world": "timeout",
+  "n_logged": 20000,
+  "rule_ms": 136.2462834118349,
+  "oracle_ms": 132.54042497831412,
+  "steps_ms": 133.28833233539734,
+  "steps_share_of_gap": 0.7981824264202485,
+  "steps_worst_seed_ms": 133.34878251074466,
+  "steps_plus_unit_ms": 132.80533483174324,
+  "steps_plus_unit_share_of_gap": 0.9285159273670803,
+  "steps_plus_unit_worst_seed_ms": 132.97652299604053,
+  "unit_used_in_seeds": 5,
+  "every_policy_passes_the_table": true,
+  "table_check_seconds_numpy": 0.007534503936767578,
+  "detail": [
+   {
+    "scale": "log cost",
+    "unit": [
+     2,
+     2,
+     2
+    ],
+    "v": -5,
+    "shrunk_by": 4,
+    "proposed": [
+     2,
+     2,
+     2
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": [
+     1,
+     1,
+     0
+    ],
+    "v": -7,
+    "shrunk_by": 6,
+    "proposed": [
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": [
+     1,
+     2,
+     0
+    ],
+    "v": -10,
+    "shrunk_by": 3,
+    "proposed": [
+     1,
+     2,
+     0
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": [
+     1,
+     2,
+     0
+    ],
+    "v": -11,
+    "shrunk_by": 2,
+    "proposed": [
+     1,
+     2,
+     0
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": [
+     1,
+     2,
+     0
+    ],
+    "v": -10,
+    "shrunk_by": 4,
+    "proposed": [
+     1,
+     2,
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "world": "timeout",
+  "n_logged": 200000,
+  "rule_ms": 136.2462834118349,
+  "oracle_ms": 132.54042497831412,
+  "steps_ms": 133.35528647106563,
+  "steps_share_of_gap": 0.7801153208172229,
+  "steps_worst_seed_ms": 133.37427916716862,
+  "steps_plus_unit_ms": 132.76157139712026,
+  "steps_plus_unit_share_of_gap": 0.9403251843605798,
+  "steps_plus_unit_worst_seed_ms": 132.78285091924488,
+  "unit_used_in_seeds": 5,
+  "every_policy_passes_the_table": true,
+  "table_check_seconds_numpy": 0.007949590682983398,
+  "detail": [
+   {
+    "scale": "log cost",
+    "unit": [
+     1,
+     2,
+     0
+    ],
+    "v": -11,
+    "shrunk_by": 3,
+    "proposed": [
+     1,
+     2,
+     0
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": [
+     1,
+     2,
+     0
+    ],
+    "v": -11,
+    "shrunk_by": 3,
+    "proposed": [
+     1,
+     2,
+     0
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": [
+     1,
+     2,
+     0
+    ],
+    "v": -11,
+    "shrunk_by": 3,
+    "proposed": [
+     1,
+     2,
+     0
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": [
+     1,
+     2,
+     0
+    ],
+    "v": -11,
+    "shrunk_by": 3,
+    "proposed": [
+     1,
+     2,
+     0
+    ]
+   },
+   {
+    "scale": "log cost",
+    "unit": [
+     1,
+     2,
+     0
+    ],
+    "v": -11,
+    "shrunk_by": 3,
+    "proposed": [
+     1,
+     2,
+     0
+    ]
+   }
+  ]
+ }
+]

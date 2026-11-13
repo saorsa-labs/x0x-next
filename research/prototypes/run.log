@@ -1,0 +1,25 @@
+20/420 runs, 30s
+40/420 runs, 60s
+60/420 runs, 89s
+80/420 runs, 115s
+100/420 runs, 139s
+120/420 runs, 164s
+140/420 runs, 189s
+160/420 runs, 213s
+180/420 runs, 239s
+200/420 runs, 267s
+220/420 runs, 296s
+240/420 runs, 326s
+260/420 runs, 359s
+280/420 runs, 391s
+300/420 runs, 420s
+320/420 runs, 448s
+340/420 runs, 476s
+360/420 runs, 504s
+380/420 runs, 534s
+400/420 runs, 561s
+420/420 runs, 587s
+/home/claude/work/prototype/peer_selection_sim.py:308: RuntimeWarning: Mean of empty slice
+  row[k] = float(np.nanmean(vals)); row[k + "_sd"] = float(np.nanstd(vals))
+/usr/local/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,

@@ -1,0 +1,522 @@
+[
+ {
+  "departure_from_textbook": 0.0,
+  "nodes": 100,
+  "policies": {
+   "the fixed rule of W1 to W6 (round trip and loss only)": {
+    "typical_slowdown": 1.387148022752626,
+    "worst_node": 1.3871480227526258,
+    "total_time_ratio": 3.2861842668903978,
+    "by_size": {
+     "1 kB": 1.0435601943773172,
+     "32 kB": 1.636305856375601,
+     "1024 kB": 3.2014322317791564,
+     "32768 kB": 3.474666813472291
+    }
+   },
+   "the formula, as code": {
+    "typical_slowdown": 1.0,
+    "worst_node": 1.0,
+    "total_time_ratio": 1.0,
+    "by_size": {
+     "1 kB": 1.0,
+     "32 kB": 1.0,
+     "1024 kB": 1.0,
+     "32768 kB": 1.0
+    }
+   },
+   "a table per size, written from the formula, no fitting": {
+    "typical_slowdown": 1.0036937380889146,
+    "worst_node": 1.0036937380889148,
+    "total_time_ratio": 1.0002787673145972,
+    "by_size": {
+     "1 kB": 1.0032548546893008,
+     "32 kB": 1.0066960209882403,
+     "1024 kB": 1.000632093965395,
+     "32768 kB": 1.0
+    }
+   },
+   "one table per node (rung 1), 2000 logged decisions": {
+    "typical_slowdown": 1.1726873411671068,
+    "worst_node": 1.1909061593777233,
+    "total_time_ratio": 2.008711709448181,
+    "by_size": {
+     "1 kB": 1.0753072542153128,
+     "32 kB": 1.175235793476996,
+     "1024 kB": 1.6159104995720524,
+     "32768 kB": 1.777211485070169
+    }
+   },
+   "a table per size per node (rung 2), 2000 logged decisions": {
+    "typical_slowdown": 1.008398932968399,
+    "worst_node": 1.011154878206704,
+    "total_time_ratio": 1.0036547592003244,
+    "by_size": {
+     "1 kB": 1.0073954740137048,
+     "32 kB": 1.0144642654167328,
+     "1024 kB": 1.0024793731244843,
+     "32768 kB": 1.0023132688066512
+    }
+   },
+   "one table per node (rung 1), 20000 logged decisions": {
+    "typical_slowdown": 1.1705425340367108,
+    "worst_node": 1.17514220646718,
+    "total_time_ratio": 2.022490304422906,
+    "by_size": {
+     "1 kB": 1.0740615921435746,
+     "32 kB": 1.1715369308354837,
+     "1024 kB": 1.608350871551147,
+     "32768 kB": 1.7826805641107473
+    }
+   },
+   "a table per size per node (rung 2), 20000 logged decisions": {
+    "typical_slowdown": 1.0067779898583653,
+    "worst_node": 1.007544174429157,
+    "total_time_ratio": 1.001917384585681,
+    "by_size": {
+     "1 kB": 1.0055663547699931,
+     "32 kB": 1.0132010957629023,
+     "1024 kB": 1.0011124435574523,
+     "32768 kB": 1.0008427292668092
+    }
+   }
+  },
+  "bands": [
+   {
+    "band_percent_of_estimated_time": 5.0,
+    "worst_possible_any_policy": 0.0010950265134621606,
+    "worst_possible_on_the_worst_node": 0.0010950265134621606,
+    "best_possible_any_policy": 0.0,
+    "fitted_per_size_tables": 0.00041802373909287203,
+    "fitted_on_the_worst_node": 0.0004436661214757276,
+    "contested_share": 0.017793249999999997
+   },
+   {
+    "band_percent_of_estimated_time": 10.0,
+    "worst_possible_any_policy": 0.004408322046240087,
+    "worst_possible_on_the_worst_node": 0.004408322046240087,
+    "best_possible_any_policy": 0.0,
+    "fitted_per_size_tables": 0.0012873437577891167,
+    "fitted_on_the_worst_node": 0.0013717309964436097,
+    "contested_share": 0.029944750000000006
+   },
+   {
+    "band_percent_of_estimated_time": 25.0,
+    "worst_possible_any_policy": 0.024414154421261925,
+    "worst_possible_on_the_worst_node": 0.024414154421261935,
+    "best_possible_any_policy": 0.0,
+    "fitted_per_size_tables": 0.003755157545215986,
+    "fitted_on_the_worst_node": 0.004116217244312104,
+    "contested_share": 0.04626474999999999
+   },
+   {
+    "band_percent_of_estimated_time": 50.0,
+    "worst_possible_any_policy": 0.0789336733642305,
+    "worst_possible_on_the_worst_node": 0.07893367336423052,
+    "best_possible_any_policy": 0.0,
+    "fitted_per_size_tables": 0.005317116252599341,
+    "fitted_on_the_worst_node": 0.005963722349723977,
+    "contested_share": 0.05146800000000001
+   },
+   {
+    "band_percent_of_estimated_time": "none",
+    "worst_possible_any_policy": 2.9843223339864653,
+    "worst_possible_on_the_worst_node": 2.9843223339864644,
+    "best_possible_any_policy": 0.0,
+    "fitted_per_size_tables": 0.006775098340907564,
+    "fitted_on_the_worst_node": 0.007544166588590251,
+    "contested_share": 0.053888
+   }
+  ]
+ },
+ {
+  "departure_from_textbook": 0.5,
+  "nodes": 100,
+  "policies": {
+   "the fixed rule of W1 to W6 (round trip and loss only)": {
+    "typical_slowdown": 1.3898959617999733,
+    "worst_node": 1.4845113261112666,
+    "total_time_ratio": 3.2733112394176436,
+    "by_size": {
+     "1 kB": 1.0451799340607515,
+     "32 kB": 1.6466302834551212,
+     "1024 kB": 3.200345184423197,
+     "32768 kB": 3.4829954795791274
+    }
+   },
+   "the formula, as code": {
+    "typical_slowdown": 1.002877729054818,
+    "worst_node": 1.0090260377608253,
+    "total_time_ratio": 1.0019117475550734,
+    "by_size": {
+     "1 kB": 1.0021675534046077,
+     "32 kB": 1.0049633448467643,
+     "1024 kB": 1.0024308725277749,
+     "32768 kB": 1.0016296218093026
+    }
+   },
+   "a table per size, written from the formula, no fitting": {
+    "typical_slowdown": 1.006498109179692,
+    "worst_node": 1.0135019582574905,
+    "total_time_ratio": 1.0021848967115947,
+    "by_size": {
+     "1 kB": 1.0056383980381747,
+     "32 kB": 1.010829560620842,
+     "1024 kB": 1.0031153296965183,
+     "32768 kB": 1.0016296218093026
+    }
+   },
+   "one table per node (rung 1), 2000 logged decisions": {
+    "typical_slowdown": 1.166777753298093,
+    "worst_node": 1.1913051631157574,
+    "total_time_ratio": 1.9405210198378162,
+    "by_size": {
+     "1 kB": 1.07736559942458,
+     "32 kB": 1.1631284488139901,
+     "1024 kB": 1.581250378998395,
+     "32768 kB": 1.733307072803776
+    }
+   },
+   "a table per size per node (rung 2), 2000 logged decisions": {
+    "typical_slowdown": 1.008620719450114,
+    "worst_node": 1.0119668610117012,
+    "total_time_ratio": 1.0055460566844265,
+    "by_size": {
+     "1 kB": 1.0075544905497953,
+     "32 kB": 1.0142932314731286,
+     "1024 kB": 1.0034606478799628,
+     "32768 kB": 1.0039289469302162
+    }
+   },
+   "one table per node (rung 1), 20000 logged decisions": {
+    "typical_slowdown": 1.1650033867654674,
+    "worst_node": 1.1847361612028615,
+    "total_time_ratio": 1.9517392621444605,
+    "by_size": {
+     "1 kB": 1.0743864123812632,
+     "32 kB": 1.1630303318846908,
+     "1024 kB": 1.5806239273433869,
+     "32768 kB": 1.7397357089576733
+    }
+   },
+   "a table per size per node (rung 2), 20000 logged decisions": {
+    "typical_slowdown": 1.0066221674604061,
+    "worst_node": 1.0083244715702848,
+    "total_time_ratio": 1.0027664572075712,
+    "by_size": {
+     "1 kB": 1.0055400713650766,
+     "32 kB": 1.012377377053641,
+     "1024 kB": 1.0015036520177691,
+     "32768 kB": 1.0013945654902145
+    }
+   }
+  },
+  "bands": [
+   {
+    "band_percent_of_estimated_time": 5.0,
+    "worst_possible_any_policy": 0.0020766120739429917,
+    "worst_possible_on_the_worst_node": 0.0039501508008250585,
+    "best_possible_any_policy": -0.0009731251595186829,
+    "fitted_per_size_tables": -0.00035679565012743385,
+    "fitted_on_the_worst_node": 0.0003015998254565222,
+    "contested_share": 0.01808025
+   },
+   {
+    "band_percent_of_estimated_time": 10.0,
+    "worst_possible_any_policy": 0.0059317968441426625,
+    "worst_possible_on_the_worst_node": 0.008958403927296521,
+    "best_possible_any_policy": -0.001541766236373281,
+    "fitted_per_size_tables": -0.00018173287248487546,
+    "fitted_on_the_worst_node": 0.0011489371274309157,
+    "contested_share": 0.031132999999999997
+   },
+   {
+    "band_percent_of_estimated_time": 25.0,
+    "worst_possible_any_policy": 0.02669759015607953,
+    "worst_possible_on_the_worst_node": 0.03242377229492144,
+    "best_possible_any_policy": -0.0023569827923127463,
+    "fitted_per_size_tables": 0.0010627988308397939,
+    "fitted_on_the_worst_node": 0.0036387889689628583,
+    "contested_share": 0.051351749999999995
+   },
+   {
+    "band_percent_of_estimated_time": 50.0,
+    "worst_possible_any_policy": 0.08153656857161266,
+    "worst_possible_on_the_worst_node": 0.0898563791592244,
+    "best_possible_any_policy": -0.0027563638937176792,
+    "fitted_per_size_tables": 0.002226383227557316,
+    "fitted_on_the_worst_node": 0.005588442072941513,
+    "contested_share": 0.060669249999999994
+   },
+   {
+    "band_percent_of_estimated_time": "none",
+    "worst_possible_any_policy": 2.982567980057321,
+    "worst_possible_on_the_worst_node": 3.406753775170519,
+    "best_possible_any_policy": -0.0028658256789377166,
+    "fitted_per_size_tables": 0.0037332391894597684,
+    "fitted_on_the_worst_node": 0.007414749304695656,
+    "contested_share": 0.06544200000000001
+   }
+  ]
+ },
+ {
+  "departure_from_textbook": 1.0,
+  "nodes": 100,
+  "policies": {
+   "the fixed rule of W1 to W6 (round trip and loss only)": {
+    "typical_slowdown": 1.4101339429798807,
+    "worst_node": 1.592788650732801,
+    "total_time_ratio": 3.290601070793169,
+    "by_size": {
+     "1 kB": 1.053977555660062,
+     "32 kB": 1.692803795781506,
+     "1024 kB": 3.2789138782597247,
+     "32768 kB": 3.6069695942988
+    }
+   },
+   "the formula, as code": {
+    "typical_slowdown": 1.0098956870684856,
+    "worst_node": 1.0520247905581537,
+    "total_time_ratio": 1.0035755977845606,
+    "by_size": {
+     "1 kB": 1.0096483357468333,
+     "32 kB": 1.0137118059982246,
+     "1024 kB": 1.0050797402096123,
+     "32768 kB": 1.0034778814102763
+    }
+   },
+   "a table per size, written from the formula, no fitting": {
+    "typical_slowdown": 1.0137940087751705,
+    "worst_node": 1.0582990914583894,
+    "total_time_ratio": 1.0038815931929335,
+    "by_size": {
+     "1 kB": 1.0138181117789697,
+     "32 kB": 1.0190166331436634,
+     "1024 kB": 1.00580761435853,
+     "32768 kB": 1.0034778814102763
+    }
+   },
+   "one table per node (rung 1), 2000 logged decisions": {
+    "typical_slowdown": 1.1592206052654883,
+    "worst_node": 1.2033537102330705,
+    "total_time_ratio": 1.8476037231725573,
+    "by_size": {
+     "1 kB": 1.0790114453573854,
+     "32 kB": 1.1488046835461667,
+     "1024 kB": 1.5403807762651822,
+     "32768 kB": 1.6975094477773363
+    }
+   },
+   "a table per size per node (rung 2), 2000 logged decisions": {
+    "typical_slowdown": 1.0092396543089448,
+    "worst_node": 1.0170989479861277,
+    "total_time_ratio": 1.0075798122790074,
+    "by_size": {
+     "1 kB": 1.008164800539401,
+     "32 kB": 1.014569666980835,
+     "1024 kB": 1.0044902688529866,
+     "32768 kB": 1.005894437461744
+    }
+   },
+   "one table per node (rung 1), 20000 logged decisions": {
+    "typical_slowdown": 1.1572981559077697,
+    "worst_node": 1.187349766242101,
+    "total_time_ratio": 1.8530814596233491,
+    "by_size": {
+     "1 kB": 1.0763854613534838,
+     "32 kB": 1.147462133117824,
+     "1024 kB": 1.540004070550719,
+     "32768 kB": 1.700259193589647
+    }
+   },
+   "a table per size per node (rung 2), 20000 logged decisions": {
+    "typical_slowdown": 1.0066163990006123,
+    "worst_node": 1.0088043875567376,
+    "total_time_ratio": 1.0036118612387381,
+    "by_size": {
+     "1 kB": 1.0057847088506577,
+     "32 kB": 1.0114904995781269,
+     "1024 kB": 1.0018951657529938,
+     "32768 kB": 1.0020574170929122
+    }
+   }
+  },
+  "bands": [
+   {
+    "band_percent_of_estimated_time": 5.0,
+    "worst_possible_any_policy": 0.003224428686548586,
+    "worst_possible_on_the_worst_node": 0.007871637771699191,
+    "best_possible_any_policy": -0.00208751904964352,
+    "fitted_per_size_tables": -0.001488090739963731,
+    "fitted_on_the_worst_node": 6.0571881244531056e-05,
+    "contested_share": 0.018559
+   },
+   {
+    "band_percent_of_estimated_time": 10.0,
+    "worst_possible_any_policy": 0.008026345598949167,
+    "worst_possible_on_the_worst_node": 0.016553919474370238,
+    "best_possible_any_policy": -0.003599281619623018,
+    "fitted_per_size_tables": -0.0023615542362251185,
+    "fitted_on_the_worst_node": 0.0006303369535269887,
+    "contested_share": 0.032768750000000006
+   },
+   {
+    "band_percent_of_estimated_time": 25.0,
+    "worst_possible_any_policy": 0.030923725309629935,
+    "worst_possible_on_the_worst_node": 0.0494506984214691,
+    "best_possible_any_policy": -0.006439287330528339,
+    "fitted_per_size_tables": -0.0034633923212993288,
+    "fitted_on_the_worst_node": 0.002892483783974553,
+    "contested_share": 0.05747675
+   },
+   {
+    "band_percent_of_estimated_time": 50.0,
+    "worst_possible_any_policy": 0.0878491441458729,
+    "worst_possible_on_the_worst_node": 0.118109191458174,
+    "best_possible_any_policy": -0.008389589013510066,
+    "fitted_per_size_tables": -0.0038270294590858067,
+    "fitted_on_the_worst_node": 0.004379525885743085,
+    "contested_share": 0.07293925000000001
+   },
+   {
+    "band_percent_of_estimated_time": "none",
+    "worst_possible_any_policy": 3.061937170460597,
+    "worst_possible_on_the_worst_node": 3.935878688268576,
+    "best_possible_any_policy": -0.009720985073154787,
+    "fitted_per_size_tables": -0.003173296554924553,
+    "fitted_on_the_worst_node": 0.005830746458479252,
+    "contested_share": 0.08417625
+   }
+  ]
+ },
+ {
+  "departure_from_textbook": 1.5,
+  "nodes": 100,
+  "policies": {
+   "the fixed rule of W1 to W6 (round trip and loss only)": {
+    "typical_slowdown": 1.4329615104379763,
+    "worst_node": 1.9768617157930382,
+    "total_time_ratio": 3.3664244554094274,
+    "by_size": {
+     "1 kB": 1.0711921707603624,
+     "32 kB": 1.7269066203762038,
+     "1024 kB": 3.3316077484769204,
+     "32768 kB": 3.7572838153284063
+    }
+   },
+   "the formula, as code": {
+    "typical_slowdown": 1.026816366159307,
+    "worst_node": 1.2078446223239703,
+    "total_time_ratio": 1.004497955832298,
+    "by_size": {
+     "1 kB": 1.0321427263456588,
+     "32 kB": 1.0278543485452727,
+     "1024 kB": 1.0063432305108369,
+     "32768 kB": 1.0029552549287468
+    }
+   },
+   "a table per size, written from the formula, no fitting": {
+    "typical_slowdown": 1.0307362717991027,
+    "worst_node": 1.2088008843130127,
+    "total_time_ratio": 1.0048244914281574,
+    "by_size": {
+     "1 kB": 1.0367982677116543,
+     "32 kB": 1.0322009054904127,
+     "1024 kB": 1.00716096448261,
+     "32768 kB": 1.0029552549287468
+    }
+   },
+   "one table per node (rung 1), 2000 logged decisions": {
+    "typical_slowdown": 1.1526778287800838,
+    "worst_node": 1.1960484562969431,
+    "total_time_ratio": 1.8757110231877037,
+    "by_size": {
+     "1 kB": 1.0731118007753857,
+     "32 kB": 1.1349927809417375,
+     "1024 kB": 1.552714196849493,
+     "32768 kB": 1.7430425666354719
+    }
+   },
+   "a table per size per node (rung 2), 2000 logged decisions": {
+    "typical_slowdown": 1.0096888042114294,
+    "worst_node": 1.020230989578658,
+    "total_time_ratio": 1.0080225228430968,
+    "by_size": {
+     "1 kB": 1.0088725329446817,
+     "32 kB": 1.0143266093461798,
+     "1024 kB": 1.0052612805257768,
+     "32768 kB": 1.0056217549620237
+    }
+   },
+   "one table per node (rung 1), 20000 logged decisions": {
+    "typical_slowdown": 1.1500538180963276,
+    "worst_node": 1.1844218761424048,
+    "total_time_ratio": 1.8656946925621596,
+    "by_size": {
+     "1 kB": 1.0718001252488991,
+     "32 kB": 1.1316687868373794,
+     "1024 kB": 1.542883604426638,
+     "32768 kB": 1.7310050933168695
+    }
+   },
+   "a table per size per node (rung 2), 20000 logged decisions": {
+    "typical_slowdown": 1.0067981142636868,
+    "worst_node": 1.0111245272075822,
+    "total_time_ratio": 1.0043948568521273,
+    "by_size": {
+     "1 kB": 1.006107836779904,
+     "32 kB": 1.0111631014603821,
+     "1024 kB": 1.0024839963653895,
+     "32768 kB": 1.0020081999694042
+    }
+   }
+  },
+  "bands": [
+   {
+    "band_percent_of_estimated_time": 5.0,
+    "worst_possible_any_policy": 0.004813489737125321,
+    "worst_possible_on_the_worst_node": 0.01559301665670687,
+    "best_possible_any_policy": -0.0035759933966348213,
+    "fitted_per_size_tables": -0.0030636251324608365,
+    "fitted_on_the_worst_node": -8.221384821283095e-05,
+    "contested_share": 0.018727999999999998
+   },
+   {
+    "band_percent_of_estimated_time": 10.0,
+    "worst_possible_any_policy": 0.011016247138618119,
+    "worst_possible_on_the_worst_node": 0.03178010242163132,
+    "best_possible_any_policy": -0.0065238031834780165,
+    "fitted_per_size_tables": -0.005482351859135473,
+    "fitted_on_the_worst_node": 0.00034424050518766514,
+    "contested_share": 0.033655250000000005
+   },
+   {
+    "band_percent_of_estimated_time": 25.0,
+    "worst_possible_any_policy": 0.037515858711634265,
+    "worst_possible_on_the_worst_node": 0.08630754167644517,
+    "best_possible_any_policy": -0.012834994763568568,
+    "fitted_per_size_tables": -0.010425633383022524,
+    "fitted_on_the_worst_node": 0.0018470482768677687,
+    "contested_share": 0.062168
+   },
+   {
+    "band_percent_of_estimated_time": 50.0,
+    "worst_possible_any_policy": 0.09880057064579685,
+    "worst_possible_on_the_worst_node": 0.18319529177253546,
+    "best_possible_any_policy": -0.018136797221475535,
+    "fitted_per_size_tables": -0.014275613803027873,
+    "fitted_on_the_worst_node": 0.003469023111443814,
+    "contested_share": 0.08437675
+   },
+   {
+    "band_percent_of_estimated_time": "none",
+    "worst_possible_any_policy": 3.1744781509667352,
+    "worst_possible_on_the_worst_node": 5.81651988398256,
+    "best_possible_any_policy": -0.025100943144758005,
+    "fitted_per_size_tables": -0.018491954333622652,
+    "fitted_on_the_worst_node": 0.004914026415318906,
+    "contested_share": 0.10978475
+   }
+  ]
+ }
+]

@@ -1,0 +1,47 @@
+B [loss penalty] spread 1.0: best possible                                                  mean  -3.70% | worst-served tenth  -8.27% | made worse   0% | worst node  -2.11% | 3s
+B [loss penalty] spread 1.0: a table per node (27 numbers), 500 logged decisions [the study's] mean  -2.51% | worst-served tenth  -6.83% | made worse   1% | worst node  +1.03% | 6s
+B [loss penalty] spread 1.0: ordinary code + ONE constant estimated per node, 500 logged decisions mean  -3.67% | worst-served tenth  -8.24% | made worse   0% | worst node  -2.00% | 9s
+B [loss penalty] spread 1.0: ordinary code + THREE constants estimated per node, 500 logged decisions mean  -1.83% | worst-served tenth  -5.11% | made worse  20% | worst node  +1.54% | 11s
+B [loss penalty] spread 1.0: a table per node (27 numbers), 2000 logged decisions [the study's] mean  -2.97% | worst-served tenth  -7.56% | made worse   0% | worst node  -0.67% | 15s
+B [loss penalty] spread 1.0: ordinary code + ONE constant estimated per node, 2000 logged decisions mean  -3.69% | worst-served tenth  -8.27% | made worse   0% | worst node  -2.05% | 19s
+B [loss penalty] spread 1.0: ordinary code + THREE constants estimated per node, 2000 logged decisions mean  -1.86% | worst-served tenth  -5.20% | made worse  21% | worst node  +1.10% | 21s
+B [loss penalty] spread 1.0: one table for all nodes [the study's: least squares on pooled logs] mean  -1.42% | worst-served tenth  -0.19% | made worse   5% | worst node  +1.47% | 25s
+B [loss penalty] spread 1.0: one table for all nodes, tuned directly on every node's true costs mean  -2.05% | worst-served tenth  -0.65% | made worse   3% | worst node  +1.25% | 61s
+B [loss penalty] spread 1.5: best possible                                                  mean  -4.69% | worst-served tenth -14.58% | made worse   0% | worst node  -2.11% | 63s
+B [loss penalty] spread 1.5: a table per node (27 numbers), 500 logged decisions [the study's] mean  -3.49% | worst-served tenth -12.36% | made worse   0% | worst node  +0.35% | 65s
+B [loss penalty] spread 1.5: ordinary code + ONE constant estimated per node, 500 logged decisions mean  -4.67% | worst-served tenth -14.55% | made worse   0% | worst node  -1.98% | 67s
+B [loss penalty] spread 1.5: ordinary code + THREE constants estimated per node, 500 logged decisions mean  -2.91% | worst-served tenth -10.94% | made worse  24% | worst node  +2.02% | 69s
+B [loss penalty] spread 1.5: a table per node (27 numbers), 2000 logged decisions [the study's] mean  -3.98% | worst-served tenth -13.35% | made worse   0% | worst node  -0.50% | 71s
+B [loss penalty] spread 1.5: ordinary code + ONE constant estimated per node, 2000 logged decisions mean  -4.69% | worst-served tenth -14.57% | made worse   0% | worst node  -2.08% | 74s
+B [loss penalty] spread 1.5: ordinary code + THREE constants estimated per node, 2000 logged decisions mean  -2.97% | worst-served tenth -10.99% | made worse  22% | worst node  +1.18% | 75s
+B [loss penalty] spread 1.5: one table for all nodes [the study's: least squares on pooled logs] mean  -1.29% | worst-served tenth  +1.26% | made worse   9% | worst node  +4.18% | 76s
+B [loss penalty] spread 1.5: one table for all nodes, tuned directly on every node's true costs mean  -1.97% | worst-served tenth  -0.49% | made worse   2% | worst node  +1.19% | 98s
+B [exponents] spread 1.0: best possible                                                  mean  -8.69% | worst-served tenth -31.10% | made worse   0% | worst node  -2.97% | 99s
+B [exponents] spread 1.0: a table per node (27 numbers), 500 logged decisions [the study's] mean  -7.86% | worst-served tenth -30.53% | made worse   0% | worst node  -1.54% | 101s
+B [exponents] spread 1.0: ordinary code + THREE constants estimated per node, 500 logged decisions mean  -8.62% | worst-served tenth -31.07% | made worse   0% | worst node  -2.63% | 102s
+B [exponents] spread 1.0: a table per node (27 numbers), 2000 logged decisions [the study's] mean  -8.41% | worst-served tenth -30.89% | made worse   0% | worst node  -2.22% | 103s
+B [exponents] spread 1.0: ordinary code + THREE constants estimated per node, 2000 logged decisions mean  -8.67% | worst-served tenth -31.09% | made worse   0% | worst node  -2.93% | 104s
+B [exponents] spread 1.0: one table for all nodes [the study's: least squares on pooled logs] mean  -1.54% | worst-served tenth  -2.49% | made worse  20% | worst node +17.24% | 106s
+B [exponents] spread 1.0: one table for all nodes, tuned directly on every node's true costs mean  -1.94% | worst-served tenth  -5.84% | made worse  20% | worst node +12.63% | 130s
+B [exponents] spread 1.5: best possible                                                  mean -11.80% | worst-served tenth -40.91% | made worse   0% | worst node  -2.97% | 131s
+B [exponents] spread 1.5: a table per node (27 numbers), 500 logged decisions [the study's] mean -10.93% | worst-served tenth -40.08% | made worse   0% | worst node  -0.09% | 133s
+B [exponents] spread 1.5: ordinary code + THREE constants estimated per node, 500 logged decisions mean -11.74% | worst-served tenth -40.88% | made worse   0% | worst node  -2.85% | 134s
+B [exponents] spread 1.5: a table per node (27 numbers), 2000 logged decisions [the study's] mean -11.50% | worst-served tenth -40.68% | made worse   0% | worst node  -2.47% | 135s
+B [exponents] spread 1.5: ordinary code + THREE constants estimated per node, 2000 logged decisions mean -11.78% | worst-served tenth -40.91% | made worse   0% | worst node  -2.92% | 136s
+B [exponents] spread 1.5: one table for all nodes [the study's: least squares on pooled logs] mean  +0.88% | worst-served tenth +10.75% | made worse  31% | worst node +34.39% | 138s
+B [exponents] spread 1.5: one table for all nodes, tuned directly on every node's true costs mean  -1.04% | worst-served tenth  -0.91% | made worse   6% | worst node  +0.84% | 158s
+B [three ways] spread 1.0: best possible                                                  mean  -8.92% | worst-served tenth -30.52% | made worse   0% | worst node  -1.25% | 159s
+B [three ways] spread 1.0: a table per node (27 numbers), 500 logged decisions [the study's] mean  -8.09% | worst-served tenth -29.85% | made worse   0% | worst node  +0.78% | 160s
+B [three ways] spread 1.0: ordinary code + THREE constants estimated per node, 500 logged decisions mean  -8.85% | worst-served tenth -30.48% | made worse   0% | worst node  -1.23% | 161s
+B [three ways] spread 1.0: a table per node (27 numbers), 2000 logged decisions [the study's] mean  -8.62% | worst-served tenth -30.21% | made worse   0% | worst node  +0.04% | 163s
+B [three ways] spread 1.0: ordinary code + THREE constants estimated per node, 2000 logged decisions mean  -8.90% | worst-served tenth -30.51% | made worse   0% | worst node  -1.19% | 164s
+B [three ways] spread 1.0: one table for all nodes [the study's: least squares on pooled logs] mean  -2.99% | worst-served tenth  -9.19% | made worse  14% | worst node +12.39% | 165s
+B [three ways] spread 1.0: one table for all nodes, tuned directly on every node's true costs mean  -3.12% | worst-served tenth  -9.72% | made worse  12% | worst node  +9.08% | 185s
+B [three ways] spread 1.5: best possible                                                  mean -14.97% | worst-served tenth -45.97% | made worse   0% | worst node  -0.67% | 186s
+B [three ways] spread 1.5: a table per node (27 numbers), 500 logged decisions [the study's] mean -14.13% | worst-served tenth -44.80% | made worse   0% | worst node  -0.04% | 187s
+B [three ways] spread 1.5: ordinary code + THREE constants estimated per node, 500 logged decisions mean -14.91% | worst-served tenth -45.94% | made worse   0% | worst node  -0.60% | 188s
+B [three ways] spread 1.5: a table per node (27 numbers), 2000 logged decisions [the study's] mean -14.60% | worst-served tenth -44.75% | made worse   0% | worst node  -0.44% | 190s
+B [three ways] spread 1.5: ordinary code + THREE constants estimated per node, 2000 logged decisions mean -14.95% | worst-served tenth -45.96% | made worse   0% | worst node  -0.58% | 191s
+B [three ways] spread 1.5: one table for all nodes [the study's: least squares on pooled logs] mean  -4.05% | worst-served tenth -17.04% | made worse  28% | worst node +55.07% | 192s
+B [three ways] spread 1.5: one table for all nodes, tuned directly on every node's true costs mean  -4.85% | worst-served tenth -18.35% | made worse  24% | worst node +30.29% | 217s
+done in 217s

@@ -1,0 +1,622 @@
+{
+ "domain_cells": 65536,
+ "numbers_in_network": 89,
+ "baseline": {
+  "nonzero_numbers": 8,
+  "monotone_violations": 0,
+  "gate_violations": [
+   0,
+   0
+  ],
+  "limits": {
+   "tiebreak_violations": 0,
+   "primary_steps_that_do_not_matter": 0,
+   "largest_to_smallest_primary_step": 1.3333333333333333,
+   "within_limits": true
+  },
+  "mean_cost_ms": 161.035808,
+  "passes_direction_and_gate": true,
+  "passes_every_check": true,
+  "cells_differing_from_rule": 0
+ },
+ "edit1_prefer_known": {
+  "nonzero_numbers": 15,
+  "monotone_violations": 0,
+  "gate_violations": [
+   0,
+   0
+  ],
+  "limits": {
+   "tiebreak_violations": 0,
+   "primary_steps_that_do_not_matter": 0,
+   "largest_to_smallest_primary_step": 1.3333333333333333,
+   "within_limits": true
+  },
+  "mean_cost_ms": 161.043512,
+  "passes_direction_and_gate": true,
+  "passes_every_check": true,
+  "patch": [
+   [
+    "W1",
+    [
+     2,
+     3
+    ],
+    0,
+    1
+   ],
+   [
+    "W1",
+    [
+     3,
+     3
+    ],
+    0,
+    1
+   ],
+   [
+    "b1",
+    [
+     3
+    ],
+    0,
+    -3
+   ],
+   [
+    "W2",
+    [
+     1,
+     1
+    ],
+    0,
+    -127
+   ],
+   [
+    "W2",
+    [
+     1,
+     2
+    ],
+    0,
+    1
+   ],
+   [
+    "W2",
+    [
+     1,
+     3
+    ],
+    0,
+    -1
+   ],
+   [
+    "W3",
+    [
+     0,
+     0
+    ],
+    1,
+    4
+   ],
+   [
+    "W3",
+    [
+     0,
+     1
+    ],
+    0,
+    1
+   ]
+  ],
+  "numbers_changed": 8,
+  "cells_with_changed_score": 49152,
+  "pairs": {
+   "total_pairs": 2147450880,
+   "reversed": 0,
+   "ties_broken": 11612160,
+   "merged": 0
+  },
+  "share_of_pairs_reordered": 0.0
+ },
+ "edit2a_loss_weight_naive": {
+  "nonzero_numbers": 15,
+  "monotone_violations": 0,
+  "gate_violations": [
+   0,
+   192
+  ],
+  "limits": {
+   "tiebreak_violations": 1,
+   "primary_steps_that_do_not_matter": 1152,
+   "largest_to_smallest_primary_step": Infinity,
+   "within_limits": false
+  },
+  "mean_cost_ms": 162.6779546,
+  "passes_direction_and_gate": false,
+  "passes_every_check": false,
+  "patch": [
+   [
+    "W1",
+    [
+     0,
+     1
+    ],
+    -4,
+    -6
+   ]
+  ],
+  "numbers_changed": 1,
+  "cells_with_changed_score": 43008,
+  "pairs": {
+   "total_pairs": 2147450880,
+   "reversed": 64369152,
+   "ties_broken": 4902912,
+   "merged": 21531648
+  },
+  "share_of_pairs_reordered": 0.02997467956054017
+ },
+ "edit2b_loss_weight": {
+  "nonzero_numbers": 15,
+  "monotone_violations": 0,
+  "gate_violations": [
+   0,
+   0
+  ],
+  "limits": {
+   "tiebreak_violations": 0,
+   "primary_steps_that_do_not_matter": 0,
+   "largest_to_smallest_primary_step": 2.0,
+   "within_limits": true
+  },
+  "mean_cost_ms": 162.66706360000003,
+  "passes_direction_and_gate": true,
+  "passes_every_check": true,
+  "patch": [
+   [
+    "W1",
+    [
+     0,
+     1
+    ],
+    -4,
+    -6
+   ],
+   [
+    "b1",
+    [
+     0
+    ],
+    80,
+    88
+   ]
+  ],
+  "numbers_changed": 2,
+  "cells_with_changed_score": 43008,
+  "pairs": {
+   "total_pairs": 2147450880,
+   "reversed": 64161792,
+   "ties_broken": 4902912,
+   "merged": 18063360
+  },
+  "share_of_pairs_reordered": 0.02987811856260014
+ },
+ "random_testing": {
+  "my_editing_mistake_192_cells": {
+   "100": 0.25427527146686646,
+   "1000": 0.9468154551291703,
+   "10000": 0.9999999999998189
+  },
+  "one_trigger_cell": {
+   "1000": 0.015143078261349197,
+   "10000": 0.14151756142125216,
+   "100000": 0.7825726588407262
+  }
+ },
+ "attacks": {
+  "trigger_one_cell": {
+   "nonzero_numbers": 24,
+   "monotone_violations": 4,
+   "gate_violations": [
+    0,
+    0
+   ],
+   "limits": {
+    "tiebreak_violations": 2,
+    "primary_steps_that_do_not_matter": 2,
+    "largest_to_smallest_primary_step": Infinity,
+    "within_limits": false
+   },
+   "mean_cost_ms": 161.046472,
+   "passes_direction_and_gate": false,
+   "passes_every_check": false,
+   "patch": [
+    [
+     "W1",
+     [
+      4,
+      0
+     ],
+     0,
+     1
+    ],
+    [
+     "W1",
+     [
+      4,
+      1
+     ],
+     0,
+     1
+    ],
+    [
+     "W1",
+     [
+      4,
+      2
+     ],
+     0,
+     -1
+    ],
+    [
+     "W1",
+     [
+      4,
+      3
+     ],
+     0,
+     -1
+    ],
+    [
+     "W1",
+     [
+      4,
+      4
+     ],
+     0,
+     1
+    ],
+    [
+     "b1",
+     [
+      4
+     ],
+     0,
+     -26
+    ],
+    [
+     "W2",
+     [
+      2,
+      1
+     ],
+     0,
+     -127
+    ],
+    [
+     "W2",
+     [
+      2,
+      4
+     ],
+     0,
+     60
+    ],
+    [
+     "W3",
+     [
+      0,
+      2
+     ],
+     0,
+     127
+    ]
+   ],
+   "numbers_changed": 9,
+   "cells_with_changed_score": 1,
+   "pairs": {
+    "total_pairs": 2147450880,
+    "reversed": 49104,
+    "ties_broken": 47,
+    "merged": 0
+   },
+   "share_of_pairs_reordered": 2.2866180762188144e-05,
+   "trigger_cells": [
+    "rtt=15, loss=7, deliv=2, age=0, bal=7"
+   ],
+   "score_at_trigger": [
+    7648
+   ],
+   "top_honest_score": 323
+  },
+  "reviewer_balance_lock": {
+   "nonzero_numbers": 20,
+   "monotone_violations": 0,
+   "gate_violations": [
+    0,
+    0
+   ],
+   "limits": {
+    "tiebreak_violations": 67,
+    "primary_steps_that_do_not_matter": 0,
+    "largest_to_smallest_primary_step": 1.3333333333333333,
+    "within_limits": false
+   },
+   "mean_cost_ms": 205.80514339999996,
+   "passes_direction_and_gate": true,
+   "passes_every_check": false,
+   "patch": [
+    [
+     "W1",
+     [
+      4,
+      4
+     ],
+     0,
+     1
+    ],
+    [
+     "b1",
+     [
+      4
+     ],
+     0,
+     -6
+    ],
+    [
+     "W2",
+     [
+      2,
+      1
+     ],
+     0,
+     -127
+    ],
+    [
+     "W2",
+     [
+      2,
+      4
+     ],
+     0,
+     60
+    ],
+    [
+     "W3",
+     [
+      0,
+      2
+     ],
+     0,
+     127
+    ]
+   ],
+   "numbers_changed": 5,
+   "cells_with_changed_score": 6144,
+   "pairs": {
+    "total_pairs": 2147450880,
+    "reversed": 131132736,
+    "ties_broken": 1975680,
+    "merged": 0
+   },
+   "share_of_pairs_reordered": 0.06106437042229343
+  },
+  "reviewer_club_age_and_balance": {
+   "nonzero_numbers": 21,
+   "monotone_violations": 0,
+   "gate_violations": [
+    0,
+    0
+   ],
+   "limits": {
+    "tiebreak_violations": 67,
+    "primary_steps_that_do_not_matter": 0,
+    "largest_to_smallest_primary_step": 1.3333333333333333,
+    "within_limits": false
+   },
+   "mean_cost_ms": 167.8370882,
+   "passes_direction_and_gate": true,
+   "passes_every_check": false,
+   "patch": [
+    [
+     "W1",
+     [
+      4,
+      3
+     ],
+     0,
+     1
+    ],
+    [
+     "W1",
+     [
+      4,
+      4
+     ],
+     0,
+     1
+    ],
+    [
+     "b1",
+     [
+      4
+     ],
+     0,
+     -13
+    ],
+    [
+     "W2",
+     [
+      2,
+      1
+     ],
+     0,
+     -127
+    ],
+    [
+     "W2",
+     [
+      2,
+      4
+     ],
+     0,
+     60
+    ],
+    [
+     "W3",
+     [
+      0,
+      2
+     ],
+     0,
+     127
+    ]
+   ],
+   "numbers_changed": 6,
+   "cells_with_changed_score": 768,
+   "pairs": {
+    "total_pairs": 2147450880,
+    "reversed": 18261936,
+    "ties_broken": 393120,
+    "merged": 0
+   },
+   "share_of_pairs_reordered": 0.008504006387331196
+  },
+  "reviewer_flatten": {
+   "nonzero_numbers": 13,
+   "monotone_violations": 0,
+   "gate_violations": [
+    0,
+    0
+   ],
+   "limits": {
+    "tiebreak_violations": 0,
+    "primary_steps_that_do_not_matter": 89088,
+    "largest_to_smallest_primary_step": Infinity,
+    "within_limits": false
+   },
+   "mean_cost_ms": 316.67472760000004,
+   "passes_direction_and_gate": true,
+   "passes_every_check": false,
+   "patch": [
+    [
+     "W1",
+     [
+      0,
+      0
+     ],
+     -3,
+     0
+    ],
+    [
+     "W1",
+     [
+      0,
+      1
+     ],
+     -4,
+     0
+    ]
+   ],
+   "numbers_changed": 2,
+   "cells_with_changed_score": 48768,
+   "pairs": {
+    "total_pairs": 2147450880,
+    "reversed": 333932544,
+    "ties_broken": 0,
+    "merged": 519450624
+   },
+   "share_of_pairs_reordered": 0.1555018310826276
+  },
+  "mine_biased_inside_limits": {
+   "nonzero_numbers": 15,
+   "monotone_violations": 0,
+   "gate_violations": [
+    0,
+    0
+   ],
+   "limits": {
+    "tiebreak_violations": 0,
+    "primary_steps_that_do_not_matter": 0,
+    "largest_to_smallest_primary_step": 32.0,
+    "within_limits": true
+   },
+   "mean_cost_ms": 199.67091480000002,
+   "passes_direction_and_gate": true,
+   "passes_every_check": true,
+   "patch": [
+    [
+     "W1",
+     [
+      0,
+      0
+     ],
+     -3,
+     -1
+    ],
+    [
+     "W1",
+     [
+      0,
+      1
+     ],
+     -4,
+     -32
+    ],
+    [
+     "b1",
+     [
+      0
+     ],
+     80,
+     240
+    ]
+   ],
+   "numbers_changed": 3,
+   "cells_with_changed_score": 48768,
+   "pairs": {
+    "total_pairs": 2147450880,
+    "reversed": 304404480,
+    "ties_broken": 4902912,
+    "merged": 0
+   },
+   "share_of_pairs_reordered": 0.14175154497596704
+  }
+ },
+ "rule_mean_cost_ms": 161.035808,
+ "one_weight_per_step": {
+  "numbers_in_form": 44,
+  "baseline": {
+   "equal_to_network_on_every_input": true,
+   "nonzero_numbers": 23,
+   "checks_read_from_weights": {
+    "monotone": true,
+    "primary_steps_matter": true,
+    "largest_to_smallest_primary_step": 1.3333333333333333,
+    "tiebreak_swing": 0,
+    "smallest_gap_between_other_settings": 1,
+    "tiebreak_only_breaks_ties": true,
+    "within_limits": true
+   }
+  },
+  "prefer_known": {
+   "equal_to_network_on_every_input": true,
+   "nonzero_numbers": 26,
+   "checks_read_from_weights": {
+    "monotone": true,
+    "primary_steps_matter": true,
+    "largest_to_smallest_primary_step": 1.3333333333333333,
+    "tiebreak_swing": 3,
+    "smallest_gap_between_other_settings": 4,
+    "tiebreak_only_breaks_ties": true,
+    "within_limits": true
+   }
+  },
+  "can_express": {
+   "trigger_one_cell": false,
+   "reviewer_club_age_and_balance": false,
+   "note": "both need a unit that fires on a combination of features; this form has none",
+   "reviewer_balance_lock": true
+  }
+ },
+ "seconds_total": 5.296859264373779
+}

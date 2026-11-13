@@ -1,0 +1,524 @@
+[
+ {
+  "world": "product",
+  "band_points": 0,
+  "decisions_with_a_choice": 0.03138166666666667,
+  "worst_possible_any_policy": 0.004040382976944867,
+  "best_possible_any_policy": -0.004123658531612007,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.004116390507715728,
+    "contested_share": 0.01351
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": -0.0003804065469987794,
+    "contested_share": 0.004203333333333333
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": -0.0030024026414545713,
+    "contested_share": 0.01343
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": -9.333203768724374e-06,
+    "contested_share": 0.0005216666666666667
+   }
+  }
+ },
+ {
+  "world": "product",
+  "band_points": 3,
+  "decisions_with_a_choice": 0.16976,
+  "worst_possible_any_policy": 0.039335619884323325,
+  "best_possible_any_policy": -0.018989095778774168,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.01890718388527679,
+    "contested_share": 0.059915
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.002304135587147371,
+    "contested_share": 0.05144833333333333
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": -0.008484024187655925,
+    "contested_share": 0.079385
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.0003555642879611298,
+    "contested_share": 0.0028283333333333333
+   }
+  }
+ },
+ {
+  "world": "product",
+  "band_points": 6,
+  "decisions_with_a_choice": 0.29911333333333334,
+  "worst_possible_any_policy": 0.09487616635916485,
+  "best_possible_any_policy": -0.02624622903776741,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.026103094353298384,
+    "contested_share": 0.08401666666666667
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.012964100849785831,
+    "contested_share": 0.09391
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": -0.0013168987831956303,
+    "contested_share": 0.14258
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.0012163577859616304,
+    "contested_share": 0.0052766666666666665
+   }
+  }
+ },
+ {
+  "world": "product",
+  "band_points": 9,
+  "decisions_with_a_choice": 0.41576166666666664,
+  "worst_possible_any_policy": 0.1727868987177381,
+  "best_possible_any_policy": -0.029511919834305456,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.029324682731094676,
+    "contested_share": 0.09508833333333333
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.02992605937958337,
+    "contested_share": 0.13151333333333334
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": 0.017748646990878525,
+    "contested_share": 0.201615
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.002470522974244771,
+    "contested_share": 0.007558333333333334
+   }
+  }
+ },
+ {
+  "world": "product",
+  "band_points": 12,
+  "decisions_with_a_choice": 0.520245,
+  "worst_possible_any_policy": 0.2723730958392647,
+  "best_possible_any_policy": -0.03087580275487134,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.0306736565658573,
+    "contested_share": 0.10065333333333333
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.051599832000674306,
+    "contested_share": 0.16518
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": 0.04751101418298709,
+    "contested_share": 0.2568183333333333
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.0041960051088012484,
+    "contested_share": 0.009885
+   }
+  }
+ },
+ {
+  "world": "product",
+  "band_points": 18,
+  "decisions_with_a_choice": 0.6903166666666667,
+  "worst_possible_any_policy": 0.5283787707670351,
+  "best_possible_any_policy": -0.031372047966168104,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.031160671158837916,
+    "contested_share": 0.10361166666666667
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.1031180111620249,
+    "contested_share": 0.21976166666666666
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": 0.13139271520452223,
+    "contested_share": 0.35170666666666667
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.009024646415119353,
+    "contested_share": 0.014256666666666667
+   }
+  }
+ },
+ {
+  "world": "product",
+  "band_points": 24,
+  "decisions_with_a_choice": 0.8132966666666667,
+  "worst_possible_any_policy": 0.8357261105233018,
+  "best_possible_any_policy": -0.03138868649763449,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.031175933594533745,
+    "contested_share": 0.10378
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.15575074603638517,
+    "contested_share": 0.25899
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": 0.23546800821828873,
+    "contested_share": 0.42737833333333336
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.01491772370535882,
+    "contested_share": 0.018095
+   }
+  }
+ },
+ {
+  "world": "product",
+  "band_points": 40,
+  "decisions_with_a_choice": 0.962795,
+  "worst_possible_any_policy": 1.6386854637494195,
+  "best_possible_any_policy": -0.03138868649763449,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.031175933594533745,
+    "contested_share": 0.10378
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.23715307790175277,
+    "contested_share": 0.30208
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": 0.49482997969416287,
+    "contested_share": 0.5374633333333333
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.03183232091490962,
+    "contested_share": 0.025111666666666668
+   }
+  }
+ },
+ {
+  "world": "product",
+  "band_points": "none",
+  "decisions_with_a_choice": 0.985985,
+  "worst_possible_any_policy": 2.1154927036661455,
+  "best_possible_any_policy": -0.03138868649763449,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.031175933594533745,
+    "contested_share": 0.10378
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.24063253502131898,
+    "contested_share": 0.30350333333333335
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": 0.627163408681696,
+    "contested_share": 0.5645066666666667
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.04191739108290826,
+    "contested_share": 0.027448333333333335
+   }
+  }
+ },
+ {
+  "world": "timeout",
+  "band_points": 0,
+  "decisions_with_a_choice": 0.03138166666666667,
+  "worst_possible_any_policy": 0.003690954989743922,
+  "best_possible_any_policy": -0.0037213048043857055,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.0035026436008838147,
+    "contested_share": 0.013521666666666666
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.0013396052954874893,
+    "contested_share": 0.004203333333333333
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": -0.002673479616198793,
+    "contested_share": 0.01343
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": -5.338199685844813e-06,
+    "contested_share": 0.0005216666666666667
+   }
+  }
+ },
+ {
+  "world": "timeout",
+  "band_points": 3,
+  "decisions_with_a_choice": 0.16976,
+  "worst_possible_any_policy": 0.034629905997009436,
+  "best_possible_any_policy": -0.01726120883168114,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.015626056332835425,
+    "contested_share": 0.06288166666666667
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.018584523031477618,
+    "contested_share": 0.05144833333333333
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": -0.006242537313632224,
+    "contested_share": 0.079385
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.0002818894113154613,
+    "contested_share": 0.0028283333333333333
+   }
+  }
+ },
+ {
+  "world": "timeout",
+  "band_points": 6,
+  "decisions_with_a_choice": 0.29911333333333334,
+  "worst_possible_any_policy": 0.08130421649077246,
+  "best_possible_any_policy": -0.023659176971962737,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.020723706319623725,
+    "contested_share": 0.091315
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.04186952563428781,
+    "contested_share": 0.09391
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": 0.000911712102206419,
+    "contested_share": 0.14258
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.0009703103623641685,
+    "contested_share": 0.0052766666666666665
+   }
+  }
+ },
+ {
+  "world": "timeout",
+  "band_points": 9,
+  "decisions_with_a_choice": 0.41576166666666664,
+  "worst_possible_any_policy": 0.14507232627828137,
+  "best_possible_any_policy": -0.026146209396072373,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.02220569377658621,
+    "contested_share": 0.10295333333333333
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.06958866228174188,
+    "contested_share": 0.13151333333333334
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": 0.01776372393193948,
+    "contested_share": 0.201615
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.00198891439782356,
+    "contested_share": 0.007558333333333334
+   }
+  }
+ },
+ {
+  "world": "timeout",
+  "band_points": 12,
+  "decisions_with_a_choice": 0.520245,
+  "worst_possible_any_policy": 0.22586784332193321,
+  "best_possible_any_policy": -0.026998819157351583,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.02240957707581248,
+    "contested_share": 0.10763166666666667
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.1006676678802012,
+    "contested_share": 0.16518
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": 0.043231122503220476,
+    "contested_share": 0.2568183333333333
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.003457599416964552,
+    "contested_share": 0.009885
+   }
+  }
+ },
+ {
+  "world": "timeout",
+  "band_points": 18,
+  "decisions_with_a_choice": 0.6903166666666667,
+  "worst_possible_any_policy": 0.42873690104824336,
+  "best_possible_any_policy": -0.02724824258165426,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.022148980374897542,
+    "contested_share": 0.10991666666666666
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.16660907113613965,
+    "contested_share": 0.21976166666666666
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": 0.1130079623564113,
+    "contested_share": 0.35170666666666667
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.0072940423278700095,
+    "contested_share": 0.014256666666666667
+   }
+  }
+ },
+ {
+  "world": "timeout",
+  "band_points": 24,
+  "decisions_with_a_choice": 0.8132966666666667,
+  "worst_possible_any_policy": 0.6652947157719167,
+  "best_possible_any_policy": -0.027251323156514462,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.022140255193908387,
+    "contested_share": 0.109935
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.2287052418815838,
+    "contested_share": 0.25899
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": 0.19766310433265977,
+    "contested_share": 0.42737833333333336
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.012053833956681359,
+    "contested_share": 0.018095
+   }
+  }
+ },
+ {
+  "world": "timeout",
+  "band_points": 40,
+  "decisions_with_a_choice": 0.962795,
+  "worst_possible_any_policy": 1.236481015285766,
+  "best_possible_any_policy": -0.027251323156514462,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.022140255193908387,
+    "contested_share": 0.109935
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.31839328948965107,
+    "contested_share": 0.30208
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": 0.39453181012606797,
+    "contested_share": 0.5374633333333333
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.02494752282055379,
+    "contested_share": 0.025111666666666668
+   }
+  }
+ },
+ {
+  "world": "timeout",
+  "band_points": "none",
+  "decisions_with_a_choice": 0.985985,
+  "worst_possible_any_policy": 1.519473447979498,
+  "best_possible_any_policy": -0.027251323156514462,
+  "named": {
+   "honest fit (20,000 logged decisions)": {
+    "change_in_cost": -0.022140255193908387,
+    "contested_share": 0.109935
+   },
+   "hostile: one loss step priced at 32 rtt steps (Version 3's worst)": {
+    "change_in_cost": 0.32206637169475094,
+    "contested_share": 0.30350333333333335
+   },
+   "hostile: worst step-weight patch inside Version 3's limits": {
+    "change_in_cost": 0.4790315700122665,
+    "contested_share": 0.5645066666666667
+   },
+   "hostile: latency and loss stop mattering": {
+    "change_in_cost": 0.0,
+    "contested_share": 0.0
+   },
+   "hostile: top age with top balance wins (reviewer's club)": {
+    "change_in_cost": 0.03167988485881956,
+    "contested_share": 0.027448333333333335
+   }
+  }
+ }
+]

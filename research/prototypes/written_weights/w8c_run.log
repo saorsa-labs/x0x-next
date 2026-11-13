@@ -1,0 +1,153 @@
+[product] honest fit                                   | old: 10% of all decisions, no band | full   -3.1% | adopt   8% stop   6% rej  87% | median    40884 dec | harm rate -0.32% | excess -117.6 | extra msgs 0 | 3s
+[product] honest fit                                   | split: band 3, 10% of contested de | full   -1.9% | adopt  98% stop   2% rej   0% | median    40566 dec | harm rate -0.19% | excess  -79.4 | extra msgs 0 | 5s
+[product] honest fit                                   | twin: band 3, 20% of contested dec | full   -1.9% | adopt  99% stop   1% rej   0% | median    20629 dec | harm rate +0.00% | excess   +0.0 | extra msgs 254 | 6s
+[product] honest fit                                   | split: band 6, 10% of contested de | full   -2.6% | adopt 100% stop   0% rej   0% | median    29280 dec | harm rate -0.26% | excess  -82.4 | extra msgs 0 | 8s
+[product] honest fit                                   | twin: band 6, 20% of contested dec | full   -2.6% | adopt 100% stop   0% rej   0% | median    15057 dec | harm rate +0.00% | excess   +0.0 | extra msgs 275 | 9s
+[product] hostile: Version 3's worst (one loss step =  | old: 10% of all decisions, no band | full  +24.1% | adopt   0% stop 100% rej   0% | median     1277 dec | harm rate +2.77% | excess  +39.9 | extra msgs 0 | 11s
+[product] hostile: Version 3's worst (one loss step =  | split: band 3, 10% of contested de | full   +0.2% | adopt   0% stop 100% rej   0% | median    23752 dec | harm rate +0.02% | excess   +7.0 | extra msgs 0 | 13s
+[product] hostile: Version 3's worst (one loss step =  | twin: band 3, 20% of contested dec | full   +0.2% | adopt   0% stop 100% rej   0% | median    13023 dec | harm rate +0.00% | excess   +0.0 | extra msgs 189 | 14s
+[product] hostile: Version 3's worst (one loss step =  | split: band 6, 10% of contested de | full   +1.3% | adopt   0% stop 100% rej   0% | median     6224 dec | harm rate +0.12% | excess   +9.9 | extra msgs 0 | 16s
+[product] hostile: Version 3's worst (one loss step =  | twin: band 6, 20% of contested dec | full   +1.3% | adopt   0% stop 100% rej   0% | median     3610 dec | harm rate +0.00% | excess   +0.0 | extra msgs 98 | 17s
+[product] hostile: worst step-weight patch inside Vers | old: 10% of all decisions, no band | full  +62.7% | adopt   0% stop 100% rej   0% | median      293 dec | harm rate +7.09% | excess  +23.6 | extra msgs 0 | 19s
+[product] hostile: worst step-weight patch inside Vers | split: band 3, 10% of contested de | full   -0.8% | adopt  30% stop   6% rej  64% | median   514373 dec | harm rate -0.08% | excess -376.6 | extra msgs 0 | 21s
+[product] hostile: worst step-weight patch inside Vers | twin: band 3, 20% of contested dec | full   -0.8% | adopt  42% stop   5% rej  53% | median   257114 dec | harm rate +0.00% | excess   +0.0 | extra msgs 3475 | 22s
+[product] hostile: worst step-weight patch inside Vers | split: band 6, 10% of contested de | full   -0.1% | adopt   0% stop  92% rej   8% | median   141107 dec | harm rate -0.02% | excess  -19.0 | extra msgs 0 | 24s
+[product] hostile: worst step-weight patch inside Vers | twin: band 6, 20% of contested dec | full   -0.1% | adopt   0% stop  97% rej   3% | median    69207 dec | harm rate +0.00% | excess   +0.0 | extra msgs 1803 | 25s
+[product] hostile: worst possible policy of any form   | old: 10% of all decisions, no band | full +211.5% | adopt   0% stop 100% rej   0% | median       77 dec | harm rate +24.50% | excess  +17.9 | extra msgs 0 | 27s
+[product] hostile: worst possible policy of any form   | split: band 3, 10% of contested de | full   +3.9% | adopt   0% stop 100% rej   0% | median     4733 dec | harm rate +0.43% | excess  +23.9 | extra msgs 0 | 29s
+[product] hostile: worst possible policy of any form   | twin: band 3, 20% of contested dec | full   +3.9% | adopt   0% stop 100% rej   0% | median     1489 dec | harm rate +0.00% | excess   +0.0 | extra msgs 48 | 30s
+[product] hostile: worst possible policy of any form   | split: band 6, 10% of contested de | full   +9.5% | adopt   0% stop 100% rej   0% | median     1452 dec | harm rate +1.05% | excess  +19.6 | extra msgs 0 | 33s
+[product] hostile: worst possible policy of any form   | twin: band 6, 20% of contested dec | full   +9.5% | adopt   0% stop 100% rej   0% | median      473 dec | harm rate +0.00% | excess   +0.0 | extra msgs 30 | 34s
+[product] careless: picks at random among the candidat | old: 10% of all decisions, no band | full  +96.9% | adopt   0% stop 100% rej   0% | median      158 dec | harm rate +11.36% | excess  +21.8 | extra msgs 0 | 36s
+[product] careless: picks at random among the candidat | split: band 3, 10% of contested de | full   +1.0% | adopt   0% stop 100% rej   0% | median    56223 dec | harm rate +0.11% | excess  +58.1 | extra msgs 0 | 38s
+[product] careless: picks at random among the candidat | twin: band 3, 20% of contested dec | full   +1.0% | adopt   0% stop 100% rej   0% | median    15180 dec | harm rate +0.00% | excess   +0.0 | extra msgs 390 | 39s
+[product] careless: picks at random among the candidat | split: band 6, 10% of contested de | full   +3.4% | adopt   0% stop 100% rej   0% | median     7984 dec | harm rate +0.38% | excess  +35.4 | extra msgs 0 | 41s
+[product] careless: picks at random among the candidat | twin: band 6, 20% of contested dec | full   +3.4% | adopt   0% stop 100% rej   0% | median     3498 dec | harm rate +0.00% | excess   +0.0 | extra msgs 118 | 42s
+[product] no effect: changes picks but not costs (meas | old: 10% of all decisions, no band | full   +0.0% | adopt   0% stop   8% rej  92% | median    40903 dec | harm rate +0.00% | excess   +0.0 | extra msgs 0 | 44s
+[product] no effect: changes picks but not costs (meas | split: band 3, 10% of contested de | full   +0.0% | adopt   0% stop  10% rej  90% | median   380691 dec | harm rate +0.00% | excess   +0.0 | extra msgs 0 | 46s
+[product] no effect: changes picks but not costs (meas | twin: band 3, 20% of contested dec | full   +0.0% | adopt   0% stop  13% rej  87% | median   189882 dec | harm rate +0.00% | excess   +0.0 | extra msgs 3647 | 47s
+[product] no effect: changes picks but not costs (meas | split: band 6, 10% of contested de | full   +0.0% | adopt   0% stop  11% rej  89% | median   186508 dec | harm rate +0.00% | excess   +0.0 | extra msgs 0 | 49s
+[product] no effect: changes picks but not costs (meas | twin: band 6, 20% of contested dec | full   +0.0% | adopt   0% stop  14% rej  86% | median    93263 dec | harm rate +0.00% | excess   +0.0 | extra msgs 3607 | 50s
+[product] WATCH honest fit inside band 3 (a revert here  | control: 10% of contested de | harm   -1.9% | reverted   1% | median  855612 dec | excess -14450.2
+[product] WATCH honest fit inside band 3 (a revert here  | twin: 10% of contested decis | harm   -1.9% | reverted   1% | median  855612 dec | excess -16012.7
+[product] WATCH honest fit inside band 3 (a revert here  | twin: 30%                    | harm   -1.9% | reverted   1% | median  285905 dec | excess -5366.9
+[product] WATCH honest fit inside band 6 (a revert here  | control: 10% of contested de | harm   -2.6% | reverted   2% | median  610165 dec | excess -14114.1
+[product] WATCH honest fit inside band 6 (a revert here  | twin: 10% of contested decis | harm   -2.6% | reverted   1% | median  610165 dec | excess -15805.3
+[product] WATCH honest fit inside band 6 (a revert here  | twin: 30%                    | harm   -2.6% | reverted   0% | median  203888 dec | excess -5297.7
+[product] WATCH worst possible inside band 3             | control: 10% of contested de | harm   +3.9% | reverted 100% | median    2876 dec | excess  +178.7
+[product] WATCH worst possible inside band 3             | twin: 10% of contested decis | harm   +3.9% | reverted 100% | median    2946 dec | excess  +157.6
+[product] WATCH worst possible inside band 3             | twin: 30%                    | harm   +3.9% | reverted 100% | median     987 dec | excess   +56.3
+[product] WATCH worst possible inside band 6             | control: 10% of contested de | harm   +9.5% | reverted 100% | median    1190 dec | excess  +157.1
+[product] WATCH worst possible inside band 6             | twin: 10% of contested decis | harm   +9.5% | reverted 100% | median     950 dec | excess  +131.5
+[product] WATCH worst possible inside band 6             | twin: 30%                    | harm   +9.5% | reverted 100% | median     404 dec | excess   +44.7
+[product] WATCH Version 3's worst, no band               | control: 10% of contested de | harm  +24.1% | reverted 100% | median     399 dec | excess  +110.8
+[product] WATCH Version 3's worst, no band               | twin: 10% of contested decis | harm  +24.1% | reverted 100% | median     371 dec | excess  +121.0
+[product] WATCH Version 3's worst, no band               | twin: 30%                    | harm  +24.1% | reverted 100% | median     127 dec | excess   +40.3
+[product] WATCH worst inside Version 3's limits, no band | control: 10% of contested de | harm  +62.7% | reverted 100% | median     161 dec | excess  +117.0
+[product] WATCH worst inside Version 3's limits, no band | twin: 10% of contested decis | harm  +62.7% | reverted 100% | median     181 dec | excess  +149.4
+[product] WATCH worst inside Version 3's limits, no band | twin: 30%                    | harm  +62.7% | reverted 100% | median      62 dec | excess   +49.2
+[product] MILD each pick at most 1.06  | control: 10% of contested  | harm +0.05% | removed  69.2% | median   3906892 dec | total harm +1159.1
+[product] MILD each pick at most 1.06  | twin: 10% of contested dec | harm +0.05% | removed  77.5% | median   3831277 dec | total harm +1242.2
+[product] MILD each pick at most 1.06  | twin: 30%                  | harm +0.05% | removed  67.2% | median   1301976 dec | total harm  +449.9
+[product] MILD each pick at most 1.1   | control: 10% of contested  | harm +0.19% | removed  99.2% | median    455629 dec | total harm  +999.9
+[product] MILD each pick at most 1.1   | twin: 10% of contested dec | harm +0.19% | removed  99.8% | median    449776 dec | total harm  +924.4
+[product] MILD each pick at most 1.1   | twin: 30%                  | harm +0.19% | removed  99.8% | median    146659 dec | total harm  +297.2
+[product] MILD each pick at most 1.2   | control: 10% of contested  | harm +0.60% | removed 100.0% | median     59910 dec | total harm  +485.8
+[product] MILD each pick at most 1.2   | twin: 10% of contested dec | harm +0.60% | removed 100.0% | median     61112 dec | total harm  +543.3
+[product] MILD each pick at most 1.2   | twin: 30%                  | harm +0.60% | removed 100.0% | median     20339 dec | total harm  +174.0
+[product] MILD each pick at most 1.5   | control: 10% of contested  | harm +2.17% | removed 100.0% | median      7619 dec | total harm  +269.2
+[product] MILD each pick at most 1.5   | twin: 10% of contested dec | harm +2.17% | removed 100.0% | median      8456 dec | total harm  +279.9
+[product] MILD each pick at most 1.5   | twin: 30%                  | harm +2.17% | removed 100.0% | median      2848 dec | total harm   +92.1
+[product] MILD each pick at most None  | control: 10% of contested  | harm +3.93% | removed 100.0% | median      3094 dec | total harm  +197.7
+[product] MILD each pick at most None  | twin: 10% of contested dec | harm +3.93% | removed 100.0% | median      3006 dec | total harm  +153.2
+[product] MILD each pick at most None  | twin: 30%                  | harm +3.93% | removed 100.0% | median       931 dec | total harm   +50.5
+[product] COPIES served at 1.0 of the true cost | adopted   0.0% stopped 100.0% no verdict   0.0%
+[product] COPIES served at 0.9 of the true cost | adopted   0.0% stopped 100.0% no verdict   0.0%
+[product] COPIES served at 0.8 of the true cost | adopted   0.0% stopped 100.0% no verdict   0.0%
+[product] COPIES served at 0.7 of the true cost | adopted  55.8% stopped   4.0% no verdict  40.2%
+[product] COPIES served at 0.6 of the true cost | adopted  99.5% stopped   0.5% no verdict   0.0%
+[product] TRIES no effect: true harm +0.000% | adopted in 0.12% of 4,000 trials
+[product] TRIES 1.03: true harm +0.013% | adopted in 0.05% of 4,000 trials
+[product] TRIES 1.06: true harm +0.046% | adopted in 0.00% of 4,000 trials
+[product] EXPLORE 10% of decisions at random among all candidates (as in experiment W3): +21.56%
+[product] EXPLORE 10% at random among eligible candidates: +9.61%
+[product] EXPLORE 2% at random among eligible candidates: +1.98%
+[product] EXPLORE 10% at random inside band 3: +0.10%
+[product] EXPLORE 10% at random inside band 6: +0.34%
+[timeout] honest fit                                   | old: 10% of all decisions, no band | full   -2.2% | adopt   4% stop   6% rej  90% | median    40860 dec | harm rate -0.23% | excess  -84.4 | extra msgs 0 | 128s
+[timeout] honest fit                                   | split: band 3, 10% of contested de | full   -1.6% | adopt  99% stop   1% rej   0% | median    40799 dec | harm rate -0.16% | excess  -76.4 | extra msgs 0 | 130s
+[timeout] honest fit                                   | twin: band 3, 20% of contested dec | full   -1.6% | adopt 100% stop   0% rej   0% | median    20515 dec | harm rate +0.00% | excess   +0.0 | extra msgs 326 | 131s
+[timeout] honest fit                                   | split: band 6, 10% of contested de | full   -2.1% | adopt  99% stop   1% rej   0% | median    28155 dec | harm rate -0.21% | excess  -76.1 | extra msgs 0 | 133s
+[timeout] honest fit                                   | twin: band 6, 20% of contested dec | full   -2.1% | adopt 100% stop   0% rej   0% | median    14915 dec | harm rate +0.00% | excess   +0.0 | extra msgs 399 | 134s
+[timeout] hostile: Version 3's worst (one loss step =  | old: 10% of all decisions, no band | full  +32.2% | adopt   0% stop 100% rej   0% | median      634 dec | harm rate +3.54% | excess  +29.8 | extra msgs 0 | 136s
+[timeout] hostile: Version 3's worst (one loss step =  | split: band 3, 10% of contested de | full   +1.9% | adopt   0% stop 100% rej   0% | median     5676 dec | harm rate +0.19% | excess  +13.9 | extra msgs 0 | 138s
+[timeout] hostile: Version 3's worst (one loss step =  | twin: band 3, 20% of contested dec | full   +1.9% | adopt   0% stop 100% rej   0% | median     2935 dec | harm rate +0.00% | excess   +0.0 | extra msgs 39 | 139s
+[timeout] hostile: Version 3's worst (one loss step =  | split: band 6, 10% of contested de | full   +4.2% | adopt   0% stop 100% rej   0% | median     2039 dec | harm rate +0.45% | excess  +11.6 | extra msgs 0 | 141s
+[timeout] hostile: Version 3's worst (one loss step =  | twin: band 6, 20% of contested dec | full   +4.2% | adopt   0% stop 100% rej   0% | median      942 dec | harm rate +0.00% | excess   +0.0 | extra msgs 28 | 142s
+[timeout] hostile: worst step-weight patch inside Vers | old: 10% of all decisions, no band | full  +47.9% | adopt   0% stop 100% rej   0% | median      312 dec | harm rate +5.32% | excess  +22.2 | extra msgs 0 | 144s
+[timeout] hostile: worst step-weight patch inside Vers | split: band 3, 10% of contested de | full   -0.6% | adopt  15% stop   6% rej  80% | median   514404 dec | harm rate -0.06% | excess -291.6 | extra msgs 0 | 146s
+[timeout] hostile: worst step-weight patch inside Vers | twin: band 3, 20% of contested dec | full   -0.6% | adopt  15% stop   7% rej  78% | median   256831 dec | harm rate +0.00% | excess   +0.0 | extra msgs 3644 | 147s
+[timeout] hostile: worst step-weight patch inside Vers | split: band 6, 10% of contested de | full   +0.1% | adopt   0% stop  98% rej   2% | median    72191 dec | harm rate +0.01% | excess   +8.9 | extra msgs 0 | 149s
+[timeout] hostile: worst step-weight patch inside Vers | twin: band 6, 20% of contested dec | full   +0.1% | adopt   0% stop  99% rej   1% | median    36558 dec | harm rate +0.00% | excess   +0.0 | extra msgs 1547 | 150s
+[timeout] hostile: worst possible policy of any form   | old: 10% of all decisions, no band | full +151.9% | adopt   0% stop 100% rej   0% | median       78 dec | harm rate +16.74% | excess  +12.3 | extra msgs 0 | 153s
+[timeout] hostile: worst possible policy of any form   | split: band 3, 10% of contested de | full   +3.5% | adopt   0% stop 100% rej   0% | median     5219 dec | harm rate +0.36% | excess  +20.0 | extra msgs 0 | 155s
+[timeout] hostile: worst possible policy of any form   | twin: band 3, 20% of contested dec | full   +3.5% | adopt   0% stop 100% rej   0% | median     1479 dec | harm rate +0.00% | excess   +0.0 | extra msgs 45 | 156s
+[timeout] hostile: worst possible policy of any form   | split: band 6, 10% of contested de | full   +8.1% | adopt   0% stop 100% rej   0% | median     1596 dec | harm rate +0.87% | excess  +17.4 | extra msgs 0 | 158s
+[timeout] hostile: worst possible policy of any form   | twin: band 6, 20% of contested dec | full   +8.1% | adopt   0% stop 100% rej   0% | median      669 dec | harm rate +0.00% | excess   +0.0 | extra msgs 34 | 159s
+[timeout] careless: picks at random among the candidat | old: 10% of all decisions, no band | full  +72.5% | adopt   0% stop 100% rej   0% | median      160 dec | harm rate +8.32% | excess  +16.6 | extra msgs 0 | 161s
+[timeout] careless: picks at random among the candidat | split: band 3, 10% of contested de | full   +0.9% | adopt   0% stop 100% rej   0% | median    54857 dec | harm rate +0.09% | excess  +47.0 | extra msgs 0 | 163s
+[timeout] careless: picks at random among the candidat | twin: band 3, 20% of contested dec | full   +0.9% | adopt   0% stop 100% rej   0% | median    15301 dec | harm rate +0.00% | excess   +0.0 | extra msgs 433 | 164s
+[timeout] careless: picks at random among the candidat | split: band 6, 10% of contested de | full   +2.9% | adopt   0% stop 100% rej   0% | median     8048 dec | harm rate +0.31% | excess  +31.7 | extra msgs 0 | 166s
+[timeout] careless: picks at random among the candidat | twin: band 6, 20% of contested dec | full   +2.9% | adopt   0% stop 100% rej   0% | median     3949 dec | harm rate +0.00% | excess   +0.0 | extra msgs 149 | 167s
+[timeout] no effect: changes picks but not costs (meas | old: 10% of all decisions, no band | full   +0.0% | adopt   0% stop  11% rej  89% | median    40836 dec | harm rate +0.00% | excess   +0.0 | extra msgs 0 | 169s
+[timeout] no effect: changes picks but not costs (meas | split: band 3, 10% of contested de | full   +0.0% | adopt   0% stop  12% rej  87% | median   394528 dec | harm rate +0.00% | excess   +0.0 | extra msgs 0 | 171s
+[timeout] no effect: changes picks but not costs (meas | twin: band 3, 20% of contested dec | full   +0.0% | adopt   0% stop  13% rej  86% | median   197406 dec | harm rate +0.00% | excess   +0.0 | extra msgs 3674 | 172s
+[timeout] no effect: changes picks but not costs (meas | split: band 6, 10% of contested de | full   +0.0% | adopt   0% stop  11% rej  88% | median   195258 dec | harm rate +0.00% | excess   +0.0 | extra msgs 0 | 174s
+[timeout] no effect: changes picks but not costs (meas | twin: band 6, 20% of contested dec | full   +0.0% | adopt   0% stop  13% rej  87% | median    97517 dec | harm rate +0.00% | excess   +0.0 | extra msgs 3644 | 175s
+[timeout] WATCH honest fit inside band 3 (a revert here  | control: 10% of contested de | harm   -1.6% | reverted   6% | median  815246 dec | excess -10810.1
+[timeout] WATCH honest fit inside band 3 (a revert here  | twin: 10% of contested decis | harm   -1.6% | reverted   0% | median  815246 dec | excess -12739.6
+[timeout] WATCH honest fit inside band 3 (a revert here  | twin: 30%                    | harm   -1.6% | reverted   2% | median  272416 dec | excess -4189.3
+[timeout] WATCH honest fit inside band 6 (a revert here  | control: 10% of contested de | harm   -2.1% | reverted   3% | median  561397 dec | excess -10182.6
+[timeout] WATCH honest fit inside band 6 (a revert here  | twin: 10% of contested decis | harm   -2.1% | reverted   1% | median  561397 dec | excess -11486.6
+[timeout] WATCH honest fit inside band 6 (a revert here  | twin: 30%                    | harm   -2.1% | reverted   1% | median  187592 dec | excess -3859.5
+[timeout] WATCH worst possible inside band 3             | control: 10% of contested de | harm   +3.5% | reverted 100% | median    2721 dec | excess  +157.3
+[timeout] WATCH worst possible inside band 3             | twin: 10% of contested decis | harm   +3.5% | reverted 100% | median    3049 dec | excess  +155.9
+[timeout] WATCH worst possible inside band 3             | twin: 30%                    | harm   +3.5% | reverted 100% | median    1025 dec | excess   +47.6
+[timeout] WATCH worst possible inside band 6             | control: 10% of contested de | harm   +8.1% | reverted 100% | median    1259 dec | excess  +137.1
+[timeout] WATCH worst possible inside band 6             | twin: 10% of contested decis | harm   +8.1% | reverted 100% | median    1070 dec | excess  +126.8
+[timeout] WATCH worst possible inside band 6             | twin: 30%                    | harm   +8.1% | reverted 100% | median     440 dec | excess   +45.8
+[timeout] WATCH Version 3's worst, no band               | control: 10% of contested de | harm  +32.2% | reverted 100% | median     277 dec | excess   +96.8
+[timeout] WATCH Version 3's worst, no band               | twin: 10% of contested decis | harm  +32.2% | reverted 100% | median     303 dec | excess  +119.4
+[timeout] WATCH Version 3's worst, no band               | twin: 30%                    | harm  +32.2% | reverted 100% | median      96 dec | excess   +38.1
+[timeout] WATCH worst inside Version 3's limits, no band | control: 10% of contested de | harm  +47.9% | reverted 100% | median     170 dec | excess   +97.9
+[timeout] WATCH worst inside Version 3's limits, no band | twin: 10% of contested decis | harm  +47.9% | reverted 100% | median     221 dec | excess  +137.4
+[timeout] WATCH worst inside Version 3's limits, no band | twin: 30%                    | harm  +47.9% | reverted 100% | median      66 dec | excess   +42.5
+[timeout] MILD each pick at most 1.06  | control: 10% of contested  | harm +0.05% | removed  80.2% | median   2036842 dec | total harm +1057.3
+[timeout] MILD each pick at most 1.06  | twin: 10% of contested dec | harm +0.05% | removed  74.8% | median   3027395 dec | total harm +1340.6
+[timeout] MILD each pick at most 1.06  | twin: 30%                  | harm +0.05% | removed  75.5% | median   1322979 dec | total harm  +456.4
+[timeout] MILD each pick at most 1.1   | control: 10% of contested  | harm +0.19% | removed 100.0% | median    242738 dec | total harm  +848.6
+[timeout] MILD each pick at most 1.1   | twin: 10% of contested dec | harm +0.19% | removed 100.0% | median    453359 dec | total harm  +896.1
+[timeout] MILD each pick at most 1.1   | twin: 30%                  | harm +0.19% | removed 100.0% | median    150598 dec | total harm  +313.8
+[timeout] MILD each pick at most 1.2   | control: 10% of contested  | harm +0.61% | removed 100.0% | median     61049 dec | total harm  +476.7
+[timeout] MILD each pick at most 1.2   | twin: 10% of contested dec | harm +0.61% | removed 100.0% | median     63556 dec | total harm  +570.4
+[timeout] MILD each pick at most 1.2   | twin: 30%                  | harm +0.61% | removed 100.0% | median     20667 dec | total harm  +190.6
+[timeout] MILD each pick at most 1.5   | control: 10% of contested  | harm +2.04% | removed 100.0% | median      8536 dec | total harm  +246.9
+[timeout] MILD each pick at most 1.5   | twin: 10% of contested dec | harm +2.04% | removed 100.0% | median      8708 dec | total harm  +279.9
+[timeout] MILD each pick at most 1.5   | twin: 30%                  | harm +2.04% | removed 100.0% | median      3006 dec | total harm   +95.7
+[timeout] MILD each pick at most None  | control: 10% of contested  | harm +3.46% | removed 100.0% | median      3313 dec | total harm  +163.7
+[timeout] MILD each pick at most None  | twin: 10% of contested dec | harm +3.46% | removed 100.0% | median      3037 dec | total harm  +154.5
+[timeout] MILD each pick at most None  | twin: 30%                  | harm +3.46% | removed 100.0% | median       956 dec | total harm   +49.4
+[timeout] COPIES served at 1.0 of the true cost | adopted   0.0% stopped 100.0% no verdict   0.0%
+[timeout] COPIES served at 0.9 of the true cost | adopted   0.0% stopped 100.0% no verdict   0.0%
+[timeout] COPIES served at 0.8 of the true cost | adopted   0.0% stopped 100.0% no verdict   0.0%
+[timeout] COPIES served at 0.7 of the true cost | adopted  75.0% stopped   3.5% no verdict  21.5%
+[timeout] COPIES served at 0.6 of the true cost | adopted  98.8% stopped   1.2% no verdict   0.0%
+[timeout] TRIES no effect: true harm +0.000% | adopted in 0.18% of 4,000 trials
+[timeout] TRIES 1.03: true harm +0.013% | adopted in 0.10% of 4,000 trials
+[timeout] TRIES 1.06: true harm +0.048% | adopted in 0.07% of 4,000 trials
+[timeout] EXPLORE 10% of decisions at random among all candidates (as in experiment W3): +21.71%
+[timeout] EXPLORE 10% at random among eligible candidates: +7.16%
+[timeout] EXPLORE 2% at random among eligible candidates: +1.47%
+[timeout] EXPLORE 10% at random inside band 3: +0.08%
+[timeout] EXPLORE 10% at random inside band 6: +0.29%
+exit 0

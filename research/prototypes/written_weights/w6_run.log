@@ -1,0 +1,316 @@
+
+[loss penalty] spread 0.0  (52s)
+   best possible                                                                  mean   -2.7% | median   -2.7% | worst-served tenth   -2.7% | made worse    0% | worst node   -2.7%
+   best possible inside band 3                                                    mean   -1.7% | median   -1.7% | worst-served tenth   -1.7% | made worse    0% | worst node   -1.7%
+   best possible inside band 6                                                    mean   -2.4% | median   -2.4% | worst-served tenth   -2.4% | made worse    0% | worst node   -2.4%
+   best possible inside band 12                                                   mean   -2.7% | median   -2.7% | worst-served tenth   -2.7% | made worse    0% | worst node   -2.7%
+   worst possible inside band 3                                                   mean   +3.5% | median   +3.5% | worst-served tenth   +3.5% | made worse  100% | worst node   +3.5%
+   worst possible inside band 6                                                   mean   +8.1% | median   +8.1% | worst-served tenth   +8.1% | made worse  100% | worst node   +8.1%
+   worst possible inside band 12                                                  mean  +22.4% | median  +22.4% | worst-served tenth  +22.4% | made worse  100% | worst node  +22.4%
+   worst possible with no band                                                    mean +151.6% | median +151.6% | worst-served tenth +151.6% | made worse  100% | worst node +151.6%
+   one table for all nodes                                                        mean   -2.1% | median   -2.1% | worst-served tenth   -2.1% | made worse    0% | worst node   -2.1%
+   three profiles                                                                 mean   -2.1% | median   -2.1% | worst-served tenth   -2.1% | made worse    0% | worst node   -2.1%
+   one table for all nodes, tuned directly on every node's true costs             mean   -2.6% | median   -2.6% | worst-served tenth   -2.6% | made worse    0% | worst node   -2.6%
+   a formula per node, right form, one constant, 500 logged decisions             mean   -2.7% | median   -2.7% | worst-served tenth   -2.7% | made worse    0% | worst node   -2.6%
+   a formula per node, wrong form, 500 logged decisions                           mean   -1.3% | median   -1.3% | worst-served tenth   -1.3% | made worse    0% | worst node   -0.5%
+   a formula per node, right form, one constant, 2000 logged decisions            mean   -2.7% | median   -2.7% | worst-served tenth   -2.7% | made worse    0% | worst node   -2.7%
+   a formula per node, wrong form, 2000 logged decisions                          mean   -1.3% | median   -1.3% | worst-served tenth   -1.3% | made worse    0% | worst node   -0.9%
+   a table per node, 500 logged decisions, ratio limit 32                         mean   -1.6% | median   -1.6% | worst-served tenth   -1.6% | made worse    0% | worst node   -0.6%
+   a table per node, 500 logged decisions, ratio limit 1024                       mean   -1.4% | median   -1.5% | worst-served tenth   -1.5% | made worse    0% | worst node   -0.1%
+   a table per node, 2000 logged decisions, ratio limit 32                        mean   -2.0% | median   -2.0% | worst-served tenth   -1.9% | made worse    0% | worst node   -1.5%
+   a table per node, 2000 logged decisions, ratio limit 1024                      mean   -1.9% | median   -1.9% | worst-served tenth   -1.8% | made worse    0% | worst node   -0.8%
+   a table per node, 20000 logged decisions, ratio limit 32                       mean   -2.1% | median   -2.1% | worst-served tenth   -2.1% | made worse    0% | worst node   -2.0%
+   a table per node, 20000 logged decisions, ratio limit 1024                     mean   -2.1% | median   -2.1% | worst-served tenth   -2.1% | made worse    0% | worst node   -2.0%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 3      mean   -1.5% | median   -1.5% | worst-served tenth   -1.5% | made worse    0% | worst node   -1.4%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 6      mean   -2.0% | median   -2.0% | worst-served tenth   -2.0% | made worse    0% | worst node   -1.9%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 12     mean   -2.1% | median   -2.1% | worst-served tenth   -2.1% | made worse    0% | worst node   -2.0%
+
+[loss penalty] spread 0.5  (103s)
+   best possible                                                                  mean   -2.9% | median   -2.8% | worst-served tenth   -4.1% | made worse    0% | worst node   -2.1%
+   best possible inside band 3                                                    mean   -1.8% | median   -1.8% | worst-served tenth   -2.2% | made worse    0% | worst node   -1.4%
+   best possible inside band 6                                                    mean   -2.4% | median   -2.4% | worst-served tenth   -3.2% | made worse    0% | worst node   -1.8%
+   best possible inside band 12                                                   mean   -2.9% | median   -2.8% | worst-served tenth   -4.0% | made worse    0% | worst node   -2.1%
+   worst possible inside band 3                                                   mean   +3.5% | median   +3.5% | worst-served tenth   +4.0% | made worse  100% | worst node   +4.1%
+   worst possible inside band 6                                                   mean   +8.2% | median   +8.2% | worst-served tenth   +9.0% | made worse  100% | worst node   +9.1%
+   worst possible inside band 12                                                  mean  +22.6% | median  +22.5% | worst-served tenth  +23.6% | made worse  100% | worst node  +23.9%
+   worst possible with no band                                                    mean +152.5% | median +151.5% | worst-served tenth +149.9% | made worse  100% | worst node +165.3%
+   one table for all nodes                                                        mean   -1.9% | median   -2.1% | worst-served tenth   -2.6% | made worse    0% | worst node   -0.0%
+   three profiles                                                                 mean   -2.4% | median   -2.2% | worst-served tenth   -3.6% | made worse    0% | worst node   -1.7%
+   one table for all nodes, tuned directly on every node's true costs             mean   -2.4% | median   -2.6% | worst-served tenth   -3.3% | made worse    0% | worst node   +0.1%
+   a formula per node, right form, one constant, 500 logged decisions             mean   -2.9% | median   -2.8% | worst-served tenth   -4.1% | made worse    0% | worst node   -2.0%
+   a formula per node, wrong form, 500 logged decisions                           mean   -1.3% | median   -1.3% | worst-served tenth   -3.4% | made worse   20% | worst node   +1.4%
+   a formula per node, right form, one constant, 2000 logged decisions            mean   -2.9% | median   -2.8% | worst-served tenth   -4.1% | made worse    0% | worst node   -2.1%
+   a formula per node, wrong form, 2000 logged decisions                          mean   -1.3% | median   -1.4% | worst-served tenth   -3.5% | made worse   20% | worst node   +1.2%
+   a table per node, 500 logged decisions, ratio limit 32                         mean   -1.7% | median   -1.6% | worst-served tenth   -3.1% | made worse    0% | worst node   +0.2%
+   a table per node, 500 logged decisions, ratio limit 1024                       mean   -1.6% | median   -1.5% | worst-served tenth   -3.0% | made worse    1% | worst node   +0.8%
+   a table per node, 2000 logged decisions, ratio limit 32                        mean   -2.2% | median   -2.0% | worst-served tenth   -3.6% | made worse    0% | worst node   -0.8%
+   a table per node, 2000 logged decisions, ratio limit 1024                      mean   -2.1% | median   -2.0% | worst-served tenth   -3.6% | made worse    0% | worst node   -0.7%
+   a table per node, 20000 logged decisions, ratio limit 32                       mean   -2.4% | median   -2.2% | worst-served tenth   -3.8% | made worse    0% | worst node   -1.0%
+   a table per node, 20000 logged decisions, ratio limit 1024                     mean   -2.4% | median   -2.2% | worst-served tenth   -3.8% | made worse    0% | worst node   -1.0%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 3      mean   -1.6% | median   -1.5% | worst-served tenth   -2.2% | made worse    0% | worst node   -1.0%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 6      mean   -2.1% | median   -2.0% | worst-served tenth   -3.1% | made worse    0% | worst node   -1.1%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 12     mean   -2.4% | median   -2.2% | worst-served tenth   -3.8% | made worse    0% | worst node   -1.0%
+
+[loss penalty] spread 1.0  (151s)
+   best possible                                                                  mean   -3.7% | median   -3.1% | worst-served tenth   -8.3% | made worse    0% | worst node   -2.1%
+   best possible inside band 3                                                    mean   -2.0% | median   -1.9% | worst-served tenth   -3.2% | made worse    0% | worst node   -1.4%
+   best possible inside band 6                                                    mean   -2.8% | median   -2.6% | worst-served tenth   -5.0% | made worse    0% | worst node   -1.8%
+   best possible inside band 12                                                   mean   -3.5% | median   -3.1% | worst-served tenth   -7.1% | made worse    0% | worst node   -2.1%
+   worst possible inside band 3                                                   mean   +3.8% | median   +3.6% | worst-served tenth   +5.2% | made worse  100% | worst node   +7.6%
+   worst possible inside band 6                                                   mean   +8.7% | median   +8.4% | worst-served tenth  +11.2% | made worse  100% | worst node  +15.7%
+   worst possible inside band 12                                                  mean  +23.5% | median  +22.8% | worst-served tenth  +28.3% | made worse  100% | worst node  +36.7%
+   worst possible with no band                                                    mean +156.0% | median +151.6% | worst-served tenth +178.3% | made worse  100% | worst node +212.9%
+   one table for all nodes                                                        mean   -1.4% | median   -1.7% | worst-served tenth   -0.2% | made worse    5% | worst node   +1.5%
+   three profiles                                                                 mean   -2.9% | median   -2.3% | worst-served tenth   -6.3% | made worse    0% | worst node   -0.2%
+   one table for all nodes, tuned directly on every node's true costs             mean   -2.0% | median   -2.3% | worst-served tenth   -0.5% | made worse    4% | worst node   +1.4%
+   a formula per node, right form, one constant, 500 logged decisions             mean   -3.7% | median   -3.1% | worst-served tenth   -8.2% | made worse    0% | worst node   -2.0%
+   a formula per node, wrong form, 500 logged decisions                           mean   -1.8% | median   -1.5% | worst-served tenth   -5.1% | made worse   20% | worst node   +1.5%
+   a formula per node, right form, one constant, 2000 logged decisions            mean   -3.7% | median   -3.1% | worst-served tenth   -8.3% | made worse    0% | worst node   -2.0%
+   a formula per node, wrong form, 2000 logged decisions                          mean   -1.9% | median   -1.7% | worst-served tenth   -5.2% | made worse   21% | worst node   +1.1%
+   a table per node, 500 logged decisions, ratio limit 32                         mean   -2.5% | median   -2.1% | worst-served tenth   -6.8% | made worse    1% | worst node   +1.0%
+   a table per node, 500 logged decisions, ratio limit 1024                       mean   -2.3% | median   -1.9% | worst-served tenth   -6.8% | made worse    2% | worst node   +1.1%
+   a table per node, 2000 logged decisions, ratio limit 32                        mean   -3.0% | median   -2.4% | worst-served tenth   -7.6% | made worse    0% | worst node   -0.7%
+   a table per node, 2000 logged decisions, ratio limit 1024                      mean   -2.9% | median   -2.3% | worst-served tenth   -7.5% | made worse    0% | worst node   -0.6%
+   a table per node, 20000 logged decisions, ratio limit 32                       mean   -3.3% | median   -2.6% | worst-served tenth   -8.0% | made worse    0% | worst node   -1.1%
+   a table per node, 20000 logged decisions, ratio limit 1024                     mean   -3.3% | median   -2.6% | worst-served tenth   -8.0% | made worse    0% | worst node   -1.1%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 3      mean   -1.8% | median   -1.7% | worst-served tenth   -3.1% | made worse    0% | worst node   -1.0%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 6      mean   -2.6% | median   -2.3% | worst-served tenth   -4.9% | made worse    0% | worst node   -1.2%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 12     mean   -3.1% | median   -2.6% | worst-served tenth   -6.9% | made worse    0% | worst node   -1.1%
+
+[loss penalty] spread 1.5  (202s)
+   best possible                                                                  mean   -4.7% | median   -3.7% | worst-served tenth  -14.6% | made worse    0% | worst node   -2.1%
+   best possible inside band 3                                                    mean   -2.2% | median   -2.1% | worst-served tenth   -4.5% | made worse    0% | worst node   -1.4%
+   best possible inside band 6                                                    mean   -3.3% | median   -3.0% | worst-served tenth   -7.4% | made worse    0% | worst node   -1.8%
+   best possible inside band 12                                                   mean   -4.3% | median   -3.6% | worst-served tenth  -11.3% | made worse    0% | worst node   -2.1%
+   worst possible inside band 3                                                   mean   +4.0% | median   +3.8% | worst-served tenth   +6.7% | made worse  100% | worst node  +12.8%
+   worst possible inside band 6                                                   mean   +9.2% | median   +8.8% | worst-served tenth  +14.1% | made worse  100% | worst node  +25.4%
+   worst possible inside band 12                                                  mean  +24.3% | median  +23.4% | worst-served tenth  +33.9% | made worse  100% | worst node  +55.0%
+   worst possible with no band                                                    mean +158.2% | median +151.2% | worst-served tenth +202.9% | made worse  100% | worst node +276.4%
+   one table for all nodes                                                        mean   -1.3% | median   -1.7% | worst-served tenth   +1.3% | made worse    9% | worst node   +4.2%
+   three profiles                                                                 mean   -3.7% | median   -2.8% | worst-served tenth  -11.1% | made worse    4% | worst node   +1.1%
+   one table for all nodes, tuned directly on every node's true costs             mean   -2.0% | median   -2.2% | worst-served tenth   -0.7% | made worse    2% | worst node   +0.7%
+   a formula per node, right form, one constant, 500 logged decisions             mean   -4.7% | median   -3.7% | worst-served tenth  -14.6% | made worse    0% | worst node   -2.0%
+   a formula per node, wrong form, 500 logged decisions                           mean   -2.9% | median   -2.5% | worst-served tenth  -10.9% | made worse   24% | worst node   +2.0%
+   a formula per node, right form, one constant, 2000 logged decisions            mean   -4.7% | median   -3.7% | worst-served tenth  -14.6% | made worse    0% | worst node   -2.1%
+   a formula per node, wrong form, 2000 logged decisions                          mean   -3.0% | median   -2.5% | worst-served tenth  -11.0% | made worse   22% | worst node   +1.2%
+   a table per node, 500 logged decisions, ratio limit 32                         mean   -3.5% | median   -2.7% | worst-served tenth  -12.4% | made worse    0% | worst node   +0.3%
+   a table per node, 500 logged decisions, ratio limit 1024                       mean   -3.4% | median   -2.7% | worst-served tenth  -12.4% | made worse    1% | worst node   +0.8%
+   a table per node, 2000 logged decisions, ratio limit 32                        mean   -4.0% | median   -3.2% | worst-served tenth  -13.4% | made worse    0% | worst node   -0.5%
+   a table per node, 2000 logged decisions, ratio limit 1024                      mean   -3.9% | median   -3.1% | worst-served tenth  -13.3% | made worse    0% | worst node   -0.4%
+   a table per node, 20000 logged decisions, ratio limit 32                       mean   -4.3% | median   -3.4% | worst-served tenth  -14.0% | made worse    0% | worst node   -1.1%
+   a table per node, 20000 logged decisions, ratio limit 1024                     mean   -4.3% | median   -3.4% | worst-served tenth  -14.1% | made worse    0% | worst node   -1.1%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 3      mean   -2.1% | median   -2.0% | worst-served tenth   -4.5% | made worse    0% | worst node   -1.0%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 6      mean   -3.1% | median   -2.8% | worst-served tenth   -7.2% | made worse    0% | worst node   -1.1%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 12     mean   -3.9% | median   -3.3% | worst-served tenth  -11.0% | made worse    0% | worst node   -1.1%
+
+[exponents] spread 0.0  (249s)
+   best possible                                                                  mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.1%
+   best possible inside band 3                                                    mean   -1.9% | median   -1.9% | worst-served tenth   -1.9% | made worse    0% | worst node   -1.9%
+   best possible inside band 6                                                    mean   -2.6% | median   -2.6% | worst-served tenth   -2.6% | made worse    0% | worst node   -2.6%
+   best possible inside band 12                                                   mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.1%
+   worst possible inside band 3                                                   mean   +3.9% | median   +3.9% | worst-served tenth   +3.9% | made worse  100% | worst node   +3.9%
+   worst possible inside band 6                                                   mean   +9.3% | median   +9.3% | worst-served tenth   +9.3% | made worse  100% | worst node   +9.3%
+   worst possible inside band 12                                                  mean  +26.7% | median  +26.7% | worst-served tenth  +26.7% | made worse  100% | worst node  +26.7%
+   worst possible with no band                                                    mean +209.9% | median +209.9% | worst-served tenth +209.9% | made worse  100% | worst node +209.9%
+   one table for all nodes                                                        mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.1%
+   three profiles                                                                 mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.1%
+   one table for all nodes, tuned directly on every node's true costs             mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.1%
+   a formula per node, right form, three constants, 500 logged decisions          mean   -3.0% | median   -3.0% | worst-served tenth   -3.0% | made worse    0% | worst node   -2.8%
+   a formula per node, wrong form, 500 logged decisions                           mean   +0.3% | median   +0.2% | worst-served tenth   +0.2% | made worse   64% | worst node   +1.4%
+   a formula per node, right form, three constants, 2000 logged decisions         mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.0%
+   a formula per node, wrong form, 2000 logged decisions                          mean   +0.3% | median   +0.2% | worst-served tenth   +0.2% | made worse   77% | worst node   +0.8%
+   a table per node, 500 logged decisions, ratio limit 32                         mean   -2.2% | median   -2.3% | worst-served tenth   -2.3% | made worse    2% | worst node   +1.4%
+   a table per node, 500 logged decisions, ratio limit 1024                       mean   -2.1% | median   -2.2% | worst-served tenth   -2.2% | made worse    2% | worst node   +1.4%
+   a table per node, 2000 logged decisions, ratio limit 32                        mean   -2.8% | median   -2.8% | worst-served tenth   -2.8% | made worse    0% | worst node   -2.2%
+   a table per node, 2000 logged decisions, ratio limit 1024                      mean   -2.8% | median   -2.8% | worst-served tenth   -2.8% | made worse    0% | worst node   -2.1%
+   a table per node, 20000 logged decisions, ratio limit 32                       mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.0%
+   a table per node, 20000 logged decisions, ratio limit 1024                     mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.0%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 3      mean   -1.9% | median   -1.9% | worst-served tenth   -1.9% | made worse    0% | worst node   -1.9%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 6      mean   -2.6% | median   -2.6% | worst-served tenth   -2.6% | made worse    0% | worst node   -2.5%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 12     mean   -3.0% | median   -3.0% | worst-served tenth   -3.0% | made worse    0% | worst node   -3.0%
+
+[exponents] spread 0.5  (299s)
+   best possible                                                                  mean   -4.7% | median   -3.8% | worst-served tenth  -10.7% | made worse    0% | worst node   -3.0%
+   best possible inside band 3                                                    mean   -2.4% | median   -2.2% | worst-served tenth   -3.8% | made worse    0% | worst node   -1.9%
+   best possible inside band 6                                                    mean   -3.4% | median   -3.1% | worst-served tenth   -6.1% | made worse    0% | worst node   -2.5%
+   best possible inside band 12                                                   mean   -4.4% | median   -3.7% | worst-served tenth   -9.0% | made worse    0% | worst node   -2.9%
+   worst possible inside band 3                                                   mean   +4.4% | median   +4.2% | worst-served tenth   +5.6% | made worse  100% | worst node   +6.9%
+   worst possible inside band 6                                                   mean  +10.4% | median   +9.9% | worst-served tenth  +12.1% | made worse  100% | worst node  +14.7%
+   worst possible inside band 12                                                  mean  +29.0% | median  +27.6% | worst-served tenth  +29.6% | made worse  100% | worst node  +41.3%
+   worst possible with no band                                                    mean +221.1% | median +212.0% | worst-served tenth +206.0% | made worse  100% | worst node +308.9%
+   one table for all nodes                                                        mean   -2.7% | median   -3.0% | worst-served tenth   -3.3% | made worse    2% | worst node   +1.0%
+   three profiles                                                                 mean   -4.4% | median   -3.5% | worst-served tenth   -9.6% | made worse    0% | worst node   -2.4%
+   one table for all nodes, tuned directly on every node's true costs             mean   -2.6% | median   -3.0% | worst-served tenth   -3.6% | made worse    2% | worst node   +0.9%
+   a formula per node, right form, three constants, 500 logged decisions          mean   -4.6% | median   -3.7% | worst-served tenth  -10.7% | made worse    0% | worst node   -2.6%
+   a formula per node, wrong form, 500 logged decisions                           mean   -1.4% | median   -0.6% | worst-served tenth   -6.2% | made worse   14% | worst node   +1.2%
+   a formula per node, right form, three constants, 2000 logged decisions         mean   -4.7% | median   -3.8% | worst-served tenth  -10.7% | made worse    0% | worst node   -2.9%
+   a formula per node, wrong form, 2000 logged decisions                          mean   -1.4% | median   -0.5% | worst-served tenth   -6.4% | made worse   15% | worst node   +0.6%
+   a table per node, 500 logged decisions, ratio limit 32                         mean   -3.8% | median   -2.9% | worst-served tenth   -9.9% | made worse    0% | worst node   +1.1%
+   a table per node, 500 logged decisions, ratio limit 1024                       mean   -3.7% | median   -2.8% | worst-served tenth  -10.0% | made worse    0% | worst node   +1.1%
+   a table per node, 2000 logged decisions, ratio limit 32                        mean   -4.4% | median   -3.6% | worst-served tenth  -10.3% | made worse    0% | worst node   -2.3%
+   a table per node, 2000 logged decisions, ratio limit 1024                      mean   -4.4% | median   -3.5% | worst-served tenth  -10.4% | made worse    0% | worst node   -2.3%
+   a table per node, 20000 logged decisions, ratio limit 32                       mean   -4.7% | median   -3.8% | worst-served tenth  -10.7% | made worse    0% | worst node   -2.9%
+   a table per node, 20000 logged decisions, ratio limit 1024                     mean   -4.7% | median   -3.8% | worst-served tenth  -10.7% | made worse    0% | worst node   -2.9%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 3      mean   -2.4% | median   -2.2% | worst-served tenth   -3.8% | made worse    0% | worst node   -1.8%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 6      mean   -3.4% | median   -3.1% | worst-served tenth   -6.1% | made worse    0% | worst node   -2.5%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 12     mean   -4.3% | median   -3.7% | worst-served tenth   -9.0% | made worse    0% | worst node   -2.9%
+
+[exponents] spread 1.0  (352s)
+   best possible                                                                  mean   -8.7% | median   -5.1% | worst-served tenth  -31.1% | made worse    0% | worst node   -3.0%
+   best possible inside band 3                                                    mean   -3.4% | median   -2.6% | worst-served tenth   -8.0% | made worse    0% | worst node   -1.9%
+   best possible inside band 6                                                    mean   -5.2% | median   -3.9% | worst-served tenth  -13.7% | made worse    0% | worst node   -2.5%
+   best possible inside band 12                                                   mean   -7.3% | median   -4.9% | worst-served tenth  -22.0% | made worse    0% | worst node   -2.9%
+   worst possible inside band 3                                                   mean   +5.7% | median   +4.7% | worst-served tenth  +10.3% | made worse  100% | worst node  +14.8%
+   worst possible inside band 6                                                   mean  +12.9% | median  +10.9% | worst-served tenth  +20.8% | made worse  100% | worst node  +29.5%
+   worst possible inside band 12                                                  mean  +34.1% | median  +29.4% | worst-served tenth  +46.3% | made worse  100% | worst node  +79.6%
+   worst possible with no band                                                    mean +249.1% | median +221.6% | worst-served tenth +277.1% | made worse  100% | worst node +608.2%
+   one table for all nodes                                                        mean   -1.5% | median   -2.9% | worst-served tenth   -2.5% | made worse   20% | worst node  +17.2%
+   three profiles                                                                 mean   -7.7% | median   -4.0% | worst-served tenth  -28.5% | made worse    0% | worst node   -1.5%
+   one table for all nodes, tuned directly on every node's true costs             mean   -2.0% | median   -2.5% | worst-served tenth   -6.3% | made worse   20% | worst node  +12.1%
+   a formula per node, right form, three constants, 500 logged decisions          mean   -8.6% | median   -5.0% | worst-served tenth  -31.1% | made worse    0% | worst node   -2.6%
+   a formula per node, wrong form, 500 logged decisions                           mean   -5.6% | median   -2.4% | worst-served tenth  -28.2% | made worse   16% | worst node   +0.8%
+   a formula per node, right form, three constants, 2000 logged decisions         mean   -8.7% | median   -5.1% | worst-served tenth  -31.1% | made worse    0% | worst node   -2.9%
+   a formula per node, wrong form, 2000 logged decisions                          mean   -5.6% | median   -2.4% | worst-served tenth  -28.3% | made worse   10% | worst node   +0.5%
+   a table per node, 500 logged decisions, ratio limit 32                         mean   -7.9% | median   -4.1% | worst-served tenth  -30.5% | made worse    0% | worst node   -1.5%
+   a table per node, 500 logged decisions, ratio limit 1024                       mean   -7.8% | median   -4.0% | worst-served tenth  -30.6% | made worse    0% | worst node   -1.1%
+   a table per node, 2000 logged decisions, ratio limit 32                        mean   -8.4% | median   -4.8% | worst-served tenth  -30.9% | made worse    0% | worst node   -2.2%
+   a table per node, 2000 logged decisions, ratio limit 1024                      mean   -8.4% | median   -4.7% | worst-served tenth  -30.9% | made worse    0% | worst node   -2.3%
+   a table per node, 20000 logged decisions, ratio limit 32                       mean   -8.7% | median   -5.1% | worst-served tenth  -31.1% | made worse    0% | worst node   -2.9%
+   a table per node, 20000 logged decisions, ratio limit 1024                     mean   -8.7% | median   -5.1% | worst-served tenth  -31.1% | made worse    0% | worst node   -2.9%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 3      mean   -3.4% | median   -2.6% | worst-served tenth   -8.0% | made worse    0% | worst node   -1.8%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 6      mean   -5.2% | median   -3.9% | worst-served tenth  -13.7% | made worse    0% | worst node   -2.4%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 12     mean   -7.2% | median   -4.8% | worst-served tenth  -22.0% | made worse    0% | worst node   -2.9%
+
+[exponents] spread 1.5  (405s)
+   best possible                                                                  mean  -11.8% | median   -7.3% | worst-served tenth  -40.9% | made worse    0% | worst node   -3.0%
+   best possible inside band 3                                                    mean   -4.4% | median   -3.5% | worst-served tenth  -10.4% | made worse    0% | worst node   -1.9%
+   best possible inside band 6                                                    mean   -6.8% | median   -5.1% | worst-served tenth  -17.8% | made worse    0% | worst node   -2.5%
+   best possible inside band 12                                                   mean   -9.7% | median   -6.8% | worst-served tenth  -28.8% | made worse    0% | worst node   -2.9%
+   worst possible inside band 3                                                   mean   +7.1% | median   +5.6% | worst-served tenth  +13.6% | made worse  100% | worst node  +23.3%
+   worst possible inside band 6                                                   mean  +15.9% | median  +12.8% | worst-served tenth  +27.6% | made worse  100% | worst node  +45.7%
+   worst possible inside band 12                                                  mean  +41.7% | median  +33.8% | worst-served tenth  +61.7% | made worse  100% | worst node +122.3%
+   worst possible with no band                                                    mean +303.2% | median +244.0% | worst-served tenth +381.1% | made worse  100% | worst node +995.1%
+   one table for all nodes                                                        mean   +0.9% | median   -1.3% | worst-served tenth  +10.7% | made worse   31% | worst node  +34.4%
+   three profiles                                                                 mean  -10.6% | median   -6.2% | worst-served tenth  -38.6% | made worse    0% | worst node   -0.9%
+   one table for all nodes, tuned directly on every node's true costs             mean   -1.0% | median   -1.3% | worst-served tenth   -0.9% | made worse    6% | worst node   +0.8%
+   a formula per node, right form, three constants, 500 logged decisions          mean  -11.7% | median   -7.2% | worst-served tenth  -40.9% | made worse    0% | worst node   -2.8%
+   a formula per node, wrong form, 500 logged decisions                           mean   -8.5% | median   -5.3% | worst-served tenth  -38.3% | made worse    7% | worst node   +1.1%
+   a formula per node, right form, three constants, 2000 logged decisions         mean  -11.8% | median   -7.2% | worst-served tenth  -40.9% | made worse    0% | worst node   -2.9%
+   a formula per node, wrong form, 2000 logged decisions                          mean   -8.5% | median   -5.3% | worst-served tenth  -38.3% | made worse    6% | worst node   +0.6%
+   a table per node, 500 logged decisions, ratio limit 32                         mean  -10.9% | median   -6.6% | worst-served tenth  -40.1% | made worse    0% | worst node   -0.1%
+   a table per node, 500 logged decisions, ratio limit 1024                       mean  -10.9% | median   -6.5% | worst-served tenth  -40.3% | made worse    0% | worst node   -0.2%
+   a table per node, 2000 logged decisions, ratio limit 32                        mean  -11.5% | median   -7.0% | worst-served tenth  -40.7% | made worse    0% | worst node   -2.5%
+   a table per node, 2000 logged decisions, ratio limit 1024                      mean  -11.5% | median   -7.0% | worst-served tenth  -40.8% | made worse    0% | worst node   -2.4%
+   a table per node, 20000 logged decisions, ratio limit 32                       mean  -11.7% | median   -7.2% | worst-served tenth  -40.8% | made worse    0% | worst node   -2.9%
+   a table per node, 20000 logged decisions, ratio limit 1024                     mean  -11.8% | median   -7.2% | worst-served tenth  -40.9% | made worse    0% | worst node   -2.9%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 3      mean   -4.4% | median   -3.5% | worst-served tenth  -10.4% | made worse    0% | worst node   -1.8%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 6      mean   -6.8% | median   -5.1% | worst-served tenth  -17.8% | made worse    0% | worst node   -2.5%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 12     mean   -9.7% | median   -6.8% | worst-served tenth  -28.8% | made worse    0% | worst node   -2.9%
+
+[three ways] spread 0.0  (457s)
+   best possible                                                                  mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.1%
+   best possible inside band 3                                                    mean   -1.9% | median   -1.9% | worst-served tenth   -1.9% | made worse    0% | worst node   -1.9%
+   best possible inside band 6                                                    mean   -2.6% | median   -2.6% | worst-served tenth   -2.6% | made worse    0% | worst node   -2.6%
+   best possible inside band 12                                                   mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.1%
+   worst possible inside band 3                                                   mean   +3.9% | median   +3.9% | worst-served tenth   +3.9% | made worse  100% | worst node   +3.9%
+   worst possible inside band 6                                                   mean   +9.3% | median   +9.3% | worst-served tenth   +9.3% | made worse  100% | worst node   +9.3%
+   worst possible inside band 12                                                  mean  +26.7% | median  +26.7% | worst-served tenth  +26.7% | made worse  100% | worst node  +26.7%
+   worst possible with no band                                                    mean +209.9% | median +209.9% | worst-served tenth +209.9% | made worse  100% | worst node +209.9%
+   one table for all nodes                                                        mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.1%
+   three profiles                                                                 mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.1%
+   one table for all nodes, tuned directly on every node's true costs             mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.1%
+   a formula per node, right form, three constants, 500 logged decisions          mean   -3.0% | median   -3.0% | worst-served tenth   -3.0% | made worse    0% | worst node   -2.8%
+   a formula per node, wrong form, 500 logged decisions                           mean   +0.3% | median   +0.2% | worst-served tenth   +0.2% | made worse   64% | worst node   +1.4%
+   a formula per node, right form, three constants, 2000 logged decisions         mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.0%
+   a formula per node, wrong form, 2000 logged decisions                          mean   +0.3% | median   +0.2% | worst-served tenth   +0.2% | made worse   77% | worst node   +0.8%
+   nine profiles                                                                  mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.1%
+   a table per node, 500 logged decisions, ratio limit 32                         mean   -2.2% | median   -2.3% | worst-served tenth   -2.3% | made worse    2% | worst node   +1.4%
+   a table per node, 500 logged decisions, ratio limit 1024                       mean   -2.1% | median   -2.2% | worst-served tenth   -2.2% | made worse    2% | worst node   +1.4%
+   a table per node, 2000 logged decisions, ratio limit 32                        mean   -2.8% | median   -2.8% | worst-served tenth   -2.8% | made worse    0% | worst node   -2.2%
+   a table per node, 2000 logged decisions, ratio limit 1024                      mean   -2.8% | median   -2.8% | worst-served tenth   -2.8% | made worse    0% | worst node   -2.1%
+   a table per node, 20000 logged decisions, ratio limit 32                       mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.0%
+   a table per node, 20000 logged decisions, ratio limit 1024                     mean   -3.1% | median   -3.1% | worst-served tenth   -3.1% | made worse    0% | worst node   -3.0%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 3      mean   -1.9% | median   -1.9% | worst-served tenth   -1.9% | made worse    0% | worst node   -1.9%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 6      mean   -2.6% | median   -2.6% | worst-served tenth   -2.6% | made worse    0% | worst node   -2.5%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 12     mean   -3.0% | median   -3.0% | worst-served tenth   -3.0% | made worse    0% | worst node   -3.0%
+
+[three ways] spread 0.5  (507s)
+   best possible                                                                  mean   -4.6% | median   -3.9% | worst-served tenth  -10.6% | made worse    0% | worst node   -1.6%
+   best possible inside band 3                                                    mean   -2.4% | median   -2.2% | worst-served tenth   -4.3% | made worse    0% | worst node   -1.0%
+   best possible inside band 6                                                    mean   -3.4% | median   -3.2% | worst-served tenth   -6.6% | made worse    0% | worst node   -1.4%
+   best possible inside band 12                                                   mean   -4.4% | median   -3.8% | worst-served tenth   -9.2% | made worse    0% | worst node   -1.6%
+   worst possible inside band 3                                                   mean   +4.4% | median   +4.4% | worst-served tenth   +6.3% | made worse  100% | worst node   +8.7%
+   worst possible inside band 6                                                   mean  +10.5% | median  +10.4% | worst-served tenth  +13.3% | made worse  100% | worst node  +18.3%
+   worst possible inside band 12                                                  mean  +29.1% | median  +28.3% | worst-served tenth  +32.5% | made worse  100% | worst node  +49.8%
+   worst possible with no band                                                    mean +225.9% | median +210.4% | worst-served tenth +218.0% | made worse  100% | worst node +521.2%
+   one table for all nodes                                                        mean   -3.3% | median   -3.2% | worst-served tenth   -6.5% | made worse    1% | worst node   +1.3%
+   three profiles                                                                 mean   -3.8% | median   -3.2% | worst-served tenth   -8.2% | made worse    0% | worst node   -0.3%
+   one table for all nodes, tuned directly on every node's true costs             mean   -3.3% | median   -3.2% | worst-served tenth   -6.4% | made worse    1% | worst node   +1.5%
+   a formula per node, right form, three constants, 500 logged decisions          mean   -4.6% | median   -3.8% | worst-served tenth  -10.5% | made worse    0% | worst node   -1.6%
+   a formula per node, wrong form, 500 logged decisions                           mean   -0.7% | median   -0.6% | worst-served tenth   -5.6% | made worse   39% | worst node   +7.2%
+   a formula per node, right form, three constants, 2000 logged decisions         mean   -4.6% | median   -3.9% | worst-served tenth  -10.6% | made worse    0% | worst node   -1.6%
+   a formula per node, wrong form, 2000 logged decisions                          mean   -0.7% | median   -0.5% | worst-served tenth   -5.6% | made worse   38% | worst node   +7.2%
+   nine profiles                                                                  mean   -4.2% | median   -3.6% | worst-served tenth   -9.1% | made worse    0% | worst node   -1.1%
+   a table per node, 500 logged decisions, ratio limit 32                         mean   -3.7% | median   -3.1% | worst-served tenth   -9.6% | made worse    2% | worst node   +1.8%
+   a table per node, 500 logged decisions, ratio limit 1024                       mean   -3.7% | median   -3.0% | worst-served tenth   -9.6% | made worse    2% | worst node   +1.9%
+   a table per node, 2000 logged decisions, ratio limit 32                        mean   -4.4% | median   -3.7% | worst-served tenth  -10.3% | made worse    0% | worst node   -1.4%
+   a table per node, 2000 logged decisions, ratio limit 1024                      mean   -4.3% | median   -3.7% | worst-served tenth  -10.3% | made worse    0% | worst node   -1.3%
+   a table per node, 20000 logged decisions, ratio limit 32                       mean   -4.6% | median   -3.9% | worst-served tenth  -10.6% | made worse    0% | worst node   -1.6%
+   a table per node, 20000 logged decisions, ratio limit 1024                     mean   -4.6% | median   -3.9% | worst-served tenth  -10.6% | made worse    0% | worst node   -1.6%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 3      mean   -2.4% | median   -2.2% | worst-served tenth   -4.2% | made worse    0% | worst node   -1.0%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 6      mean   -3.4% | median   -3.1% | worst-served tenth   -6.6% | made worse    0% | worst node   -1.3%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 12     mean   -4.3% | median   -3.8% | worst-served tenth   -9.2% | made worse    0% | worst node   -1.6%
+
+[three ways] spread 1.0  (557s)
+   best possible                                                                  mean   -8.9% | median   -5.5% | worst-served tenth  -30.5% | made worse    0% | worst node   -1.3%
+   best possible inside band 3                                                    mean   -3.6% | median   -2.8% | worst-served tenth   -8.4% | made worse    0% | worst node   -0.8%
+   best possible inside band 6                                                    mean   -5.4% | median   -4.2% | worst-served tenth  -13.9% | made worse    0% | worst node   -1.1%
+   best possible inside band 12                                                   mean   -7.5% | median   -5.2% | worst-served tenth  -21.9% | made worse    0% | worst node   -1.2%
+   worst possible inside band 3                                                   mean   +5.9% | median   +5.3% | worst-served tenth  +10.9% | made worse  100% | worst node  +14.7%
+   worst possible inside band 6                                                   mean  +13.3% | median  +12.2% | worst-served tenth  +22.1% | made worse  100% | worst node  +29.9%
+   worst possible inside band 12                                                  mean  +35.4% | median  +33.2% | worst-served tenth  +49.4% | made worse  100% | worst node  +76.2%
+   worst possible with no band                                                    mean +272.8% | median +245.1% | worst-served tenth +309.6% | made worse  100% | worst node +790.0%
+   one table for all nodes                                                        mean   -3.0% | median   -2.5% | worst-served tenth   -9.2% | made worse   14% | worst node  +12.4%
+   three profiles                                                                 mean   -6.1% | median   -3.9% | worst-served tenth  -21.4% | made worse    8% | worst node   +9.4%
+   one table for all nodes, tuned directly on every node's true costs             mean   -3.1% | median   -2.6% | worst-served tenth   -9.6% | made worse   11% | worst node   +9.6%
+   a formula per node, right form, three constants, 500 logged decisions          mean   -8.9% | median   -5.5% | worst-served tenth  -30.5% | made worse    0% | worst node   -1.2%
+   a formula per node, wrong form, 500 logged decisions                           mean   -3.9% | median   -2.1% | worst-served tenth  -18.8% | made worse   24% | worst node   +9.8%
+   a formula per node, right form, three constants, 2000 logged decisions         mean   -8.9% | median   -5.5% | worst-served tenth  -30.5% | made worse    0% | worst node   -1.2%
+   a formula per node, wrong form, 2000 logged decisions                          mean   -3.9% | median   -2.1% | worst-served tenth  -18.8% | made worse   22% | worst node   +9.8%
+   nine profiles                                                                  mean   -7.4% | median   -4.4% | worst-served tenth  -26.5% | made worse    1% | worst node   +1.0%
+   a table per node, 500 logged decisions, ratio limit 32                         mean   -8.1% | median   -4.9% | worst-served tenth  -29.8% | made worse    0% | worst node   +0.8%
+   a table per node, 500 logged decisions, ratio limit 1024                       mean   -8.0% | median   -4.9% | worst-served tenth  -29.9% | made worse    0% | worst node   +0.9%
+   a table per node, 2000 logged decisions, ratio limit 32                        mean   -8.6% | median   -5.2% | worst-served tenth  -30.2% | made worse    0% | worst node   +0.0%
+   a table per node, 2000 logged decisions, ratio limit 1024                      mean   -8.6% | median   -5.2% | worst-served tenth  -30.2% | made worse    0% | worst node   +0.0%
+   a table per node, 20000 logged decisions, ratio limit 32                       mean   -8.9% | median   -5.5% | worst-served tenth  -30.3% | made worse    0% | worst node   -1.2%
+   a table per node, 20000 logged decisions, ratio limit 1024                     mean   -8.9% | median   -5.5% | worst-served tenth  -30.3% | made worse    0% | worst node   -1.2%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 3      mean   -3.5% | median   -2.8% | worst-served tenth   -8.4% | made worse    0% | worst node   -0.8%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 6      mean   -5.4% | median   -4.2% | worst-served tenth  -13.9% | made worse    0% | worst node   -1.0%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 12     mean   -7.5% | median   -5.2% | worst-served tenth  -21.9% | made worse    0% | worst node   -1.2%
+
+[three ways] spread 1.5  (611s)
+   best possible                                                                  mean  -15.0% | median   -8.9% | worst-served tenth  -46.0% | made worse    0% | worst node   -0.7%
+   best possible inside band 3                                                    mean   -4.9% | median   -3.9% | worst-served tenth  -10.8% | made worse    0% | worst node   -0.4%
+   best possible inside band 6                                                    mean   -7.8% | median   -5.8% | worst-served tenth  -18.3% | made worse    0% | worst node   -0.6%
+   best possible inside band 12                                                   mean  -11.5% | median   -8.0% | worst-served tenth  -29.9% | made worse    0% | worst node   -0.7%
+   worst possible inside band 3                                                   mean   +7.4% | median   +6.6% | worst-served tenth  +13.5% | made worse  100% | worst node  +23.7%
+   worst possible inside band 6                                                   mean  +16.0% | median  +14.3% | worst-served tenth  +26.5% | made worse  100% | worst node  +47.7%
+   worst possible inside band 12                                                  mean  +40.1% | median  +37.7% | worst-served tenth  +57.1% | made worse  100% | worst node +122.7%
+   worst possible with no band                                                    mean +301.0% | median +238.6% | worst-served tenth +338.7% | made worse  100% | worst node +1645.7%
+   one table for all nodes                                                        mean   -4.0% | median   -2.7% | worst-served tenth  -17.0% | made worse   28% | worst node  +55.1%
+   three profiles                                                                 mean   -7.2% | median   -2.8% | worst-served tenth  -23.7% | made worse   18% | worst node  +33.8%
+   one table for all nodes, tuned directly on every node's true costs             mean   -4.8% | median   -3.1% | worst-served tenth  -18.3% | made worse   24% | worst node  +30.3%
+   a formula per node, right form, three constants, 500 logged decisions          mean  -14.9% | median   -8.8% | worst-served tenth  -45.9% | made worse    0% | worst node   -0.6%
+   a formula per node, wrong form, 500 logged decisions                           mean   -7.9% | median   -4.4% | worst-served tenth  -24.6% | made worse   14% | worst node  +10.4%
+   a formula per node, right form, three constants, 2000 logged decisions         mean  -14.9% | median   -8.9% | worst-served tenth  -46.0% | made worse    0% | worst node   -0.6%
+   a formula per node, wrong form, 2000 logged decisions                          mean   -7.9% | median   -4.7% | worst-served tenth  -24.7% | made worse   12% | worst node  +11.2%
+   nine profiles                                                                  mean  -12.2% | median   -7.3% | worst-served tenth  -40.1% | made worse    7% | worst node   +5.1%
+   a table per node, 500 logged decisions, ratio limit 32                         mean  -14.1% | median   -7.9% | worst-served tenth  -44.8% | made worse    0% | worst node   -0.0%
+   a table per node, 500 logged decisions, ratio limit 1024                       mean  -14.1% | median   -7.9% | worst-served tenth  -45.0% | made worse    0% | worst node   -0.1%
+   a table per node, 2000 logged decisions, ratio limit 32                        mean  -14.6% | median   -8.5% | worst-served tenth  -44.7% | made worse    0% | worst node   -0.4%
+   a table per node, 2000 logged decisions, ratio limit 1024                      mean  -14.6% | median   -8.5% | worst-served tenth  -44.8% | made worse    0% | worst node   -0.4%
+   a table per node, 20000 logged decisions, ratio limit 32                       mean  -14.9% | median   -8.9% | worst-served tenth  -45.2% | made worse    0% | worst node   -0.6%
+   a table per node, 20000 logged decisions, ratio limit 1024                     mean  -14.9% | median   -8.9% | worst-served tenth  -45.2% | made worse    0% | worst node   -0.6%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 3      mean   -4.9% | median   -3.9% | worst-served tenth  -10.8% | made worse    0% | worst node   -0.4%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 6      mean   -7.7% | median   -5.8% | worst-served tenth  -18.3% | made worse    0% | worst node   -0.5%
+   a table per node, 20000 logged decisions, ratio limit 1024, inside band 12     mean  -11.4% | median   -8.0% | worst-served tenth  -29.8% | made worse    0% | worst node   -0.6%

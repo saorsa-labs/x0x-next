@@ -1,0 +1,23 @@
+[
+ {
+  "case": "harmful patch inside every limit (loss priced at 32 rtt steps)",
+  "incumbent_mean_ms": 182.2274716404877,
+  "candidate_mean_ms": 226.28366915700965,
+  "change_in_mean_cost": 0.2417648509300474,
+  "decisions_per_arm_to_tell_apart": 337
+ },
+ {
+  "case": "reviewer's flatten patch (fails the limits; shown for scale)",
+  "incumbent_mean_ms": 182.90103524798934,
+  "candidate_mean_ms": 359.44977749523156,
+  "change_in_mean_cost": 0.9652692343040363,
+  "decisions_per_arm_to_tell_apart": 37
+ },
+ {
+  "case": "honest gain: step weights fitted to 20,000 logged decisions",
+  "incumbent_mean_ms": 182.0809850498868,
+  "candidate_mean_ms": 176.7323819676192,
+  "change_in_mean_cost": -0.029374858010583482,
+  "decisions_per_arm_to_tell_apart": 29891
+ }
+]

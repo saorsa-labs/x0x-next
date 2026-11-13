@@ -1,0 +1,171 @@
+{
+ "handshake_bytes": {
+  "Signature-authenticated (ML-KEM-768 + 2 x ML-DSA-65 sig + 2 x pk)": 12794,
+  "Signature-authenticated, keys already cached": 8890,
+  "KEM-authenticated, static KEM keys cached (3 x ML-KEM-768 exchange)": 4448,
+  "KEM-authenticated, keys not yet known (adds 2 static KEM keys)": 6816,
+  "Resumption from a shared secret (two nonces + tags)": 96,
+  "Classical reference (X25519 + 2 x Ed25519 sig + 2 x pk)": 256
+ },
+ "per_message_auth_bytes": {
+  "Bare ML-DSA-65 signature on every message": 3309,
+  "Bare ML-DSA-65 signature + public key (sender unknown)": 5261,
+  "Merkle-batched signature, batch of 256 (proof + amortised root sig)": 268.92578125,
+  "Session MAC (AEAD tag) on an authenticated session": 16,
+  "FN-DSA-512 signature (if and when FIPS 206 is final)": 666
+ },
+ "bytes_on_wire_1_hops_200B_payload": {
+  "bare signature + key each hop": 5461,
+  "bare signature each hop": 3509,
+  "session MAC each hop, batched end-to-end proof": 472,
+  "session MAC each hop only": 216
+ },
+ "bytes_on_wire_4_hops_200B_payload": {
+  "bare signature + key each hop": 21844,
+  "bare signature each hop": 14036,
+  "session MAC each hop, batched end-to-end proof": 1888,
+  "session MAC each hop only": 864
+ },
+ "bytes_on_wire_8_hops_200B_payload": {
+  "bare signature + key each hop": 43688,
+  "bare signature each hop": 28072,
+  "session MAC each hop, batched end-to-end proof": 3776,
+  "session MAC each hop only": 1728
+ },
+ "capability_chain_depth3_bytes": {
+  "first presentation (3 sigs + 3 keys)": 15783,
+  "first presentation, dual-family root (adds one SLH-DSA-128s sig)": 23639,
+  "first presentation, dual-family root at category 3 (adds one SLH-DSA-192s sig and key)": 32055,
+  "later reference by hash": 32
+ },
+ "weight_patch_bytes": {
+  "patch body (ids, two hashes, 44 step weights, statement of intent)": 356,
+  "patch with one ML-DSA-65 signature, author key referred to by hash": 3697,
+  "patch with signature and the author's public key (author unknown)": 5617,
+  "the same patch, FN-DSA-512 signature (if and when FIPS 206 is final)": 1054
+ },
+ "lora": {
+  "SF7 / 125 kHz, 222-byte frames": {
+   "airtime_per_full_frame_s": 0.348,
+   "KEM-authenticated handshake": {
+    "bytes": 4448,
+    "frames": 21,
+    "airtime_s": 7.3,
+    "elapsed_at_1pct_duty_min": 12.2
+   },
+   "KEM-authenticated first contact, keys not yet known": {
+    "bytes": 6816,
+    "frames": 31,
+    "airtime_s": 10.8,
+    "elapsed_at_1pct_duty_min": 18.0
+   },
+   "signature-authenticated handshake, keys unknown": {
+    "bytes": 12794,
+    "frames": 58,
+    "airtime_s": 20.2,
+    "elapsed_at_1pct_duty_min": 33.7
+   },
+   "resumption handshake": {
+    "bytes": 96,
+    "frames": 1,
+    "airtime_s": 0.3,
+    "elapsed_at_1pct_duty_min": 0.6
+   },
+   "one 200-byte message with session MAC": {
+    "bytes": 216,
+    "frames": 1,
+    "airtime_s": 0.3,
+    "elapsed_at_1pct_duty_min": 0.6
+   },
+   "one 200-byte message with bare ML-DSA-65 signature": {
+    "bytes": 3509,
+    "frames": 16,
+    "airtime_s": 5.6,
+    "elapsed_at_1pct_duty_min": 9.3
+   }
+  },
+  "SF9 / 125 kHz, 115-byte frames": {
+   "airtime_per_full_frame_s": 0.615,
+   "KEM-authenticated handshake": {
+    "bytes": 4448,
+    "frames": 39,
+    "airtime_s": 24.0,
+    "elapsed_at_1pct_duty_min": 40.0
+   },
+   "KEM-authenticated first contact, keys not yet known": {
+    "bytes": 6816,
+    "frames": 60,
+    "airtime_s": 36.9,
+    "elapsed_at_1pct_duty_min": 61.5
+   },
+   "signature-authenticated handshake, keys unknown": {
+    "bytes": 12794,
+    "frames": 112,
+    "airtime_s": 68.9,
+    "elapsed_at_1pct_duty_min": 114.9
+   },
+   "resumption handshake": {
+    "bytes": 96,
+    "frames": 1,
+    "airtime_s": 0.6,
+    "elapsed_at_1pct_duty_min": 1.0
+   },
+   "one 200-byte message with session MAC": {
+    "bytes": 216,
+    "frames": 2,
+    "airtime_s": 1.2,
+    "elapsed_at_1pct_duty_min": 2.1
+   },
+   "one 200-byte message with bare ML-DSA-65 signature": {
+    "bytes": 3509,
+    "frames": 31,
+    "airtime_s": 19.1,
+    "elapsed_at_1pct_duty_min": 31.8
+   }
+  },
+  "SF12 / 125 kHz, 51-byte frames": {
+   "airtime_per_full_frame_s": 2.466,
+   "KEM-authenticated handshake": {
+    "bytes": 4448,
+    "frames": 88,
+    "airtime_s": 217.0,
+    "elapsed_at_1pct_duty_min": 361.6
+   },
+   "KEM-authenticated first contact, keys not yet known": {
+    "bytes": 6816,
+    "frames": 134,
+    "airtime_s": 330.4,
+    "elapsed_at_1pct_duty_min": 550.7
+   },
+   "signature-authenticated handshake, keys unknown": {
+    "bytes": 12794,
+    "frames": 251,
+    "airtime_s": 618.9,
+    "elapsed_at_1pct_duty_min": 1031.5
+   },
+   "resumption handshake": {
+    "bytes": 96,
+    "frames": 2,
+    "airtime_s": 4.9,
+    "elapsed_at_1pct_duty_min": 8.2
+   },
+   "one 200-byte message with session MAC": {
+    "bytes": 216,
+    "frames": 5,
+    "airtime_s": 12.3,
+    "elapsed_at_1pct_duty_min": 20.5
+   },
+   "one 200-byte message with bare ML-DSA-65 signature": {
+    "bytes": 3509,
+    "frames": 69,
+    "airtime_s": 170.1,
+    "elapsed_at_1pct_duty_min": 283.6
+   }
+  }
+ },
+ "lorawan_note": {
+  "bytes_on_air_for_51_bytes_of_lorawan_payload": 64,
+  "airtime_s_sf12_125khz": 2.793,
+  "airtime_s_sf12_125khz_51_bytes_on_air": 2.466
+ }
+}

@@ -1,0 +1,2106 @@
+[
+ {
+  "world": "loss penalty",
+  "spread": 0.0,
+  "nodes": 200,
+  "best possible": {
+   "mean": -0.027345120359317465,
+   "median": -0.027345120359317465,
+   "tenth_the_fixed_rule_serves_worst": -0.027345120359317465,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.027345120359317465
+  },
+  "best possible inside band 3": {
+   "mean": -0.017326648025775326,
+   "median": -0.017326648025775326,
+   "tenth_the_fixed_rule_serves_worst": -0.017326648025775326,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.017326648025775326
+  },
+  "best possible inside band 6": {
+   "mean": -0.0236397663461283,
+   "median": -0.0236397663461283,
+   "tenth_the_fixed_rule_serves_worst": -0.0236397663461283,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.0236397663461283
+  },
+  "best possible inside band 12": {
+   "mean": -0.02711341039540016,
+   "median": -0.02711341039540016,
+   "tenth_the_fixed_rule_serves_worst": -0.02711341039540016,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02711341039540016
+  },
+  "worst possible inside band 3": {
+   "mean": 0.03476631477343517,
+   "median": 0.03476631477343517,
+   "tenth_the_fixed_rule_serves_worst": 0.03476631477343517,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.03476631477343517
+  },
+  "worst possible inside band 6": {
+   "mean": 0.0814446385713785,
+   "median": 0.08144463857137851,
+   "tenth_the_fixed_rule_serves_worst": 0.08144463857137851,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.08144463857137851
+  },
+  "worst possible inside band 12": {
+   "mean": 0.22445782074813045,
+   "median": 0.22445782074813048,
+   "tenth_the_fixed_rule_serves_worst": 0.22445782074813048,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.22445782074813048
+  },
+  "worst possible with no band": {
+   "mean": 1.5156082459626032,
+   "median": 1.515608245962603,
+   "tenth_the_fixed_rule_serves_worst": 1.515608245962603,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 1.515608245962603
+  },
+  "one table for all nodes": {
+   "mean": -0.021406043244138973,
+   "median": -0.021406043244138973,
+   "tenth_the_fixed_rule_serves_worst": -0.021406043244138973,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.021406043244138973
+  },
+  "three profiles": {
+   "mean": -0.021422837897755665,
+   "median": -0.021418155978742526,
+   "tenth_the_fixed_rule_serves_worst": -0.021422348742037876,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.021339221789639873
+  },
+  "one table for all nodes, tuned directly on every node's true costs": {
+   "mean": -0.026177259835058808,
+   "median": -0.026177259835058808,
+   "tenth_the_fixed_rule_serves_worst": -0.026177259835058808,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.026177259835058808
+  },
+  "a formula per node, right form, one constant, 500 logged decisions": {
+   "mean": -0.02707097527830423,
+   "median": -0.027233979405188236,
+   "tenth_the_fixed_rule_serves_worst": -0.026968850339149437,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.025707002843944782
+  },
+  "a formula per node, wrong form, 500 logged decisions": {
+   "mean": -0.012604455794948516,
+   "median": -0.012841317438663402,
+   "tenth_the_fixed_rule_serves_worst": -0.012891057323574128,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.005277470528937567
+  },
+  "a formula per node, right form, one constant, 2000 logged decisions": {
+   "mean": -0.027264064676648384,
+   "median": -0.027318254851190327,
+   "tenth_the_fixed_rule_serves_worst": -0.027297703408889727,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02655243493566206
+  },
+  "a formula per node, wrong form, 2000 logged decisions": {
+   "mean": -0.013266837037199638,
+   "median": -0.013244650940844704,
+   "tenth_the_fixed_rule_serves_worst": -0.0129404378364758,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.008903317532887756
+  },
+  "a table per node, 500 logged decisions, ratio limit 32": {
+   "mean": -0.01598045337849988,
+   "median": -0.016190097296737316,
+   "tenth_the_fixed_rule_serves_worst": -0.01620201892366102,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.00567984750292827
+  },
+  "a table per node, 500 logged decisions, ratio limit 1024": {
+   "mean": -0.014267353219850733,
+   "median": -0.01463020326228881,
+   "tenth_the_fixed_rule_serves_worst": -0.014545574387107634,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.0011650612737309496
+  },
+  "a table per node, 2000 logged decisions, ratio limit 32": {
+   "mean": -0.019566631094257256,
+   "median": -0.019690091557418743,
+   "tenth_the_fixed_rule_serves_worst": -0.01913507332616806,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.015256412654578222
+  },
+  "a table per node, 2000 logged decisions, ratio limit 1024": {
+   "mean": -0.01891791715339502,
+   "median": -0.01901352945215945,
+   "tenth_the_fixed_rule_serves_worst": -0.01837011568960113,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.008492587130071727
+  },
+  "a table per node, 20000 logged decisions, ratio limit 32": {
+   "mean": -0.021301779655208783,
+   "median": -0.02117464504493438,
+   "tenth_the_fixed_rule_serves_worst": -0.020960456591421116,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.019773818124400266
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024": {
+   "mean": -0.0211999947959556,
+   "median": -0.02110195824653832,
+   "tenth_the_fixed_rule_serves_worst": -0.02080771490101817,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.019572274518903976
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 3": {
+   "mean": -0.01497544432456751,
+   "median": -0.014961953396475491,
+   "tenth_the_fixed_rule_serves_worst": -0.014848536143699704,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.014315977614858366
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 6": {
+   "mean": -0.019764165992678703,
+   "median": -0.01971935101097838,
+   "tenth_the_fixed_rule_serves_worst": -0.019531063361925904,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.018680426686896845
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 12": {
+   "mean": -0.021366492437589923,
+   "median": -0.02128860513301123,
+   "tenth_the_fixed_rule_serves_worst": -0.02100600670228973,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.01981554809691244
+  }
+ },
+ {
+  "world": "loss penalty",
+  "spread": 0.5,
+  "nodes": 200,
+  "best possible": {
+   "mean": -0.029032811039789035,
+   "median": -0.028051299943774977,
+   "tenth_the_fixed_rule_serves_worst": -0.040977849631248,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.021082456785530557
+  },
+  "best possible inside band 3": {
+   "mean": -0.01765437691530104,
+   "median": -0.017506090038654776,
+   "tenth_the_fixed_rule_serves_worst": -0.022479441960983493,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.013752515016315803
+  },
+  "best possible inside band 6": {
+   "mean": -0.024387181278924645,
+   "median": -0.0239622134602962,
+   "tenth_the_fixed_rule_serves_worst": -0.03247892657665559,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.0182619310983837
+  },
+  "best possible inside band 12": {
+   "mean": -0.028590053984809724,
+   "median": -0.027743791952843988,
+   "tenth_the_fixed_rule_serves_worst": -0.039968021593856665,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.020790071301011404
+  },
+  "worst possible inside band 3": {
+   "mean": 0.035172407863157784,
+   "median": 0.035008757826633596,
+   "tenth_the_fixed_rule_serves_worst": 0.039552285415206036,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.04057929579098207
+  },
+  "worst possible inside band 6": {
+   "mean": 0.08229960364815053,
+   "median": 0.0819173641158063,
+   "tenth_the_fixed_rule_serves_worst": 0.08963863252586753,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.09142662847530736
+  },
+  "worst possible inside band 12": {
+   "mean": 0.22636973630688348,
+   "median": 0.22510356331674797,
+   "tenth_the_fixed_rule_serves_worst": 0.23591255767421931,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.2386029507758325
+  },
+  "worst possible with no band": {
+   "mean": 1.5252095721337964,
+   "median": 1.5146913228007035,
+   "tenth_the_fixed_rule_serves_worst": 1.4986566057206447,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 1.6530522617012902
+  },
+  "one table for all nodes": {
+   "mean": -0.019379296090438404,
+   "median": -0.02077304703114813,
+   "tenth_the_fixed_rule_serves_worst": -0.026169801771336106,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.0003420552753564676
+  },
+  "three profiles": {
+   "mean": -0.024096757967649277,
+   "median": -0.021785423876828136,
+   "tenth_the_fixed_rule_serves_worst": -0.03628500600741741,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.017356042032109165
+  },
+  "one table for all nodes, tuned directly on every node's true costs": {
+   "mean": -0.024318546028043394,
+   "median": -0.0261964571615364,
+   "tenth_the_fixed_rule_serves_worst": -0.03346793265641134,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": 0.001331837719445783
+  },
+  "a formula per node, right form, one constant, 500 logged decisions": {
+   "mean": -0.02875572187503421,
+   "median": -0.027837371400676436,
+   "tenth_the_fixed_rule_serves_worst": -0.04082175928441885,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.019900277004554212
+  },
+  "a formula per node, wrong form, 500 logged decisions": {
+   "mean": -0.012536322865108356,
+   "median": -0.013161517672847067,
+   "tenth_the_fixed_rule_serves_worst": -0.03444456191530146,
+   "share_of_nodes_made_worse": 0.205,
+   "worst_node": 0.013521592771755797
+  },
+  "a formula per node, right form, one constant, 2000 logged decisions": {
+   "mean": -0.028967202487570155,
+   "median": -0.02799296671402096,
+   "tenth_the_fixed_rule_serves_worst": -0.04091636544171011,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02078840689267203
+  },
+  "a formula per node, wrong form, 2000 logged decisions": {
+   "mean": -0.01317844299962299,
+   "median": -0.013953631167949954,
+   "tenth_the_fixed_rule_serves_worst": -0.03499759059390574,
+   "share_of_nodes_made_worse": 0.205,
+   "worst_node": 0.012149719562107641
+  },
+  "a table per node, 500 logged decisions, ratio limit 32": {
+   "mean": -0.017268557369509222,
+   "median": -0.01644321794104392,
+   "tenth_the_fixed_rule_serves_worst": -0.03141777412554533,
+   "share_of_nodes_made_worse": 0.005,
+   "worst_node": 0.0021365643047488447
+  },
+  "a table per node, 500 logged decisions, ratio limit 1024": {
+   "mean": -0.015556831483017244,
+   "median": -0.014668135273520844,
+   "tenth_the_fixed_rule_serves_worst": -0.029886907751394715,
+   "share_of_nodes_made_worse": 0.01,
+   "worst_node": 0.007937824438628338
+  },
+  "a table per node, 2000 logged decisions, ratio limit 32": {
+   "mean": -0.02160040152852308,
+   "median": -0.02036167020480184,
+   "tenth_the_fixed_rule_serves_worst": -0.03613377967001673,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.00826785596644719
+  },
+  "a table per node, 2000 logged decisions, ratio limit 1024": {
+   "mean": -0.021048911718312694,
+   "median": -0.019616631426109976,
+   "tenth_the_fixed_rule_serves_worst": -0.035572383009869146,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.00661080129507019
+  },
+  "a table per node, 20000 logged decisions, ratio limit 32": {
+   "mean": -0.023951648379752326,
+   "median": -0.02228309683548574,
+   "tenth_the_fixed_rule_serves_worst": -0.038151291588731505,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.010209108332627781
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024": {
+   "mean": -0.023897599076848595,
+   "median": -0.02217229896333256,
+   "tenth_the_fixed_rule_serves_worst": -0.0381188359229329,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.010126204130829763
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 3": {
+   "mean": -0.01576117109594787,
+   "median": -0.015322367554942429,
+   "tenth_the_fixed_rule_serves_worst": -0.02167069974454757,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.009601515757497348
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 6": {
+   "mean": -0.0211741029793706,
+   "median": -0.020254992386387782,
+   "tenth_the_fixed_rule_serves_worst": -0.031034863087159546,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.011161888213774285
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 12": {
+   "mean": -0.02381759045222739,
+   "median": -0.022249826367962133,
+   "tenth_the_fixed_rule_serves_worst": -0.03756155260632922,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.01034744998551651
+  }
+ },
+ {
+  "world": "loss penalty",
+  "spread": 1.0,
+  "nodes": 200,
+  "best possible": {
+   "mean": -0.036963152407919475,
+   "median": -0.03119355172786875,
+   "tenth_the_fixed_rule_serves_worst": -0.08274430131863533,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.021080151086161014
+  },
+  "best possible inside band 3": {
+   "mean": -0.019813298765066337,
+   "median": -0.018769578961639777,
+   "tenth_the_fixed_rule_serves_worst": -0.03184022987364653,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.01375333824006053
+  },
+  "best possible inside band 6": {
+   "mean": -0.0282633781342464,
+   "median": -0.026188306572048403,
+   "tenth_the_fixed_rule_serves_worst": -0.04968026863376548,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.01827294934949142
+  },
+  "best possible inside band 12": {
+   "mean": -0.03503620163970549,
+   "median": -0.030804888911400985,
+   "tenth_the_fixed_rule_serves_worst": -0.07085675685491839,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.020777919943486323
+  },
+  "worst possible inside band 3": {
+   "mean": 0.03761734870772562,
+   "median": 0.03616264291592641,
+   "tenth_the_fixed_rule_serves_worst": 0.05154446884440311,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.07583067763134665
+  },
+  "worst possible inside band 6": {
+   "mean": 0.08679612068011722,
+   "median": 0.08394421386036588,
+   "tenth_the_fixed_rule_serves_worst": 0.11243382495078147,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.15717966294352914
+  },
+  "worst possible inside band 12": {
+   "mean": 0.23471341882983168,
+   "median": 0.22813046159347328,
+   "tenth_the_fixed_rule_serves_worst": 0.28305991988828405,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.36680694748656806
+  },
+  "worst possible with no band": {
+   "mean": 1.5602584889840085,
+   "median": 1.5160600839782268,
+   "tenth_the_fixed_rule_serves_worst": 1.782959122097696,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 2.128514839809014
+  },
+  "one table for all nodes": {
+   "mean": -0.014159963703011673,
+   "median": -0.0165611931360527,
+   "tenth_the_fixed_rule_serves_worst": -0.0019140900202223089,
+   "share_of_nodes_made_worse": 0.05,
+   "worst_node": 0.014700332809176153
+  },
+  "three profiles": {
+   "mean": -0.029324961457939776,
+   "median": -0.02286016560115539,
+   "tenth_the_fixed_rule_serves_worst": -0.06280807039609464,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.0018778484683622532
+  },
+  "one table for all nodes, tuned directly on every node's true costs": {
+   "mean": -0.019869330501649952,
+   "median": -0.02272075319645589,
+   "tenth_the_fixed_rule_serves_worst": -0.005327545507531078,
+   "share_of_nodes_made_worse": 0.035,
+   "worst_node": 0.014401823816770243
+  },
+  "a formula per node, right form, one constant, 500 logged decisions": {
+   "mean": -0.03670019245779243,
+   "median": -0.03082554076644911,
+   "tenth_the_fixed_rule_serves_worst": -0.08238427296763265,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.01995505748103754
+  },
+  "a formula per node, wrong form, 500 logged decisions": {
+   "mean": -0.018297388073776476,
+   "median": -0.015400030686601784,
+   "tenth_the_fixed_rule_serves_worst": -0.05113111620077596,
+   "share_of_nodes_made_worse": 0.195,
+   "worst_node": 0.01544785797057635
+  },
+  "a formula per node, right form, one constant, 2000 logged decisions": {
+   "mean": -0.03688857288526158,
+   "median": -0.031130542151110496,
+   "tenth_the_fixed_rule_serves_worst": -0.08266712989758032,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.020453835580378832
+  },
+  "a formula per node, wrong form, 2000 logged decisions": {
+   "mean": -0.018621159325300795,
+   "median": -0.016771128157865134,
+   "tenth_the_fixed_rule_serves_worst": -0.05202817639924233,
+   "share_of_nodes_made_worse": 0.21,
+   "worst_node": 0.01095362810673639
+  },
+  "a table per node, 500 logged decisions, ratio limit 32": {
+   "mean": -0.0250506205485026,
+   "median": -0.02107128735061442,
+   "tenth_the_fixed_rule_serves_worst": -0.06825127632397561,
+   "share_of_nodes_made_worse": 0.01,
+   "worst_node": 0.010288502840482883
+  },
+  "a table per node, 500 logged decisions, ratio limit 1024": {
+   "mean": -0.02346070683042215,
+   "median": -0.019418800148086723,
+   "tenth_the_fixed_rule_serves_worst": -0.06784046759740521,
+   "share_of_nodes_made_worse": 0.02,
+   "worst_node": 0.01141519573792471
+  },
+  "a table per node, 2000 logged decisions, ratio limit 32": {
+   "mean": -0.02965692637954885,
+   "median": -0.02382443758270375,
+   "tenth_the_fixed_rule_serves_worst": -0.07560685328199498,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.006679290334024812
+  },
+  "a table per node, 2000 logged decisions, ratio limit 1024": {
+   "mean": -0.029197851328220684,
+   "median": -0.023225576925608005,
+   "tenth_the_fixed_rule_serves_worst": -0.07543604785106453,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.006216388027125208
+  },
+  "a table per node, 20000 logged decisions, ratio limit 32": {
+   "mean": -0.03270828184590719,
+   "median": -0.025969410352794153,
+   "tenth_the_fixed_rule_serves_worst": -0.08038281827121618,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.011357282299550131
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024": {
+   "mean": -0.03267573045717111,
+   "median": -0.025942748766958346,
+   "tenth_the_fixed_rule_serves_worst": -0.08044460063054601,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.011355333876099327
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 3": {
+   "mean": -0.018322198265560825,
+   "median": -0.016705047823707297,
+   "tenth_the_fixed_rule_serves_worst": -0.031303115396400544,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.009823695487895523
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 6": {
+   "mean": -0.02567677054554693,
+   "median": -0.022667396729370404,
+   "tenth_the_fixed_rule_serves_worst": -0.048554407068744886,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.011599178904144303
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 12": {
+   "mean": -0.031129892292052704,
+   "median": -0.025754823893625378,
+   "tenth_the_fixed_rule_serves_worst": -0.06906206298346654,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.011443600564539413
+  }
+ },
+ {
+  "world": "loss penalty",
+  "spread": 1.5,
+  "nodes": 200,
+  "best possible": {
+   "mean": -0.04694170189378141,
+   "median": -0.03745201932990555,
+   "tenth_the_fixed_rule_serves_worst": -0.14579059080689272,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02108071187929139
+  },
+  "best possible inside band 3": {
+   "mean": -0.022398882772335486,
+   "median": -0.02098514931858325,
+   "tenth_the_fixed_rule_serves_worst": -0.04526864747562748,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.013752850891495916
+  },
+  "best possible inside band 6": {
+   "mean": -0.032857699969994346,
+   "median": -0.030138299331829377,
+   "tenth_the_fixed_rule_serves_worst": -0.07391974698130303,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.018278151774725804
+  },
+  "best possible inside band 12": {
+   "mean": -0.04254977200577526,
+   "median": -0.03639260132096722,
+   "tenth_the_fixed_rule_serves_worst": -0.11295711602617062,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02078302403931076
+  },
+  "worst possible inside band 3": {
+   "mean": 0.04031680300014836,
+   "median": 0.03829301299872356,
+   "tenth_the_fixed_rule_serves_worst": 0.06692751003005087,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.12797860995239407
+  },
+  "worst possible inside band 6": {
+   "mean": 0.0916870155418771,
+   "median": 0.08756936030945695,
+   "tenth_the_fixed_rule_serves_worst": 0.14116353812455743,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.2544712558565241
+  },
+  "worst possible inside band 12": {
+   "mean": 0.24321665340951326,
+   "median": 0.23433496609635251,
+   "tenth_the_fixed_rule_serves_worst": 0.3385105513194228,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.5500837149516753
+  },
+  "worst possible with no band": {
+   "mean": 1.5818075456211325,
+   "median": 1.5121211915403312,
+   "tenth_the_fixed_rule_serves_worst": 2.028511119833566,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 2.7635488241086867
+  },
+  "one table for all nodes": {
+   "mean": -0.01290363006034779,
+   "median": -0.01666281298051142,
+   "tenth_the_fixed_rule_serves_worst": 0.012627516568551956,
+   "share_of_nodes_made_worse": 0.09,
+   "worst_node": 0.04175938984035921
+  },
+  "three profiles": {
+   "mean": -0.03692651058341988,
+   "median": -0.027546522422122244,
+   "tenth_the_fixed_rule_serves_worst": -0.11090934839632678,
+   "share_of_nodes_made_worse": 0.04,
+   "worst_node": 0.01066797789687346
+  },
+  "one table for all nodes, tuned directly on every node's true costs": {
+   "mean": -0.019658098295273752,
+   "median": -0.02150671742674648,
+   "tenth_the_fixed_rule_serves_worst": -0.007102878954000791,
+   "share_of_nodes_made_worse": 0.015,
+   "worst_node": 0.007223036919111303
+  },
+  "a formula per node, right form, one constant, 500 logged decisions": {
+   "mean": -0.046708994467287164,
+   "median": -0.03724219548744129,
+   "tenth_the_fixed_rule_serves_worst": -0.1455047329019874,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.01979559747928561
+  },
+  "a formula per node, wrong form, 500 logged decisions": {
+   "mean": -0.02913401662713661,
+   "median": -0.02526902163160044,
+   "tenth_the_fixed_rule_serves_worst": -0.10943133353096268,
+   "share_of_nodes_made_worse": 0.235,
+   "worst_node": 0.02018536412449823
+  },
+  "a formula per node, right form, one constant, 2000 logged decisions": {
+   "mean": -0.046870219463369674,
+   "median": -0.03737296364296849,
+   "tenth_the_fixed_rule_serves_worst": -0.14573031858386748,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.020812296013649312
+  },
+  "a formula per node, wrong form, 2000 logged decisions": {
+   "mean": -0.029699399269709204,
+   "median": -0.025291044979548205,
+   "tenth_the_fixed_rule_serves_worst": -0.10991131981340312,
+   "share_of_nodes_made_worse": 0.22,
+   "worst_node": 0.011831900308287624
+  },
+  "a table per node, 500 logged decisions, ratio limit 32": {
+   "mean": -0.03489803157444592,
+   "median": -0.027259292985542027,
+   "tenth_the_fixed_rule_serves_worst": -0.12362332496964075,
+   "share_of_nodes_made_worse": 0.005,
+   "worst_node": 0.00348039548682344
+  },
+  "a table per node, 500 logged decisions, ratio limit 1024": {
+   "mean": -0.033643837162058536,
+   "median": -0.026654151645462698,
+   "tenth_the_fixed_rule_serves_worst": -0.123975248941215,
+   "share_of_nodes_made_worse": 0.01,
+   "worst_node": 0.007653663829712221
+  },
+  "a table per node, 2000 logged decisions, ratio limit 32": {
+   "mean": -0.03976675943342926,
+   "median": -0.03169460413099923,
+   "tenth_the_fixed_rule_serves_worst": -0.13352005678110077,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.005035907192778799
+  },
+  "a table per node, 2000 logged decisions, ratio limit 1024": {
+   "mean": -0.03927896593164809,
+   "median": -0.030736150151344732,
+   "tenth_the_fixed_rule_serves_worst": -0.1334450645868665,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.004033939826815547
+  },
+  "a table per node, 20000 logged decisions, ratio limit 32": {
+   "mean": -0.04307174543343274,
+   "median": -0.034330265381384006,
+   "tenth_the_fixed_rule_serves_worst": -0.14029923503476052,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.011248302239270092
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024": {
+   "mean": -0.04307014159129736,
+   "median": -0.034322958534346415,
+   "tenth_the_fixed_rule_serves_worst": -0.14059198378383797,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.011055957436344466
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 3": {
+   "mean": -0.021173752680809132,
+   "median": -0.01997811056848864,
+   "tenth_the_fixed_rule_serves_worst": -0.04462736379318226,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.009591100579570466
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 6": {
+   "mean": -0.030698893143498926,
+   "median": -0.028159528694924052,
+   "tenth_the_fixed_rule_serves_worst": -0.07248043355116102,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.011310649901139391
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 12": {
+   "mean": -0.03924727144998588,
+   "median": -0.03326752411651929,
+   "tenth_the_fixed_rule_serves_worst": -0.11040841171724121,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.011116755115456622
+  }
+ },
+ {
+  "world": "exponents",
+  "spread": 0.0,
+  "nodes": 200,
+  "best possible": {
+   "mean": -0.03102193506026152,
+   "median": -0.03102193506026152,
+   "tenth_the_fixed_rule_serves_worst": -0.03102193506026152,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.03102193506026152
+  },
+  "best possible inside band 3": {
+   "mean": -0.019007192119856464,
+   "median": -0.019007192119856464,
+   "tenth_the_fixed_rule_serves_worst": -0.019007192119856464,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.019007192119856464
+  },
+  "best possible inside band 6": {
+   "mean": -0.02577649873559773,
+   "median": -0.02577649873559773,
+   "tenth_the_fixed_rule_serves_worst": -0.02577649873559773,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02577649873559773
+  },
+  "best possible inside band 12": {
+   "mean": -0.030580027094735174,
+   "median": -0.030580027094735174,
+   "tenth_the_fixed_rule_serves_worst": -0.030580027094735174,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.030580027094735174
+  },
+  "worst possible inside band 3": {
+   "mean": 0.038526151709052936,
+   "median": 0.038526151709052936,
+   "tenth_the_fixed_rule_serves_worst": 0.038526151709052936,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.038526151709052936
+  },
+  "worst possible inside band 6": {
+   "mean": 0.09329429303160541,
+   "median": 0.09329429303160541,
+   "tenth_the_fixed_rule_serves_worst": 0.09329429303160541,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.09329429303160541
+  },
+  "worst possible inside band 12": {
+   "mean": 0.26702799914945013,
+   "median": 0.2670279991494502,
+   "tenth_the_fixed_rule_serves_worst": 0.26702799914945013,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.2670279991494502
+  },
+  "worst possible with no band": {
+   "mean": 2.0994633414133332,
+   "median": 2.0994633414133332,
+   "tenth_the_fixed_rule_serves_worst": 2.0994633414133332,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 2.0994633414133332
+  },
+  "one table for all nodes": {
+   "mean": -0.030999081125577255,
+   "median": -0.030999081125577255,
+   "tenth_the_fixed_rule_serves_worst": -0.030999081125577255,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.030999081125577255
+  },
+  "three profiles": {
+   "mean": -0.030968306072746768,
+   "median": -0.030959542479676583,
+   "tenth_the_fixed_rule_serves_worst": -0.03096739047347078,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.030957317851514232
+  },
+  "one table for all nodes, tuned directly on every node's true costs": {
+   "mean": -0.030620626558694464,
+   "median": -0.030620626558694464,
+   "tenth_the_fixed_rule_serves_worst": -0.030620626558694464,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.030620626558694464
+  },
+  "a formula per node, right form, three constants, 500 logged decisions": {
+   "mean": -0.030253443956127217,
+   "median": -0.030463192919404136,
+   "tenth_the_fixed_rule_serves_worst": -0.030387613752395952,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.027944604863708866
+  },
+  "a formula per node, wrong form, 500 logged decisions": {
+   "mean": 0.0030962811962129432,
+   "median": 0.002242291297796184,
+   "tenth_the_fixed_rule_serves_worst": 0.002037304171698856,
+   "share_of_nodes_made_worse": 0.635,
+   "worst_node": 0.014179749007975362
+  },
+  "a formula per node, right form, three constants, 2000 logged decisions": {
+   "mean": -0.030826684390087095,
+   "median": -0.03090025510923461,
+   "tenth_the_fixed_rule_serves_worst": -0.030862124364582987,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.029679969318258115
+  },
+  "a formula per node, wrong form, 2000 logged decisions": {
+   "mean": 0.002782340794536984,
+   "median": 0.002242291297796184,
+   "tenth_the_fixed_rule_serves_worst": 0.0024796725116642882,
+   "share_of_nodes_made_worse": 0.77,
+   "worst_node": 0.008136649597520362
+  },
+  "a table per node, 500 logged decisions, ratio limit 32": {
+   "mean": -0.021671416076139583,
+   "median": -0.022804364613342565,
+   "tenth_the_fixed_rule_serves_worst": -0.022759379748126474,
+   "share_of_nodes_made_worse": 0.02,
+   "worst_node": 0.013560838914695283
+  },
+  "a table per node, 500 logged decisions, ratio limit 1024": {
+   "mean": -0.021020610222096493,
+   "median": -0.0222307864684686,
+   "tenth_the_fixed_rule_serves_worst": -0.022104688158730797,
+   "share_of_nodes_made_worse": 0.02,
+   "worst_node": 0.013809585300678773
+  },
+  "a table per node, 2000 logged decisions, ratio limit 32": {
+   "mean": -0.02796561786709295,
+   "median": -0.02829413926448332,
+   "tenth_the_fixed_rule_serves_worst": -0.028152267208163256,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.022132949175753813
+  },
+  "a table per node, 2000 logged decisions, ratio limit 1024": {
+   "mean": -0.027775990408062626,
+   "median": -0.02802397568283682,
+   "tenth_the_fixed_rule_serves_worst": -0.027686828650219986,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.020653602345532707
+  },
+  "a table per node, 20000 logged decisions, ratio limit 32": {
+   "mean": -0.030614562902072043,
+   "median": -0.030646621750737568,
+   "tenth_the_fixed_rule_serves_worst": -0.03061653725956597,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.030081226323802723
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024": {
+   "mean": -0.030585784659001396,
+   "median": -0.030614096863070484,
+   "tenth_the_fixed_rule_serves_worst": -0.030568420406275297,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.03009635585514636
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 3": {
+   "mean": -0.018854955047165448,
+   "median": -0.018866813963142604,
+   "tenth_the_fixed_rule_serves_worst": -0.01885961584914924,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.018650983834595403
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 6": {
+   "mean": -0.025512836063298936,
+   "median": -0.025530625827657027,
+   "tenth_the_fixed_rule_serves_worst": -0.025511412661747314,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.025152366945659255
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 12": {
+   "mean": -0.03018112639268172,
+   "median": -0.030206593390024183,
+   "tenth_the_fixed_rule_serves_worst": -0.030172341325770163,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.029688033595345997
+  }
+ },
+ {
+  "world": "exponents",
+  "spread": 0.5,
+  "nodes": 200,
+  "best possible": {
+   "mean": -0.046966449530222804,
+   "median": -0.038418403891458675,
+   "tenth_the_fixed_rule_serves_worst": -0.10740379713023163,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.029676374011996076
+  },
+  "best possible inside band 3": {
+   "mean": -0.02381775022819961,
+   "median": -0.021851680770114568,
+   "tenth_the_fixed_rule_serves_worst": -0.03806895686281255,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.01868565450110571
+  },
+  "best possible inside band 6": {
+   "mean": -0.03415629421960475,
+   "median": -0.03072023187930556,
+   "tenth_the_fixed_rule_serves_worst": -0.061163165346348816,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02496284553576178
+  },
+  "best possible inside band 12": {
+   "mean": -0.04371678155768091,
+   "median": -0.037233222976449765,
+   "tenth_the_fixed_rule_serves_worst": -0.08982438311428705,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.029211460997983996
+  },
+  "worst possible inside band 3": {
+   "mean": 0.04418321375783289,
+   "median": 0.041746350792796094,
+   "tenth_the_fixed_rule_serves_worst": 0.055742501095894514,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.06936342019501773
+  },
+  "worst possible inside band 6": {
+   "mean": 0.10435278638169974,
+   "median": 0.09919126715440774,
+   "tenth_the_fixed_rule_serves_worst": 0.12071243216037,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.1469344779852848
+  },
+  "worst possible inside band 12": {
+   "mean": 0.2896020634435714,
+   "median": 0.2756174998618205,
+   "tenth_the_fixed_rule_serves_worst": 0.2957465710530423,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.41297030381557054
+  },
+  "worst possible with no band": {
+   "mean": 2.2111431478685195,
+   "median": 2.120102715774925,
+   "tenth_the_fixed_rule_serves_worst": 2.0595697819264265,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 3.08877993750383
+  },
+  "one table for all nodes": {
+   "mean": -0.026622210505518887,
+   "median": -0.030268018474769287,
+   "tenth_the_fixed_rule_serves_worst": -0.03340271619618995,
+   "share_of_nodes_made_worse": 0.02,
+   "worst_node": 0.00969865360340938
+  },
+  "three profiles": {
+   "mean": -0.04381628138477089,
+   "median": -0.034597130529975206,
+   "tenth_the_fixed_rule_serves_worst": -0.09568655581623593,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.023603187862140884
+  },
+  "one table for all nodes, tuned directly on every node's true costs": {
+   "mean": -0.026360238279571395,
+   "median": -0.02956569325476721,
+   "tenth_the_fixed_rule_serves_worst": -0.036164029203029906,
+   "share_of_nodes_made_worse": 0.02,
+   "worst_node": 0.009337238977288553
+  },
+  "a formula per node, right form, three constants, 500 logged decisions": {
+   "mean": -0.04614728390191962,
+   "median": -0.037215463370530555,
+   "tenth_the_fixed_rule_serves_worst": -0.106632265016499,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.025998575338199492
+  },
+  "a formula per node, wrong form, 500 logged decisions": {
+   "mean": -0.014165960323635894,
+   "median": -0.006379612990675909,
+   "tenth_the_fixed_rule_serves_worst": -0.062433206647218874,
+   "share_of_nodes_made_worse": 0.145,
+   "worst_node": 0.012341003510011328
+  },
+  "a formula per node, right form, three constants, 2000 logged decisions": {
+   "mean": -0.046803933880281694,
+   "median": -0.03822650398176769,
+   "tenth_the_fixed_rule_serves_worst": -0.10724074763714249,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.028949940645215277
+  },
+  "a formula per node, wrong form, 2000 logged decisions": {
+   "mean": -0.014354636218382961,
+   "median": -0.005068056707413282,
+   "tenth_the_fixed_rule_serves_worst": -0.06416477891321981,
+   "share_of_nodes_made_worse": 0.15,
+   "worst_node": 0.005853197968318291
+  },
+  "a table per node, 500 logged decisions, ratio limit 32": {
+   "mean": -0.03754016379729703,
+   "median": -0.02883426492099861,
+   "tenth_the_fixed_rule_serves_worst": -0.09945172422368018,
+   "share_of_nodes_made_worse": 0.005,
+   "worst_node": 0.01114722932039669
+  },
+  "a table per node, 500 logged decisions, ratio limit 1024": {
+   "mean": -0.036917488931502006,
+   "median": -0.027802203165205597,
+   "tenth_the_fixed_rule_serves_worst": -0.09977779411536154,
+   "share_of_nodes_made_worse": 0.005,
+   "worst_node": 0.011268319162419438
+  },
+  "a table per node, 2000 logged decisions, ratio limit 32": {
+   "mean": -0.04389735413079717,
+   "median": -0.03552886730973964,
+   "tenth_the_fixed_rule_serves_worst": -0.10308408411856988,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02340819102528724
+  },
+  "a table per node, 2000 logged decisions, ratio limit 1024": {
+   "mean": -0.04375330558902802,
+   "median": -0.0350382205775609,
+   "tenth_the_fixed_rule_serves_worst": -0.10351712761180751,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.023366022312752976
+  },
+  "a table per node, 20000 logged decisions, ratio limit 32": {
+   "mean": -0.046558053145668694,
+   "median": -0.03803963879268851,
+   "tenth_the_fixed_rule_serves_worst": -0.10705865637891192,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02904595307219615
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024": {
+   "mean": -0.0465384951649701,
+   "median": -0.038035741631455455,
+   "tenth_the_fixed_rule_serves_worst": -0.10706858366603086,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.028912732420812826
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 3": {
+   "mean": -0.02367083938535576,
+   "median": -0.021721165125174413,
+   "tenth_the_fixed_rule_serves_worst": -0.038008880680543825,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.018407129100248776
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 6": {
+   "mean": -0.033904141377602476,
+   "median": -0.03050135749431293,
+   "tenth_the_fixed_rule_serves_worst": -0.06104680595213602,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.024522306108182845
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 12": {
+   "mean": -0.04334834728781866,
+   "median": -0.03678916201209459,
+   "tenth_the_fixed_rule_serves_worst": -0.08962223435621877,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.028554510834929103
+  }
+ },
+ {
+  "world": "exponents",
+  "spread": 1.0,
+  "nodes": 200,
+  "best possible": {
+   "mean": -0.08690822409210605,
+   "median": -0.050920787923974586,
+   "tenth_the_fixed_rule_serves_worst": -0.3110007958145421,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02967570652467233
+  },
+  "best possible inside band 3": {
+   "mean": -0.03408057308482504,
+   "median": -0.026449993720342624,
+   "tenth_the_fixed_rule_serves_worst": -0.08009875077392217,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.018687629726561017
+  },
+  "best possible inside band 6": {
+   "mean": -0.051984716931537084,
+   "median": -0.03900790169855961,
+   "tenth_the_fixed_rule_serves_worst": -0.13679194038898237,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02496521987079814
+  },
+  "best possible inside band 12": {
+   "mean": -0.07258533772879107,
+   "median": -0.04874360849611631,
+   "tenth_the_fixed_rule_serves_worst": -0.22047165800799898,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02921139960731578
+  },
+  "worst possible inside band 3": {
+   "mean": 0.05652638685369263,
+   "median": 0.046605698845908594,
+   "tenth_the_fixed_rule_serves_worst": 0.10281447625398407,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.14827718322317973
+  },
+  "worst possible inside band 6": {
+   "mean": 0.12862496656266326,
+   "median": 0.10915045764198505,
+   "tenth_the_fixed_rule_serves_worst": 0.2084933214255981,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.29544365272905737
+  },
+  "worst possible inside band 12": {
+   "mean": 0.34094677013246283,
+   "median": 0.2942094595169279,
+   "tenth_the_fixed_rule_serves_worst": 0.46298613797226756,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.7961354791603059
+  },
+  "worst possible with no band": {
+   "mean": 2.491220868227684,
+   "median": 2.2159657004885536,
+   "tenth_the_fixed_rule_serves_worst": 2.7712770040604098,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 6.082099925922876
+  },
+  "one table for all nodes": {
+   "mean": -0.015439591335028955,
+   "median": -0.028993081920578423,
+   "tenth_the_fixed_rule_serves_worst": -0.024907997216238764,
+   "share_of_nodes_made_worse": 0.2,
+   "worst_node": 0.1724489209599065
+  },
+  "three profiles": {
+   "mean": -0.07745257974441662,
+   "median": -0.03984704342213935,
+   "tenth_the_fixed_rule_serves_worst": -0.2849810477533365,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.014742080025720972
+  },
+  "one table for all nodes, tuned directly on every node's true costs": {
+   "mean": -0.01952844845693898,
+   "median": -0.025307508613863217,
+   "tenth_the_fixed_rule_serves_worst": -0.06265453995363675,
+   "share_of_nodes_made_worse": 0.2,
+   "worst_node": 0.12070149061618984
+  },
+  "a formula per node, right form, three constants, 500 logged decisions": {
+   "mean": -0.08623580641756737,
+   "median": -0.04997282831413902,
+   "tenth_the_fixed_rule_serves_worst": -0.31070678886651565,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02630519466992931
+  },
+  "a formula per node, wrong form, 500 logged decisions": {
+   "mean": -0.05574997221949952,
+   "median": -0.023937557170745194,
+   "tenth_the_fixed_rule_serves_worst": -0.282483925639087,
+   "share_of_nodes_made_worse": 0.155,
+   "worst_node": 0.008053779510897252
+  },
+  "a formula per node, right form, three constants, 2000 logged decisions": {
+   "mean": -0.08672585554774347,
+   "median": -0.05059286687772169,
+   "tenth_the_fixed_rule_serves_worst": -0.31089943884243726,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.029266988730282217
+  },
+  "a formula per node, wrong form, 2000 logged decisions": {
+   "mean": -0.05600690930479496,
+   "median": -0.02367432434799388,
+   "tenth_the_fixed_rule_serves_worst": -0.28338736360890343,
+   "share_of_nodes_made_worse": 0.095,
+   "worst_node": 0.005386456207068235
+  },
+  "a table per node, 500 logged decisions, ratio limit 32": {
+   "mean": -0.07856067245997272,
+   "median": -0.041075471133604324,
+   "tenth_the_fixed_rule_serves_worst": -0.30526200266331754,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.015353524076424985
+  },
+  "a table per node, 500 logged decisions, ratio limit 1024": {
+   "mean": -0.07813477893215172,
+   "median": -0.03974356013873537,
+   "tenth_the_fixed_rule_serves_worst": -0.3063356672495338,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.010677077142685842
+  },
+  "a table per node, 2000 logged decisions, ratio limit 32": {
+   "mean": -0.08414785522262744,
+   "median": -0.048110609693827355,
+   "tenth_the_fixed_rule_serves_worst": -0.3089118242413277,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.022179361734375513
+  },
+  "a table per node, 2000 logged decisions, ratio limit 1024": {
+   "mean": -0.08407019887604701,
+   "median": -0.04747682151452426,
+   "tenth_the_fixed_rule_serves_worst": -0.3094787189571938,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02252649560411557
+  },
+  "a table per node, 20000 logged decisions, ratio limit 32": {
+   "mean": -0.08650219207582972,
+   "median": -0.0505367763646401,
+   "tenth_the_fixed_rule_serves_worst": -0.31070456731754825,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.029058926478620517
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024": {
+   "mean": -0.08650524042428241,
+   "median": -0.05054224584354816,
+   "tenth_the_fixed_rule_serves_worst": -0.3107962205434325,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.029031462046164247
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 3": {
+   "mean": -0.033946620412924323,
+   "median": -0.02634551411545699,
+   "tenth_the_fixed_rule_serves_worst": -0.08007423582197634,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.018372277208270393
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 6": {
+   "mean": -0.05175828789793311,
+   "median": -0.03876370353067066,
+   "tenth_the_fixed_rule_serves_worst": -0.13673684199591968,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02448905295284931
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 12": {
+   "mean": -0.07225379590860116,
+   "median": -0.04837468793615113,
+   "tenth_the_fixed_rule_serves_worst": -0.2203726036119667,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.028602340389997982
+  }
+ },
+ {
+  "world": "exponents",
+  "spread": 1.5,
+  "nodes": 200,
+  "best possible": {
+   "mean": -0.11797378381878804,
+   "median": -0.07266183863564168,
+   "tenth_the_fixed_rule_serves_worst": -0.4090933552269032,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.029675469989386416
+  },
+  "best possible inside band 3": {
+   "mean": -0.04401598925606261,
+   "median": -0.03482589709970041,
+   "tenth_the_fixed_rule_serves_worst": -0.10427286302454519,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.018687747460812587
+  },
+  "best possible inside band 6": {
+   "mean": -0.06826785429381575,
+   "median": -0.051461121151330336,
+   "tenth_the_fixed_rule_serves_worst": -0.17828231854126056,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.024962598042789885
+  },
+  "best possible inside band 12": {
+   "mean": -0.09706633992052076,
+   "median": -0.067843709686428,
+   "tenth_the_fixed_rule_serves_worst": -0.28829514803784845,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.029219595055160585
+  },
+  "worst possible inside band 3": {
+   "mean": 0.07096529099536031,
+   "median": 0.05623839270909492,
+   "tenth_the_fixed_rule_serves_worst": 0.13640782244124433,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.23314226726981602
+  },
+  "worst possible inside band 6": {
+   "mean": 0.1593799329506187,
+   "median": 0.12807514866041136,
+   "tenth_the_fixed_rule_serves_worst": 0.2756340338803396,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.4573045515101233
+  },
+  "worst possible inside band 12": {
+   "mean": 0.4170312863409895,
+   "median": 0.33763754962192616,
+   "tenth_the_fixed_rule_serves_worst": 0.6171932020063735,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 1.2230982405172472
+  },
+  "worst possible with no band": {
+   "mean": 3.0323802185545867,
+   "median": 2.439524554324911,
+   "tenth_the_fixed_rule_serves_worst": 3.8107856763158607,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 9.951468423775788
+  },
+  "one table for all nodes": {
+   "mean": 0.008778503884283728,
+   "median": -0.013076100437282745,
+   "tenth_the_fixed_rule_serves_worst": 0.10747884835456079,
+   "share_of_nodes_made_worse": 0.31,
+   "worst_node": 0.3439087942393082
+  },
+  "three profiles": {
+   "mean": -0.10585329434988719,
+   "median": -0.06223434419873425,
+   "tenth_the_fixed_rule_serves_worst": -0.38564007957164603,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.00931996719438366
+  },
+  "one table for all nodes, tuned directly on every node's true costs": {
+   "mean": -0.010387995355565898,
+   "median": -0.012535905785473256,
+   "tenth_the_fixed_rule_serves_worst": -0.009125131430402328,
+   "share_of_nodes_made_worse": 0.055,
+   "worst_node": 0.008356958102405665
+  },
+  "a formula per node, right form, three constants, 500 logged decisions": {
+   "mean": -0.11743554250523604,
+   "median": -0.07215302802726609,
+   "tenth_the_fixed_rule_serves_worst": -0.4088303896142178,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02845215882801544
+  },
+  "a formula per node, wrong form, 500 logged decisions": {
+   "mean": -0.08477409787492438,
+   "median": -0.0527633554011237,
+   "tenth_the_fixed_rule_serves_worst": -0.3825201535167765,
+   "share_of_nodes_made_worse": 0.07,
+   "worst_node": 0.011235111862816005
+  },
+  "a formula per node, right form, three constants, 2000 logged decisions": {
+   "mean": -0.11780121804502126,
+   "median": -0.07238914762738236,
+   "tenth_the_fixed_rule_serves_worst": -0.4090572667922098,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.029224064225961688
+  },
+  "a formula per node, wrong form, 2000 logged decisions": {
+   "mean": -0.08508864091159353,
+   "median": -0.0527633554011237,
+   "tenth_the_fixed_rule_serves_worst": -0.38325435718912215,
+   "share_of_nodes_made_worse": 0.065,
+   "worst_node": 0.00570678759013199
+  },
+  "a table per node, 500 logged decisions, ratio limit 32": {
+   "mean": -0.10925005385656344,
+   "median": -0.06615780985448061,
+   "tenth_the_fixed_rule_serves_worst": -0.4007820871430064,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.00087149924647556
+  },
+  "a table per node, 500 logged decisions, ratio limit 1024": {
+   "mean": -0.10925158983743463,
+   "median": -0.06490096690374397,
+   "tenth_the_fixed_rule_serves_worst": -0.40338784197203414,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.0021629565632104164
+  },
+  "a table per node, 2000 logged decisions, ratio limit 32": {
+   "mean": -0.11504359974040243,
+   "median": -0.07009710536752523,
+   "tenth_the_fixed_rule_serves_worst": -0.4067538818666395,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02468859703282078
+  },
+  "a table per node, 2000 logged decisions, ratio limit 1024": {
+   "mean": -0.11515437682725292,
+   "median": -0.06994441028506937,
+   "tenth_the_fixed_rule_serves_worst": -0.4080791899716349,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.024053522971596353
+  },
+  "a table per node, 20000 logged decisions, ratio limit 32": {
+   "mean": -0.11736488668064358,
+   "median": -0.07196479746889323,
+   "tenth_the_fixed_rule_serves_worst": -0.40812934916909044,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.029052067708246976
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024": {
+   "mean": -0.1176223243411936,
+   "median": -0.07195970364106524,
+   "tenth_the_fixed_rule_serves_worst": -0.4089647398191133,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.029116051300650425
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 3": {
+   "mean": -0.04390103782181939,
+   "median": -0.034619111100480715,
+   "tenth_the_fixed_rule_serves_worst": -0.10425630164006316,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.018417545992377105
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 6": {
+   "mean": -0.06807728328610456,
+   "median": -0.05137077037453902,
+   "tenth_the_fixed_rule_serves_worst": -0.17824022716475668,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.024582027754007973
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 12": {
+   "mean": -0.09678892309718698,
+   "median": -0.06756295771513399,
+   "tenth_the_fixed_rule_serves_worst": -0.28822393455347145,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.028713759257802174
+  }
+ },
+ {
+  "world": "three ways",
+  "spread": 0.0,
+  "nodes": 200,
+  "best possible": {
+   "mean": -0.03102193506026152,
+   "median": -0.03102193506026152,
+   "tenth_the_fixed_rule_serves_worst": -0.03102193506026152,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.03102193506026152
+  },
+  "best possible inside band 3": {
+   "mean": -0.019007192119856464,
+   "median": -0.019007192119856464,
+   "tenth_the_fixed_rule_serves_worst": -0.019007192119856464,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.019007192119856464
+  },
+  "best possible inside band 6": {
+   "mean": -0.02577649873559773,
+   "median": -0.02577649873559773,
+   "tenth_the_fixed_rule_serves_worst": -0.02577649873559773,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.02577649873559773
+  },
+  "best possible inside band 12": {
+   "mean": -0.030580027094735174,
+   "median": -0.030580027094735174,
+   "tenth_the_fixed_rule_serves_worst": -0.030580027094735174,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.030580027094735174
+  },
+  "worst possible inside band 3": {
+   "mean": 0.038526151709052936,
+   "median": 0.038526151709052936,
+   "tenth_the_fixed_rule_serves_worst": 0.038526151709052936,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.038526151709052936
+  },
+  "worst possible inside band 6": {
+   "mean": 0.09329429303160541,
+   "median": 0.09329429303160541,
+   "tenth_the_fixed_rule_serves_worst": 0.09329429303160541,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.09329429303160541
+  },
+  "worst possible inside band 12": {
+   "mean": 0.26702799914945013,
+   "median": 0.2670279991494502,
+   "tenth_the_fixed_rule_serves_worst": 0.26702799914945013,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.2670279991494502
+  },
+  "worst possible with no band": {
+   "mean": 2.0994633414133332,
+   "median": 2.0994633414133332,
+   "tenth_the_fixed_rule_serves_worst": 2.0994633414133332,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 2.0994633414133332
+  },
+  "one table for all nodes": {
+   "mean": -0.030999081125577255,
+   "median": -0.030999081125577255,
+   "tenth_the_fixed_rule_serves_worst": -0.030999081125577255,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.030999081125577255
+  },
+  "three profiles": {
+   "mean": -0.030963535223763394,
+   "median": -0.030958327173550848,
+   "tenth_the_fixed_rule_serves_worst": -0.030962425741963534,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.03095618493902441
+  },
+  "one table for all nodes, tuned directly on every node's true costs": {
+   "mean": -0.030620626558694464,
+   "median": -0.030620626558694464,
+   "tenth_the_fixed_rule_serves_worst": -0.030620626558694464,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.030620626558694464
+  },
+  "a formula per node, right form, three constants, 500 logged decisions": {
+   "mean": -0.030253443956127217,
+   "median": -0.030463192919404136,
+   "tenth_the_fixed_rule_serves_worst": -0.030387613752395952,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.027944604863708866
+  },
+  "a formula per node, wrong form, 500 logged decisions": {
+   "mean": 0.0030962811962129432,
+   "median": 0.002242291297796184,
+   "tenth_the_fixed_rule_serves_worst": 0.002037304171698856,
+   "share_of_nodes_made_worse": 0.635,
+   "worst_node": 0.014179749007975362
+  },
+  "a formula per node, right form, three constants, 2000 logged decisions": {
+   "mean": -0.030826684390087095,
+   "median": -0.03090025510923461,
+   "tenth_the_fixed_rule_serves_worst": -0.030862124364582987,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.029679969318258115
+  },
+  "a formula per node, wrong form, 2000 logged decisions": {
+   "mean": 0.002782340794536984,
+   "median": 0.002242291297796184,
+   "tenth_the_fixed_rule_serves_worst": 0.0024796725116642882,
+   "share_of_nodes_made_worse": 0.77,
+   "worst_node": 0.008136649597520362
+  },
+  "nine profiles": {
+   "mean": -0.030820177919169023,
+   "median": -0.030828001040384523,
+   "tenth_the_fixed_rule_serves_worst": -0.030823812868893158,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.030727048238322285
+  },
+  "a table per node, 500 logged decisions, ratio limit 32": {
+   "mean": -0.021671416076139583,
+   "median": -0.022804364613342565,
+   "tenth_the_fixed_rule_serves_worst": -0.022759379748126474,
+   "share_of_nodes_made_worse": 0.02,
+   "worst_node": 0.013560838914695283
+  },
+  "a table per node, 500 logged decisions, ratio limit 1024": {
+   "mean": -0.021020610222096493,
+   "median": -0.0222307864684686,
+   "tenth_the_fixed_rule_serves_worst": -0.022104688158730797,
+   "share_of_nodes_made_worse": 0.02,
+   "worst_node": 0.013809585300678773
+  },
+  "a table per node, 2000 logged decisions, ratio limit 32": {
+   "mean": -0.02796561786709295,
+   "median": -0.02829413926448332,
+   "tenth_the_fixed_rule_serves_worst": -0.028152267208163256,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.022132949175753813
+  },
+  "a table per node, 2000 logged decisions, ratio limit 1024": {
+   "mean": -0.027775990408062626,
+   "median": -0.02802397568283682,
+   "tenth_the_fixed_rule_serves_worst": -0.027686828650219986,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.020653602345532707
+  },
+  "a table per node, 20000 logged decisions, ratio limit 32": {
+   "mean": -0.030614562902072043,
+   "median": -0.030646621750737568,
+   "tenth_the_fixed_rule_serves_worst": -0.03061653725956597,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.030081226323802723
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024": {
+   "mean": -0.030585784659001396,
+   "median": -0.030614096863070484,
+   "tenth_the_fixed_rule_serves_worst": -0.030568420406275297,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.03009635585514636
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 3": {
+   "mean": -0.018854955047165448,
+   "median": -0.018866813963142604,
+   "tenth_the_fixed_rule_serves_worst": -0.01885961584914924,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.018650983834595403
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 6": {
+   "mean": -0.025512836063298936,
+   "median": -0.025530625827657027,
+   "tenth_the_fixed_rule_serves_worst": -0.025511412661747314,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.025152366945659255
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 12": {
+   "mean": -0.03018112639268172,
+   "median": -0.030206593390024183,
+   "tenth_the_fixed_rule_serves_worst": -0.030172341325770163,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.029688033595345997
+  }
+ },
+ {
+  "world": "three ways",
+  "spread": 0.5,
+  "nodes": 200,
+  "best possible": {
+   "mean": -0.046476494181327634,
+   "median": -0.03911596836262554,
+   "tenth_the_fixed_rule_serves_worst": -0.10617726765631211,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.016445829425137393
+  },
+  "best possible inside band 3": {
+   "mean": -0.024061513546264016,
+   "median": -0.022430883811247526,
+   "tenth_the_fixed_rule_serves_worst": -0.04256736682794172,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.01022107629250879
+  },
+  "best possible inside band 6": {
+   "mean": -0.03438788431981985,
+   "median": -0.03153512990384294,
+   "tenth_the_fixed_rule_serves_worst": -0.06574670636623334,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.013875638719477834
+  },
+  "best possible inside band 12": {
+   "mean": -0.04370624386506669,
+   "median": -0.03841552227524703,
+   "tenth_the_fixed_rule_serves_worst": -0.09243960887395668,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.016316457914093863
+  },
+  "worst possible inside band 3": {
+   "mean": 0.04449304350436137,
+   "median": 0.04374545956932652,
+   "tenth_the_fixed_rule_serves_worst": 0.06256665858893637,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.08730103561016045
+  },
+  "worst possible inside band 6": {
+   "mean": 0.1048782217019383,
+   "median": 0.10375558123525419,
+   "tenth_the_fixed_rule_serves_worst": 0.13349909554565906,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.18309898081277365
+  },
+  "worst possible inside band 12": {
+   "mean": 0.2906610996083393,
+   "median": 0.2826678085837241,
+   "tenth_the_fixed_rule_serves_worst": 0.32548185165913573,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.4982963456584941
+  },
+  "worst possible with no band": {
+   "mean": 2.2594844041498208,
+   "median": 2.104076578816947,
+   "tenth_the_fixed_rule_serves_worst": 2.1802104691104462,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 5.212047557693927
+  },
+  "one table for all nodes": {
+   "mean": -0.033016547821020696,
+   "median": -0.0324843361357362,
+   "tenth_the_fixed_rule_serves_worst": -0.06513345747721147,
+   "share_of_nodes_made_worse": 0.01,
+   "worst_node": 0.013311289958471528
+  },
+  "three profiles": {
+   "mean": -0.037800635560137706,
+   "median": -0.03209796022313638,
+   "tenth_the_fixed_rule_serves_worst": -0.08214711521625521,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.003430796721558549
+  },
+  "one table for all nodes, tuned directly on every node's true costs": {
+   "mean": -0.03255685207762673,
+   "median": -0.031605905672691614,
+   "tenth_the_fixed_rule_serves_worst": -0.06381571128932348,
+   "share_of_nodes_made_worse": 0.01,
+   "worst_node": 0.014909125042521287
+  },
+  "a formula per node, right form, three constants, 500 logged decisions": {
+   "mean": -0.04571254762074835,
+   "median": -0.03833696979506451,
+   "tenth_the_fixed_rule_serves_worst": -0.10539900261653026,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.016213325453338867
+  },
+  "a formula per node, wrong form, 500 logged decisions": {
+   "mean": -0.007188333101592417,
+   "median": -0.005820655529477969,
+   "tenth_the_fixed_rule_serves_worst": -0.05592157475208084,
+   "share_of_nodes_made_worse": 0.39,
+   "worst_node": 0.07196110587077698
+  },
+  "a formula per node, right form, three constants, 2000 logged decisions": {
+   "mean": -0.04630875860577379,
+   "median": -0.03909950619672248,
+   "tenth_the_fixed_rule_serves_worst": -0.1060584721299773,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.016351116130060905
+  },
+  "a formula per node, wrong form, 2000 logged decisions": {
+   "mean": -0.007086345703901975,
+   "median": -0.004880813887626512,
+   "tenth_the_fixed_rule_serves_worst": -0.0562001427246104,
+   "share_of_nodes_made_worse": 0.375,
+   "worst_node": 0.07196110587077698
+  },
+  "nine profiles": {
+   "mean": -0.042027942933450635,
+   "median": -0.035870294291206195,
+   "tenth_the_fixed_rule_serves_worst": -0.09110233448770724,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.010899865625151217
+  },
+  "a table per node, 500 logged decisions, ratio limit 32": {
+   "mean": -0.03720868075959464,
+   "median": -0.031031211055791874,
+   "tenth_the_fixed_rule_serves_worst": -0.09588008879165359,
+   "share_of_nodes_made_worse": 0.015,
+   "worst_node": 0.017947479308431102
+  },
+  "a table per node, 500 logged decisions, ratio limit 1024": {
+   "mean": -0.03654436189127622,
+   "median": -0.029687782149388997,
+   "tenth_the_fixed_rule_serves_worst": -0.09576858452980552,
+   "share_of_nodes_made_worse": 0.015,
+   "worst_node": 0.018551307721894172
+  },
+  "a table per node, 2000 logged decisions, ratio limit 32": {
+   "mean": -0.043565378964729166,
+   "median": -0.03666876379099221,
+   "tenth_the_fixed_rule_serves_worst": -0.10319200389158452,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.014241398009737671
+  },
+  "a table per node, 2000 logged decisions, ratio limit 1024": {
+   "mean": -0.04341146204838589,
+   "median": -0.03659672553894611,
+   "tenth_the_fixed_rule_serves_worst": -0.10321681681338046,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.013429484224507848
+  },
+  "a table per node, 20000 logged decisions, ratio limit 32": {
+   "mean": -0.046068993350055154,
+   "median": -0.038651295075664394,
+   "tenth_the_fixed_rule_serves_worst": -0.10579946596356042,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.015955403887225494
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024": {
+   "mean": -0.04604751098444053,
+   "median": -0.03862103187811511,
+   "tenth_the_fixed_rule_serves_worst": -0.1057753478987965,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.015848944031299772
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 3": {
+   "mean": -0.023919030090261348,
+   "median": -0.022285414370040668,
+   "tenth_the_fixed_rule_serves_worst": -0.04249217002598166,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.009969799130515433
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 6": {
+   "mean": -0.034146959624051225,
+   "median": -0.03133425438556009,
+   "tenth_the_fixed_rule_serves_worst": -0.0656063829410509,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.013494629759251309
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 12": {
+   "mean": -0.043343312974955944,
+   "median": -0.03792066034391395,
+   "tenth_the_fixed_rule_serves_worst": -0.09218168384870672,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.015772208995583403
+  }
+ },
+ {
+  "world": "three ways",
+  "spread": 1.0,
+  "nodes": 200,
+  "best possible": {
+   "mean": -0.08919187995814302,
+   "median": -0.055478196952059744,
+   "tenth_the_fixed_rule_serves_worst": -0.30521656454767354,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.012530424649514593
+  },
+  "best possible inside band 3": {
+   "mean": -0.035504266974555235,
+   "median": -0.02844234860452577,
+   "tenth_the_fixed_rule_serves_worst": -0.08432616947023538,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.007814938004467753
+  },
+  "best possible inside band 6": {
+   "mean": -0.05392984012422522,
+   "median": -0.041695449819714514,
+   "tenth_the_fixed_rule_serves_worst": -0.1394906698002065,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.010541355188256496
+  },
+  "best possible inside band 12": {
+   "mean": -0.0749454227163794,
+   "median": -0.05224718450900856,
+   "tenth_the_fixed_rule_serves_worst": -0.21911003130914547,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.012413540260443834
+  },
+  "worst possible inside band 3": {
+   "mean": 0.05865779918344865,
+   "median": 0.053169100206261755,
+   "tenth_the_fixed_rule_serves_worst": 0.10937191847231106,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.147068582199108
+  },
+  "worst possible inside band 6": {
+   "mean": 0.1333056921247078,
+   "median": 0.12234668983166752,
+   "tenth_the_fixed_rule_serves_worst": 0.2206244628618685,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.29949501364700626
+  },
+  "worst possible inside band 12": {
+   "mean": 0.3535218071380116,
+   "median": 0.33195301261954124,
+   "tenth_the_fixed_rule_serves_worst": 0.49387933289915315,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.761688462469452
+  },
+  "worst possible with no band": {
+   "mean": 2.7276834490607587,
+   "median": 2.4510817387169572,
+   "tenth_the_fixed_rule_serves_worst": 3.095621930011288,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 7.900319568406845
+  },
+  "one table for all nodes": {
+   "mean": -0.029863279412415428,
+   "median": -0.02497440705192805,
+   "tenth_the_fixed_rule_serves_worst": -0.09193354563608405,
+   "share_of_nodes_made_worse": 0.145,
+   "worst_node": 0.12385896344241054
+  },
+  "three profiles": {
+   "mean": -0.06126256090731697,
+   "median": -0.0387008888560717,
+   "tenth_the_fixed_rule_serves_worst": -0.2137181065430284,
+   "share_of_nodes_made_worse": 0.085,
+   "worst_node": 0.09356542177450411
+  },
+  "one table for all nodes, tuned directly on every node's true costs": {
+   "mean": -0.031421173804181544,
+   "median": -0.02572255585115324,
+   "tenth_the_fixed_rule_serves_worst": -0.09587309238562695,
+   "share_of_nodes_made_worse": 0.11,
+   "worst_node": 0.09646383787559243
+  },
+  "a formula per node, right form, three constants, 500 logged decisions": {
+   "mean": -0.08851968891836191,
+   "median": -0.05524858285235684,
+   "tenth_the_fixed_rule_serves_worst": -0.30484398446713074,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.012277495086191803
+  },
+  "a formula per node, wrong form, 500 logged decisions": {
+   "mean": -0.03907468621803832,
+   "median": -0.02134688790547501,
+   "tenth_the_fixed_rule_serves_worst": -0.18844539923503623,
+   "share_of_nodes_made_worse": 0.245,
+   "worst_node": 0.09770827107864166
+  },
+  "a formula per node, right form, three constants, 2000 logged decisions": {
+   "mean": -0.08901393929841245,
+   "median": -0.05538575687093045,
+   "tenth_the_fixed_rule_serves_worst": -0.30509284920571134,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.011861470441246524
+  },
+  "a formula per node, wrong form, 2000 logged decisions": {
+   "mean": -0.038918561020581006,
+   "median": -0.020666999780721784,
+   "tenth_the_fixed_rule_serves_worst": -0.18795063593408384,
+   "share_of_nodes_made_worse": 0.225,
+   "worst_node": 0.09770827107864166
+  },
+  "nine profiles": {
+   "mean": -0.07354657265918028,
+   "median": -0.043517721243342744,
+   "tenth_the_fixed_rule_serves_worst": -0.26456546562326305,
+   "share_of_nodes_made_worse": 0.01,
+   "worst_node": 0.009865429479411825
+  },
+  "a table per node, 500 logged decisions, ratio limit 32": {
+   "mean": -0.0809030094426965,
+   "median": -0.04883028966571945,
+   "tenth_the_fixed_rule_serves_worst": -0.2984589017940708,
+   "share_of_nodes_made_worse": 0.005,
+   "worst_node": 0.007787237387033574
+  },
+  "a table per node, 500 logged decisions, ratio limit 1024": {
+   "mean": -0.08033994707260922,
+   "median": -0.048707795163575374,
+   "tenth_the_fixed_rule_serves_worst": -0.29856958362141495,
+   "share_of_nodes_made_worse": 0.005,
+   "worst_node": 0.00913107857017037
+  },
+  "a table per node, 2000 logged decisions, ratio limit 32": {
+   "mean": -0.08624167792700675,
+   "median": -0.05240267421584094,
+   "tenth_the_fixed_rule_serves_worst": -0.30210776026166836,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": 0.0004460256697329523
+  },
+  "a table per node, 2000 logged decisions, ratio limit 1024": {
+   "mean": -0.0861370263442001,
+   "median": -0.05201255194043641,
+   "tenth_the_fixed_rule_serves_worst": -0.30226644431371985,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": 1.3414904709740938e-05
+  },
+  "a table per node, 20000 logged decisions, ratio limit 32": {
+   "mean": -0.08864304329014637,
+   "median": -0.05517742547267024,
+   "tenth_the_fixed_rule_serves_worst": -0.30335887769779657,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.012138085703883195
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024": {
+   "mean": -0.08863436691533139,
+   "median": -0.055151916007874446,
+   "tenth_the_fixed_rule_serves_worst": -0.30340976606574205,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.0121319890342384
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 3": {
+   "mean": -0.035369810804644713,
+   "median": -0.028271934995668768,
+   "tenth_the_fixed_rule_serves_worst": -0.08423754942857171,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.007611965185730929
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 6": {
+   "mean": -0.053705180920937776,
+   "median": -0.04152647827566747,
+   "tenth_the_fixed_rule_serves_worst": -0.13930211500902703,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.010235980144119083
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 12": {
+   "mean": -0.07460169263351467,
+   "median": -0.05194835376880519,
+   "tenth_the_fixed_rule_serves_worst": -0.2187053242673019,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.012024624165122844
+  }
+ },
+ {
+  "world": "three ways",
+  "spread": 1.5,
+  "nodes": 200,
+  "best possible": {
+   "mean": -0.14966838150289985,
+   "median": -0.08915373008189675,
+   "tenth_the_fixed_rule_serves_worst": -0.45970385659180896,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.006746810204927511
+  },
+  "best possible inside band 3": {
+   "mean": -0.049035575153223813,
+   "median": -0.039399270193768376,
+   "tenth_the_fixed_rule_serves_worst": -0.1083214578294387,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.004148088473785783
+  },
+  "best possible inside band 6": {
+   "mean": -0.077646370696538,
+   "median": -0.05828466508671121,
+   "tenth_the_fixed_rule_serves_worst": -0.18298825174022393,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.005617637719310675
+  },
+  "best possible inside band 12": {
+   "mean": -0.11477869319227159,
+   "median": -0.08018020131266784,
+   "tenth_the_fixed_rule_serves_worst": -0.2987207728404732,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.006676373071346053
+  },
+  "worst possible inside band 3": {
+   "mean": 0.0736381419071955,
+   "median": 0.06582898519302327,
+   "tenth_the_fixed_rule_serves_worst": 0.13492145361007132,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.2367618761449024
+  },
+  "worst possible inside band 6": {
+   "mean": 0.15984943052123834,
+   "median": 0.14326156013525548,
+   "tenth_the_fixed_rule_serves_worst": 0.2647364862592209,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 0.4768868564662989
+  },
+  "worst possible inside band 12": {
+   "mean": 0.4006185454770167,
+   "median": 0.37706304384614553,
+   "tenth_the_fixed_rule_serves_worst": 0.5705895685629263,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 1.2267755411769286
+  },
+  "worst possible with no band": {
+   "mean": 3.010430574683825,
+   "median": 2.3855250721562413,
+   "tenth_the_fixed_rule_serves_worst": 3.38656559403269,
+   "share_of_nodes_made_worse": 1.0,
+   "worst_node": 16.45732251902815
+  },
+  "one table for all nodes": {
+   "mean": -0.04046493605383091,
+   "median": -0.026600000921587152,
+   "tenth_the_fixed_rule_serves_worst": -0.17044714589806614,
+   "share_of_nodes_made_worse": 0.275,
+   "worst_node": 0.5506728365053968
+  },
+  "three profiles": {
+   "mean": -0.07228460865748926,
+   "median": -0.027743054754928664,
+   "tenth_the_fixed_rule_serves_worst": -0.2365626625228776,
+   "share_of_nodes_made_worse": 0.175,
+   "worst_node": 0.3384492023585657
+  },
+  "one table for all nodes, tuned directly on every node's true costs": {
+   "mean": -0.04847301422230418,
+   "median": -0.031095917730409206,
+   "tenth_the_fixed_rule_serves_worst": -0.18347963944484244,
+   "share_of_nodes_made_worse": 0.24,
+   "worst_node": 0.3029279551243349
+  },
+  "a formula per node, right form, three constants, 500 logged decisions": {
+   "mean": -0.149102415258378,
+   "median": -0.08816945563292677,
+   "tenth_the_fixed_rule_serves_worst": -0.45940738650059315,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.005981821452346048
+  },
+  "a formula per node, wrong form, 500 logged decisions": {
+   "mean": -0.07888134992329573,
+   "median": -0.04393489281613733,
+   "tenth_the_fixed_rule_serves_worst": -0.24558527463793042,
+   "share_of_nodes_made_worse": 0.135,
+   "worst_node": 0.10405504391853704
+  },
+  "a formula per node, right form, three constants, 2000 logged decisions": {
+   "mean": -0.1494996494049042,
+   "median": -0.08900195514052078,
+   "tenth_the_fixed_rule_serves_worst": -0.459634534127748,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.005773192753056433
+  },
+  "a formula per node, wrong form, 2000 logged decisions": {
+   "mean": -0.0786763332942622,
+   "median": -0.047155855040198646,
+   "tenth_the_fixed_rule_serves_worst": -0.24732292837737577,
+   "share_of_nodes_made_worse": 0.125,
+   "worst_node": 0.11186031472509983
+  },
+  "nine profiles": {
+   "mean": -0.12197575941108262,
+   "median": -0.07317869501998181,
+   "tenth_the_fixed_rule_serves_worst": -0.4010806038539444,
+   "share_of_nodes_made_worse": 0.07,
+   "worst_node": 0.0511801027382921
+  },
+  "a table per node, 500 logged decisions, ratio limit 32": {
+   "mean": -0.1413289042393476,
+   "median": -0.07878760144934166,
+   "tenth_the_fixed_rule_serves_worst": -0.4480400738612902,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.0004107480940810371
+  },
+  "a table per node, 500 logged decisions, ratio limit 1024": {
+   "mean": -0.14126528929331494,
+   "median": -0.07891681995020255,
+   "tenth_the_fixed_rule_serves_worst": -0.44951077848591464,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.0005036095311481414
+  },
+  "a table per node, 2000 logged decisions, ratio limit 32": {
+   "mean": -0.14601589238707324,
+   "median": -0.08528094154996324,
+   "tenth_the_fixed_rule_serves_worst": -0.447474346895601,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.004445049898507136
+  },
+  "a table per node, 2000 logged decisions, ratio limit 1024": {
+   "mean": -0.145992755486047,
+   "median": -0.08521665850475318,
+   "tenth_the_fixed_rule_serves_worst": -0.44823485877034647,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.004488956314362524
+  },
+  "a table per node, 20000 logged decisions, ratio limit 32": {
+   "mean": -0.1485110690709399,
+   "median": -0.0888963618875343,
+   "tenth_the_fixed_rule_serves_worst": -0.45179530861246536,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.006206060624955323
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024": {
+   "mean": -0.1485695843064744,
+   "median": -0.08891892990258199,
+   "tenth_the_fixed_rule_serves_worst": -0.4519986082512797,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.006171806035512262
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 3": {
+   "mean": -0.04891964472070729,
+   "median": -0.03931114868597946,
+   "tenth_the_fixed_rule_serves_worst": -0.10816338341613319,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.003905078328755862
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 6": {
+   "mean": -0.07745218878225306,
+   "median": -0.05805237311028266,
+   "tenth_the_fixed_rule_serves_worst": -0.1826736876363786,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.005238151887945408
+  },
+  "a table per node, 20000 logged decisions, ratio limit 1024, inside band 12": {
+   "mean": -0.11443756566646714,
+   "median": -0.08001057712074638,
+   "tenth_the_fixed_rule_serves_worst": -0.29772205827159437,
+   "share_of_nodes_made_worse": 0.0,
+   "worst_node": -0.006162172489964868
+  }
+ }
+]

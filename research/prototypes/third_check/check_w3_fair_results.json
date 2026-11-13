@@ -1,0 +1,58 @@
+[
+ {
+  "world": "product",
+  "n_logged": 500,
+  "fitted_steps_ms": 157.2207156,
+  "trained_gate_es_as_in_study_ms": 158.812912,
+  "trained_eligible_examples_only_ms": 159.14241280000002,
+  "trained_eligible_only_three_inputs_ms": 158.453031,
+  "worst_seed": {
+   "steps": 158.01315420000003,
+   "study": 161.0722072,
+   "eligible_only": 161.1852706,
+   "eligible_three": 159.69048180000001
+  }
+ },
+ {
+  "world": "product",
+  "n_logged": 2000,
+  "fitted_steps_ms": 156.416412,
+  "trained_gate_es_as_in_study_ms": 157.58712880000002,
+  "trained_eligible_examples_only_ms": 157.32882619999998,
+  "trained_eligible_only_three_inputs_ms": 156.60504279999998,
+  "worst_seed": {
+   "steps": 156.4814332,
+   "study": 160.2056112,
+   "eligible_only": 157.8610868,
+   "eligible_three": 156.73786040000002
+  }
+ },
+ {
+  "world": "timeout",
+  "n_logged": 500,
+  "fitted_steps_ms": 134.1147142967854,
+  "trained_gate_es_as_in_study_ms": 135.2506824424717,
+  "trained_eligible_examples_only_ms": 136.35490978066315,
+  "trained_eligible_only_three_inputs_ms": 134.28853284796023,
+  "worst_seed": {
+   "steps": 134.51004742271644,
+   "study": 137.52011964283258,
+   "eligible_only": 143.34085832656572,
+   "eligible_three": 137.3531785310756
+  }
+ },
+ {
+  "world": "timeout",
+  "n_logged": 2000,
+  "fitted_steps_ms": 133.6418771239443,
+  "trained_gate_es_as_in_study_ms": 134.1103958083514,
+  "trained_eligible_examples_only_ms": 133.80222416030972,
+  "trained_eligible_only_three_inputs_ms": 133.0825624705742,
+  "worst_seed": {
+   "steps": 133.75265984454134,
+   "study": 135.89803058167828,
+   "eligible_only": 133.8462052328019,
+   "eligible_three": 133.23509105446388
+  }
+ }
+]

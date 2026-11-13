@@ -1,0 +1,12 @@
+[product] honest fitted policy                                 total -1.89% typical(contested) -22.23% | typical: A  99.5 S   0.5 R   0.0 med   10181 | total: A  99.5 S   0.5 R   0.0 med   20421 | both: A  99.2 S   0.8 R   0.0 med   20204 | 5s
+[product] worst possible policy inside the band                total +3.93% typical(contested) +37.45% | typical: A   0.0 S 100.0 R   0.0 med    1623 | total: A   0.0 S 100.0 R   0.0 med    2792 | both: A   0.0 S 100.0 R   0.0 med    1373 | 7s
+[product] gap policy: best option on cheap decisions, worst on total +1.33% typical(contested)  -1.10% | typical: A   3.0 S   7.0 R  90.0 med  317868 | total: A   0.0 S 100.0 R   0.0 med   20793 | both: A   0.0 S 100.0 R   0.0 med   20645 | 9s
+[product] careless: random inside the band                     total +1.01% typical(contested) +11.88% | typical: A   0.0 S 100.0 R   0.0 med   15404 | total: A   0.0 S 100.0 R   0.0 med   56344 | both: A   0.0 S 100.0 R   0.0 med   15226 | 12s
+[product] no effect: typical: A   0.5 S  11.0 R  88.5 | total: A   0.8 S   7.5 R  91.8 | both: A   0.0 S  14.5 R  85.5
+[product] gap policy: {'total': 0.013311061430530957, 'typical_contested': -0.01103184804355263, 'split_at_quantile': 0.77, 'contested': 0.06427666666666666}
+[timeout] honest fitted policy                                 total -1.56% typical(contested) -20.13% | typical: A  99.8 S   0.2 R   0.0 med   10416 | total: A  99.5 S   0.5 R   0.0 med   20523 | both: A  99.8 S   0.2 R   0.0 med   20570 | 19s
+[timeout] worst possible policy inside the band                total +3.46% typical(contested) +36.55% | typical: A   0.0 S 100.0 R   0.0 med    1544 | total: A   0.0 S 100.0 R   0.0 med    3315 | both: A   0.0 S 100.0 R   0.0 med    1549 | 21s
+[timeout] gap policy: best option on cheap decisions, worst on total +0.98% typical(contested)  -1.25% | typical: A   5.2 S   6.5 R  88.2 med  299663 | total: A   0.0 S 100.0 R   0.0 med   37295 | both: A   0.0 S 100.0 R   0.0 med   38087 | 23s
+[timeout] careless: random inside the band                     total +0.86% typical(contested) +10.74% | typical: A   0.0 S 100.0 R   0.0 med   15416 | total: A   0.0 S 100.0 R   0.0 med   57900 | both: A   0.0 S 100.0 R   0.0 med   27460 | 26s
+[timeout] no effect: typical: A   0.5 S   7.5 R  92.0 | total: A   0.2 S   6.8 R  93.0 | both: A   0.0 S  12.0 R  88.0
+[timeout] gap policy: {'total': 0.009823562243444828, 'typical_contested': -0.012561213428673045, 'split_at_quantile': 0.72, 'contested': 0.0682}

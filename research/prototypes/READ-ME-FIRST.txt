@@ -1,0 +1,9 @@
+x0x from first principles: design study. Prototype experiments. FINAL VERSION, 13 November 2026.
+
+These are experiments. They are NOT production code, they are not part of x0x, and nothing here
+touches the x0x repository. This zip replaces the one sent earlier on 13 November 2026.
+
+Start with README.md, then written_weights/README.md, then third_check/README.md.
+third_check/ holds the third independent reviewer's report and its own attack scripts.
+Needs Python 3 with numpy (scipy for one script) and a C compiler for the two .c files.
+Every experiment re-runs from its own folder and writes its results beside itself.

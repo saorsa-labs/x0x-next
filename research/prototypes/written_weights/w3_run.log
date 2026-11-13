@@ -1,0 +1,10 @@
+[product] rule 161.0 ms | oracle 155.9 ms
+[product] N=500     refit3  160.4 | steps  157.2 (worst  158.0; limits True; log cost) | train alone  267.6 (3621/100k failing) | +gate  173.1 | +gate+es  158.8 (worst  161.1) | 60s
+[product] N=2000    refit3  160.4 | steps  156.4 (worst  156.5; limits True; log cost) | train alone  174.7 (621/100k failing) | +gate  160.1 | +gate+es  157.6 (worst  160.2) | 117s
+[product] N=20000   refit3  160.4 | steps  156.0 (worst  156.0; limits True; log cost) | train alone  156.5 (15/100k failing) | +gate  156.3 | +gate+es  156.3 (worst  156.3) | 184s
+[product] N=200000  refit3  160.4 | steps  155.9 (worst  156.0; limits True; log cost) | train alone  156.1 (4/100k failing) | +gate  156.1 | +gate+es  156.1 (worst  156.1) | 252s
+[timeout] rule 136.2 ms | oracle 132.5 ms
+[timeout] N=500     refit3  133.7 | steps  134.1 (worst  134.5; limits True; cost) | train alone  246.7 (3621/100k failing) | +gate  146.7 | +gate+es  135.3 (worst  137.5) | 310s
+[timeout] N=2000    refit3  133.7 | steps  133.6 (worst  133.8; limits True; log cost) | train alone  142.3 (211/100k failing) | +gate  135.9 | +gate+es  134.1 (worst  135.9) | 366s
+[timeout] N=20000   refit3  133.7 | steps  133.3 (worst  133.3; limits True; log cost) | train alone  132.9 (0/100k failing) | +gate  132.9 | +gate+es  132.9 (worst  132.9) | 431s
+[timeout] N=200000  refit3  133.7 | steps  133.4 (worst  133.4; limits True; log cost) | train alone  132.7 (0/100k failing) | +gate  132.7 | +gate+es  132.7 (worst  132.7) | 500s

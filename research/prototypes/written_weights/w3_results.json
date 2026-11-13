@@ -1,0 +1,490 @@
+[
+ {
+  "world": "product",
+  "method": "baseline rule, as written",
+  "n_logged": 0,
+  "mean_cost_ms": 161.035808
+ },
+ {
+  "world": "product",
+  "method": "oracle: knows the true cost",
+  "n_logged": 0,
+  "mean_cost_ms": 155.93782339999998
+ },
+ {
+  "world": "product",
+  "method": "refit three prices",
+  "n_logged": 500,
+  "mean_cost_ms": 160.39432060000001,
+  "worst_seed_ms": 160.851294,
+  "share_of_gap_closed": 0.1258315688125041
+ },
+ {
+  "world": "product",
+  "method": "fit one weight per step, written",
+  "n_logged": 500,
+  "mean_cost_ms": 157.2207156,
+  "worst_seed_ms": 158.01315420000003,
+  "share_of_gap_closed": 0.748353064856254,
+  "all_within_limits": true,
+  "scale_chosen": [
+   "log cost",
+   "log cost",
+   "log cost",
+   "log cost",
+   "log cost"
+  ]
+ },
+ {
+  "world": "product",
+  "method": "trained network, left to decide alone",
+  "n_logged": 500,
+  "mean_cost_ms": 267.64694779999996,
+  "worst_seed_ms": 287.69987560000004,
+  "share_of_gap_closed": -20.912409150863184,
+  "failing_peer_picked_per_100k": 3621.2000000000003,
+  "ineligible_cells_ranked_above_an_eligible_cell": 16266.0,
+  "ineligible_examples_in_log": 3.0
+ },
+ {
+  "world": "product",
+  "method": "trained network + kernel gate",
+  "n_logged": 500,
+  "mean_cost_ms": 173.1271276,
+  "worst_seed_ms": 181.91387639999996,
+  "share_of_gap_closed": -2.3717842537225295
+ },
+ {
+  "world": "product",
+  "method": "trained network + kernel gate + early stopping",
+  "n_logged": 500,
+  "mean_cost_ms": 158.812912,
+  "worst_seed_ms": 161.0722072,
+  "share_of_gap_closed": 0.436034271268686,
+  "steps_chosen": [
+   1000,
+   300,
+   300,
+   300,
+   1000
+  ]
+ },
+ {
+  "world": "product",
+  "method": "refit three prices",
+  "n_logged": 2000,
+  "mean_cost_ms": 160.39432060000001,
+  "worst_seed_ms": 160.851294,
+  "share_of_gap_closed": 0.1258315688125041
+ },
+ {
+  "world": "product",
+  "method": "fit one weight per step, written",
+  "n_logged": 2000,
+  "mean_cost_ms": 156.416412,
+  "worst_seed_ms": 156.4814332,
+  "share_of_gap_closed": 0.9061219996623722,
+  "all_within_limits": true,
+  "scale_chosen": [
+   "log cost",
+   "log cost",
+   "log cost",
+   "log cost",
+   "log cost"
+  ]
+ },
+ {
+  "world": "product",
+  "method": "trained network, left to decide alone",
+  "n_logged": 2000,
+  "mean_cost_ms": 174.739223,
+  "worst_seed_ms": 186.17739960000003,
+  "share_of_gap_closed": -2.688006354511145,
+  "failing_peer_picked_per_100k": 620.8,
+  "ineligible_cells_ranked_above_an_eligible_cell": 12148.0,
+  "ineligible_examples_in_log": 15.0
+ },
+ {
+  "world": "product",
+  "method": "trained network + kernel gate",
+  "n_logged": 2000,
+  "mean_cost_ms": 160.0738252,
+  "worst_seed_ms": 160.372232,
+  "share_of_gap_closed": 0.18869864769697658
+ },
+ {
+  "world": "product",
+  "method": "trained network + kernel gate + early stopping",
+  "n_logged": 2000,
+  "mean_cost_ms": 157.58712880000002,
+  "worst_seed_ms": 160.2056112,
+  "share_of_gap_closed": 0.6764789364016467,
+  "steps_chosen": [
+   1000,
+   1000,
+   3000,
+   1000,
+   6000
+  ]
+ },
+ {
+  "world": "product",
+  "method": "refit three prices",
+  "n_logged": 20000,
+  "mean_cost_ms": 160.39432060000001,
+  "worst_seed_ms": 160.39432060000001,
+  "share_of_gap_closed": 0.1258315688125041
+ },
+ {
+  "world": "product",
+  "method": "fit one weight per step, written",
+  "n_logged": 20000,
+  "mean_cost_ms": 155.9841438,
+  "worst_seed_ms": 156.0029748,
+  "share_of_gap_closed": 0.9909139780453607,
+  "all_within_limits": true,
+  "scale_chosen": [
+   "log cost",
+   "log cost",
+   "log cost",
+   "log cost",
+   "log cost"
+  ]
+ },
+ {
+  "world": "product",
+  "method": "trained network, left to decide alone",
+  "n_logged": 20000,
+  "mean_cost_ms": 156.5014868,
+  "worst_seed_ms": 157.282316,
+  "share_of_gap_closed": 0.8894340716525463,
+  "failing_peer_picked_per_100k": 14.6,
+  "ineligible_cells_ranked_above_an_eligible_cell": 5820.0,
+  "ineligible_examples_in_log": 147.0
+ },
+ {
+  "world": "product",
+  "method": "trained network + kernel gate",
+  "n_logged": 20000,
+  "mean_cost_ms": 156.2971336,
+  "worst_seed_ms": 156.3440984,
+  "share_of_gap_closed": 0.9295191672411076
+ },
+ {
+  "world": "product",
+  "method": "trained network + kernel gate + early stopping",
+  "n_logged": 20000,
+  "mean_cost_ms": 156.2971336,
+  "worst_seed_ms": 156.3440984,
+  "share_of_gap_closed": 0.9295191672411076,
+  "steps_chosen": [
+   6000,
+   6000,
+   6000,
+   6000,
+   6000
+  ]
+ },
+ {
+  "world": "product",
+  "method": "refit three prices",
+  "n_logged": 200000,
+  "mean_cost_ms": 160.39432060000001,
+  "worst_seed_ms": 160.39432060000001,
+  "share_of_gap_closed": 0.1258315688125041
+ },
+ {
+  "world": "product",
+  "method": "fit one weight per step, written",
+  "n_logged": 200000,
+  "mean_cost_ms": 155.94683419999998,
+  "worst_seed_ms": 155.9551994,
+  "share_of_gap_closed": 0.9982324779874779,
+  "all_within_limits": true,
+  "scale_chosen": [
+   "log cost",
+   "log cost",
+   "log cost",
+   "log cost",
+   "log cost"
+  ]
+ },
+ {
+  "world": "product",
+  "method": "trained network, left to decide alone",
+  "n_logged": 200000,
+  "mean_cost_ms": 156.132051,
+  "worst_seed_ms": 156.36130680000002,
+  "share_of_gap_closed": 0.9619011010743336,
+  "failing_peer_picked_per_100k": 4.3999999999999995,
+  "ineligible_cells_ranked_above_an_eligible_cell": 4565.0,
+  "ineligible_examples_in_log": 1470.0
+ },
+ {
+  "world": "product",
+  "method": "trained network + kernel gate",
+  "n_logged": 200000,
+  "mean_cost_ms": 156.0667698,
+  "worst_seed_ms": 156.1055138,
+  "share_of_gap_closed": 0.9747063967199866
+ },
+ {
+  "world": "product",
+  "method": "trained network + kernel gate + early stopping",
+  "n_logged": 200000,
+  "mean_cost_ms": 156.0667698,
+  "worst_seed_ms": 156.1055138,
+  "share_of_gap_closed": 0.9747063967199866,
+  "steps_chosen": [
+   6000,
+   6000,
+   6000,
+   6000,
+   6000
+  ]
+ },
+ {
+  "world": "timeout",
+  "method": "baseline rule, as written",
+  "n_logged": 0,
+  "mean_cost_ms": 136.2462834118349
+ },
+ {
+  "world": "timeout",
+  "method": "oracle: knows the true cost",
+  "n_logged": 0,
+  "mean_cost_ms": 132.54042497831412
+ },
+ {
+  "world": "timeout",
+  "method": "refit three prices",
+  "n_logged": 500,
+  "mean_cost_ms": 133.68848995309,
+  "worst_seed_ms": 134.18450765058304,
+  "share_of_gap_closed": 0.6902026897759418
+ },
+ {
+  "world": "timeout",
+  "method": "fit one weight per step, written",
+  "n_logged": 500,
+  "mean_cost_ms": 134.1147142967854,
+  "worst_seed_ms": 134.51004742271644,
+  "share_of_gap_closed": 0.5751890292863645,
+  "all_within_limits": true,
+  "scale_chosen": [
+   "cost",
+   "cost",
+   "log cost",
+   "log cost",
+   "log cost"
+  ]
+ },
+ {
+  "world": "timeout",
+  "method": "trained network, left to decide alone",
+  "n_logged": 500,
+  "mean_cost_ms": 246.70949235213385,
+  "worst_seed_ms": 265.0830230936936,
+  "share_of_gap_closed": -29.80772496356605,
+  "failing_peer_picked_per_100k": 3620.6000000000004,
+  "ineligible_cells_ranked_above_an_eligible_cell": 16226.0,
+  "ineligible_examples_in_log": 3.0
+ },
+ {
+  "world": "timeout",
+  "method": "trained network + kernel gate",
+  "n_logged": 500,
+  "mean_cost_ms": 146.71466973860421,
+  "worst_seed_ms": 149.18928752812005,
+  "share_of_gap_closed": -2.8248208922605182
+ },
+ {
+  "world": "timeout",
+  "method": "trained network + kernel gate + early stopping",
+  "n_logged": 500,
+  "mean_cost_ms": 135.2506824424717,
+  "worst_seed_ms": 137.52011964283258,
+  "share_of_gap_closed": 0.2686559638537796,
+  "steps_chosen": [
+   1000,
+   300,
+   300,
+   300,
+   1000
+  ]
+ },
+ {
+  "world": "timeout",
+  "method": "refit three prices",
+  "n_logged": 2000,
+  "mean_cost_ms": 133.67946393464052,
+  "worst_seed_ms": 133.67946393464052,
+  "share_of_gap_closed": 0.6926382977764611
+ },
+ {
+  "world": "timeout",
+  "method": "fit one weight per step, written",
+  "n_logged": 2000,
+  "mean_cost_ms": 133.6418771239443,
+  "worst_seed_ms": 133.75265984454134,
+  "share_of_gap_closed": 0.7027808359684833,
+  "all_within_limits": true,
+  "scale_chosen": [
+   "log cost",
+   "log cost",
+   "log cost",
+   "log cost",
+   "log cost"
+  ]
+ },
+ {
+  "world": "timeout",
+  "method": "trained network, left to decide alone",
+  "n_logged": 2000,
+  "mean_cost_ms": 142.3237729760185,
+  "worst_seed_ms": 146.60572453002956,
+  "share_of_gap_closed": -1.6399680865330943,
+  "failing_peer_picked_per_100k": 210.8,
+  "ineligible_cells_ranked_above_an_eligible_cell": 8471.0,
+  "ineligible_examples_in_log": 15.0
+ },
+ {
+  "world": "timeout",
+  "method": "trained network + kernel gate",
+  "n_logged": 2000,
+  "mean_cost_ms": 135.89803058167828,
+  "worst_seed_ms": 137.50715248035354,
+  "share_of_gap_closed": 0.0939735924628267
+ },
+ {
+  "world": "timeout",
+  "method": "trained network + kernel gate + early stopping",
+  "n_logged": 2000,
+  "mean_cost_ms": 134.1103958083514,
+  "worst_seed_ms": 135.89803058167828,
+  "share_of_gap_closed": 0.5763543432106453,
+  "steps_chosen": [
+   1000,
+   1000,
+   1000,
+   1000,
+   6000
+  ]
+ },
+ {
+  "world": "timeout",
+  "method": "refit three prices",
+  "n_logged": 20000,
+  "mean_cost_ms": 133.67946393464052,
+  "worst_seed_ms": 133.67946393464052,
+  "share_of_gap_closed": 0.6926382977764611
+ },
+ {
+  "world": "timeout",
+  "method": "fit one weight per step, written",
+  "n_logged": 20000,
+  "mean_cost_ms": 133.28833233539734,
+  "worst_seed_ms": 133.34878251074466,
+  "share_of_gap_closed": 0.7981824264202485,
+  "all_within_limits": true,
+  "scale_chosen": [
+   "log cost",
+   "log cost",
+   "log cost",
+   "log cost",
+   "log cost"
+  ]
+ },
+ {
+  "world": "timeout",
+  "method": "trained network, left to decide alone",
+  "n_logged": 20000,
+  "mean_cost_ms": 132.90652073781794,
+  "worst_seed_ms": 133.01889328287808,
+  "share_of_gap_closed": 0.9012116177476295,
+  "failing_peer_picked_per_100k": 0.0,
+  "ineligible_cells_ranked_above_an_eligible_cell": 125.0,
+  "ineligible_examples_in_log": 147.0
+ },
+ {
+  "world": "timeout",
+  "method": "trained network + kernel gate",
+  "n_logged": 20000,
+  "mean_cost_ms": 132.8667171611662,
+  "worst_seed_ms": 132.92184212652077,
+  "share_of_gap_closed": 0.9119523347409442
+ },
+ {
+  "world": "timeout",
+  "method": "trained network + kernel gate + early stopping",
+  "n_logged": 20000,
+  "mean_cost_ms": 132.8667171611662,
+  "worst_seed_ms": 132.92184212652077,
+  "share_of_gap_closed": 0.9119523347409442,
+  "steps_chosen": [
+   6000,
+   6000,
+   6000,
+   6000,
+   6000
+  ]
+ },
+ {
+  "world": "timeout",
+  "method": "refit three prices",
+  "n_logged": 200000,
+  "mean_cost_ms": 133.67946393464052,
+  "worst_seed_ms": 133.67946393464052,
+  "share_of_gap_closed": 0.6926382977764611
+ },
+ {
+  "world": "timeout",
+  "method": "fit one weight per step, written",
+  "n_logged": 200000,
+  "mean_cost_ms": 133.35528647106563,
+  "worst_seed_ms": 133.37427916716862,
+  "share_of_gap_closed": 0.7801153208172229,
+  "all_within_limits": true,
+  "scale_chosen": [
+   "log cost",
+   "log cost",
+   "log cost",
+   "log cost",
+   "log cost"
+  ]
+ },
+ {
+  "world": "timeout",
+  "method": "trained network, left to decide alone",
+  "n_logged": 200000,
+  "mean_cost_ms": 132.68686374744283,
+  "worst_seed_ms": 132.73823073112754,
+  "share_of_gap_closed": 0.9604845215337645,
+  "failing_peer_picked_per_100k": 0.0,
+  "ineligible_cells_ranked_above_an_eligible_cell": 0.0,
+  "ineligible_examples_in_log": 1470.0
+ },
+ {
+  "world": "timeout",
+  "method": "trained network + kernel gate",
+  "n_logged": 200000,
+  "mean_cost_ms": 132.68686374744283,
+  "worst_seed_ms": 132.7164012027618,
+  "share_of_gap_closed": 0.9604845215337645
+ },
+ {
+  "world": "timeout",
+  "method": "trained network + kernel gate + early stopping",
+  "n_logged": 200000,
+  "mean_cost_ms": 132.68686374744283,
+  "worst_seed_ms": 132.7164012027618,
+  "share_of_gap_closed": 0.9604845215337645,
+  "steps_chosen": [
+   6000,
+   6000,
+   6000,
+   6000,
+   6000
+  ]
+ }
+]

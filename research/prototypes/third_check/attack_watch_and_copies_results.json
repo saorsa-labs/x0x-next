@@ -1,0 +1,606 @@
+{
+ "per_decision": [
+  {
+   "world": "product",
+   "share_of_decisions_contested": 0.10780333333333333,
+   "mean_harm_all_decisions": 0.039335619884323325,
+   "per_contested_decision_cost_ratio": {
+    "median": 1.2857142857142858,
+    "p90": 1.9864892779854435,
+    "p99": 3.402777777777778,
+    "max": 6.239130434782608
+   },
+   "share_of_contested_decisions_at_least_50_percent_worse": 0.27890294053987197,
+   "share_at_least_twice_the_cost": 0.09877554806592251
+  },
+  {
+   "world": "timeout",
+   "share_of_decisions_contested": 0.10392,
+   "mean_harm_all_decisions": 0.034629905997009436,
+   "per_contested_decision_cost_ratio": {
+    "median": 1.2902681733850563,
+    "p90": 1.9428571428571426,
+    "p99": 2.895238095238095,
+    "max": 4.05
+   },
+   "share_of_contested_decisions_at_least_50_percent_worse": 0.2885713369258404,
+   "share_at_least_twice_the_cost": 0.08811265075699255
+  }
+ ],
+ "watch_small_harm": [
+  {
+   "world": "product",
+   "per_decision_cap": 1.03,
+   "harm_while_it_runs": 0.00012843180578836488,
+   "contested_share": 0.005465,
+   "watch": "one contested decision in ten stays with the fixed rule",
+   "removed_within_the_watch_window": 0.29,
+   "median_decisions_until_removed_or_window_end": 9380420.860018298,
+   "mean_total_harm_in_ordinary_decisions": 906.762118140535,
+   "window_decisions": 9380420.860018298
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.03,
+   "harm_while_it_runs": 0.00012843180578836488,
+   "contested_share": 0.005465,
+   "watch": "one in ten sent both ways",
+   "removed_within_the_watch_window": 0.2875,
+   "median_decisions_until_removed_or_window_end": 9380420.860018298,
+   "mean_total_harm_in_ordinary_decisions": 992.5194066108005,
+   "window_decisions": 9380420.860018298
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.03,
+   "harm_while_it_runs": 0.00012843180578836488,
+   "contested_share": 0.005465,
+   "watch": "three in ten sent both ways",
+   "removed_within_the_watch_window": 0.3175,
+   "median_decisions_until_removed_or_window_end": 3134492.2232387923,
+   "mean_total_harm_in_ordinary_decisions": 322.2879933827535,
+   "window_decisions": 3134492.2232387923
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.06,
+   "harm_while_it_runs": 0.00046154542284226885,
+   "contested_share": 0.010375,
+   "watch": "one contested decision in ten stays with the fixed rule",
+   "removed_within_the_watch_window": 0.675,
+   "median_decisions_until_removed_or_window_end": 3923807.2289156625,
+   "mean_total_harm_in_ordinary_decisions": 1239.014105987815,
+   "window_decisions": 4941108.433734939
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.06,
+   "harm_while_it_runs": 0.00046154542284226885,
+   "contested_share": 0.010375,
+   "watch": "one in ten sent both ways",
+   "removed_within_the_watch_window": 0.67,
+   "median_decisions_until_removed_or_window_end": 3920433.7349397587,
+   "mean_total_harm_in_ordinary_decisions": 1398.2319170283142,
+   "window_decisions": 4941108.433734939
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.06,
+   "harm_while_it_runs": 0.00046154542284226885,
+   "contested_share": 0.010375,
+   "watch": "three in ten sent both ways",
+   "removed_within_the_watch_window": 0.72,
+   "median_decisions_until_removed_or_window_end": 1299469.8795180721,
+   "mean_total_harm_in_ordinary_decisions": 447.85680756924734,
+   "window_decisions": 1651084.3373493976
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.1,
+   "harm_while_it_runs": 0.001854229986436584,
+   "contested_share": 0.022296666666666666,
+   "watch": "one contested decision in ten stays with the fixed rule",
+   "removed_within_the_watch_window": 0.9925,
+   "median_decisions_until_removed_or_window_end": 475160.71161608613,
+   "mean_total_harm_in_ordinary_decisions": 1209.9405990748592,
+   "window_decisions": 2299177.75452235
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.1,
+   "harm_while_it_runs": 0.001854229986436584,
+   "contested_share": 0.022296666666666666,
+   "watch": "one in ten sent both ways",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 462894.3040813276,
+   "mean_total_harm_in_ordinary_decisions": 1068.8156242444331,
+   "window_decisions": 2299177.75452235
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.1,
+   "harm_while_it_runs": 0.001854229986436584,
+   "contested_share": 0.022296666666666666,
+   "watch": "three in ten sent both ways",
+   "removed_within_the_watch_window": 0.995,
+   "median_decisions_until_removed_or_window_end": 152601.2856929287,
+   "mean_total_harm_in_ordinary_decisions": 347.1195747259748,
+   "window_decisions": 768276.2744804904
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.2,
+   "harm_while_it_runs": 0.006008701457681731,
+   "contested_share": 0.04201333333333333,
+   "watch": "one contested decision in ten stays with the fixed rule",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 119831.0060298318,
+   "mean_total_harm_in_ordinary_decisions": 757.3513613650695,
+   "window_decisions": 1220184.0685496668
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.2,
+   "harm_while_it_runs": 0.006008701457681731,
+   "contested_share": 0.04201333333333333,
+   "watch": "one in ten sent both ways",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 64324.81751824818,
+   "mean_total_harm_in_ordinary_decisions": 595.5108024549023,
+   "window_decisions": 1220184.0685496668
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.2,
+   "harm_while_it_runs": 0.006008701457681731,
+   "contested_share": 0.04201333333333333,
+   "watch": "three in ten sent both ways",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 21719.29546175817,
+   "mean_total_harm_in_ordinary_decisions": 193.98637112469194,
+   "window_decisions": 407727.7054903205
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.5,
+   "harm_while_it_runs": 0.021672393416670488,
+   "contested_share": 0.080065,
+   "watch": "one contested decision in ten stays with the fixed rule",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 15574.84543808156,
+   "mean_total_harm_in_ordinary_decisions": 377.5349895120519,
+   "window_decisions": 640279.7726846937
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.5,
+   "harm_while_it_runs": 0.021672393416670488,
+   "contested_share": 0.080065,
+   "watch": "one in ten sent both ways",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 8811.590582651595,
+   "mean_total_harm_in_ordinary_decisions": 288.238119002837,
+   "window_decisions": 640279.7726846937
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.5,
+   "harm_while_it_runs": 0.021672393416670488,
+   "contested_share": 0.080065,
+   "watch": "three in ten sent both ways",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 4696.18435021545,
+   "mean_total_harm_in_ordinary_decisions": 99.6865806138233,
+   "window_decisions": 213951.16467869855
+  },
+  {
+   "world": "product",
+   "per_decision_cap": "none (worst in band)",
+   "harm_while_it_runs": 0.039335619884323325,
+   "contested_share": 0.107455,
+   "watch": "one contested decision in ten stays with the fixed rule",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 5597.692057140199,
+   "mean_total_harm_in_ordinary_decisions": 238.24694865710313,
+   "window_decisions": 477074.12405192875
+  },
+  {
+   "world": "product",
+   "per_decision_cap": "none (worst in band)",
+   "harm_while_it_runs": 0.039335619884323325,
+   "contested_share": 0.107455,
+   "watch": "one in ten sent both ways",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 3080.3592201386627,
+   "mean_total_harm_in_ordinary_decisions": 163.93774751635414,
+   "window_decisions": 477074.12405192875
+  },
+  {
+   "world": "product",
+   "per_decision_cap": "none (worst in band)",
+   "harm_while_it_runs": 0.039335619884323325,
+   "contested_share": 0.107455,
+   "watch": "three in ten sent both ways",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 939.9283420966917,
+   "mean_total_harm_in_ordinary_decisions": 49.50230558784484,
+   "window_decisions": 159415.56930808246
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.03,
+   "harm_while_it_runs": 0.00012995761847034437,
+   "contested_share": 0.005046666666666666,
+   "watch": "one contested decision in ten stays with the fixed rule",
+   "removed_within_the_watch_window": 0.285,
+   "median_decisions_until_removed_or_window_end": 10157992.073976222,
+   "mean_total_harm_in_ordinary_decisions": 1001.1470459700665,
+   "window_decisions": 10157992.073976222
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.03,
+   "harm_while_it_runs": 0.00012995761847034437,
+   "contested_share": 0.005046666666666666,
+   "watch": "one in ten sent both ways",
+   "removed_within_the_watch_window": 0.285,
+   "median_decisions_until_removed_or_window_end": 10157992.073976222,
+   "mean_total_harm_in_ordinary_decisions": 1091.421528510443,
+   "window_decisions": 10157992.073976222
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.03,
+   "harm_while_it_runs": 0.00012995761847034437,
+   "contested_share": 0.005046666666666666,
+   "watch": "three in ten sent both ways",
+   "removed_within_the_watch_window": 0.305,
+   "median_decisions_until_removed_or_window_end": 3394319.682959049,
+   "mean_total_harm_in_ordinary_decisions": 354.32843698689334,
+   "window_decisions": 3394319.682959049
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.06,
+   "harm_while_it_runs": 0.00048309609577223966,
+   "contested_share": 0.010038333333333333,
+   "watch": "one contested decision in ten stays with the fixed rule",
+   "removed_within_the_watch_window": 0.74,
+   "median_decisions_until_removed_or_window_end": 3995085.5055620125,
+   "mean_total_harm_in_ordinary_decisions": 1282.298290068084,
+   "window_decisions": 5106823.841939233
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.06,
+   "harm_while_it_runs": 0.00048309609577223966,
+   "contested_share": 0.010038333333333333,
+   "watch": "one in ten sent both ways",
+   "removed_within_the_watch_window": 0.7075,
+   "median_decisions_until_removed_or_window_end": 4044894.5708118877,
+   "mean_total_harm_in_ordinary_decisions": 1502.947523663704,
+   "window_decisions": 5106823.841939233
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.06,
+   "harm_while_it_runs": 0.00048309609577223966,
+   "contested_share": 0.010038333333333333,
+   "watch": "three in ten sent both ways",
+   "removed_within_the_watch_window": 0.6975,
+   "median_decisions_until_removed_or_window_end": 1341955.8359621451,
+   "mean_total_harm_in_ordinary_decisions": 493.268644223968,
+   "window_decisions": 1706458.5754607338
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.1,
+   "harm_while_it_runs": 0.001903483230430103,
+   "contested_share": 0.021733333333333334,
+   "watch": "one contested decision in ten stays with the fixed rule",
+   "removed_within_the_watch_window": 0.99,
+   "median_decisions_until_removed_or_window_end": 474340.490797546,
+   "mean_total_harm_in_ordinary_decisions": 1127.9299489207542,
+   "window_decisions": 2358773.006134969
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.1,
+   "harm_while_it_runs": 0.001903483230430103,
+   "contested_share": 0.021733333333333334,
+   "watch": "one in ten sent both ways",
+   "removed_within_the_watch_window": 0.9975,
+   "median_decisions_until_removed_or_window_end": 467461.65644171776,
+   "mean_total_harm_in_ordinary_decisions": 1019.2715451298444,
+   "window_decisions": 2358773.006134969
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.1,
+   "harm_while_it_runs": 0.001903483230430103,
+   "contested_share": 0.021733333333333334,
+   "watch": "three in ten sent both ways",
+   "removed_within_the_watch_window": 0.9975,
+   "median_decisions_until_removed_or_window_end": 154371.16564417176,
+   "mean_total_harm_in_ordinary_decisions": 337.13161060769426,
+   "window_decisions": 788190.1840490798
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.2,
+   "harm_while_it_runs": 0.0060814157088371346,
+   "contested_share": 0.0405,
+   "watch": "one contested decision in ten stays with the fixed rule",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 115382.71604938271,
+   "mean_total_harm_in_ordinary_decisions": 643.7335240536008,
+   "window_decisions": 1265777.7777777778
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.2,
+   "harm_while_it_runs": 0.0060814157088371346,
+   "contested_share": 0.0405,
+   "watch": "one in ten sent both ways",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 64654.32098765432,
+   "mean_total_harm_in_ordinary_decisions": 587.4975670513488,
+   "window_decisions": 1265777.7777777778
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.2,
+   "harm_while_it_runs": 0.0060814157088371346,
+   "contested_share": 0.0405,
+   "watch": "three in ten sent both ways",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 21987.654320987655,
+   "mean_total_harm_in_ordinary_decisions": 210.41397449874523,
+   "window_decisions": 422962.962962963
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.5,
+   "harm_while_it_runs": 0.020363934046010668,
+   "contested_share": 0.07585333333333333,
+   "watch": "one contested decision in ten stays with the fixed rule",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 14949.90332220074,
+   "mean_total_harm_in_ordinary_decisions": 313.6837319867762,
+   "window_decisions": 675830.5501845668
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.5,
+   "harm_while_it_runs": 0.020363934046010668,
+   "contested_share": 0.07585333333333333,
+   "watch": "one in ten sent both ways",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 9281.068729126386,
+   "mean_total_harm_in_ordinary_decisions": 285.97083825327354,
+   "window_decisions": 675830.5501845668
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.5,
+   "harm_while_it_runs": 0.020363934046010668,
+   "contested_share": 0.07585333333333333,
+   "watch": "three in ten sent both ways",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 3223.325716294604,
+   "mean_total_harm_in_ordinary_decisions": 101.51516642969506,
+   "window_decisions": 225830.55018456673
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": "none (worst in band)",
+   "harm_while_it_runs": 0.034629905997009436,
+   "contested_share": 0.10354,
+   "watch": "one contested decision in ten stays with the fixed rule",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 5558.238361985706,
+   "mean_total_harm_in_ordinary_decisions": 208.5641941985752,
+   "window_decisions": 495112.999806838
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": "none (worst in band)",
+   "harm_while_it_runs": 0.034629905997009436,
+   "contested_share": 0.10354,
+   "watch": "one in ten sent both ways",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 3090.593007533321,
+   "mean_total_harm_in_ordinary_decisions": 153.66831806124497,
+   "window_decisions": 495112.999806838
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": "none (worst in band)",
+   "harm_while_it_runs": 0.034629905997009436,
+   "contested_share": 0.10354,
+   "watch": "three in ten sent both ways",
+   "removed_within_the_watch_window": 1.0,
+   "median_decisions_until_removed_or_window_end": 1091.365655785204,
+   "mean_total_harm_in_ordinary_decisions": 53.46789249831629,
+   "window_decisions": 165443.30693451807
+  }
+ ],
+ "copies": [
+  {
+   "world": "product",
+   "policy": "worst possible inside band 3",
+   "true_harm_if_adopted": 0.039335619884323325,
+   "copies_served_at": 1.0,
+   "adopted": 0.0,
+   "stopped": 1.0,
+   "no_verdict": 0.0,
+   "median_decisions": 1470.269935994558
+  },
+  {
+   "world": "product",
+   "policy": "worst possible inside band 3",
+   "true_harm_if_adopted": 0.039335619884323325,
+   "copies_served_at": 0.9,
+   "adopted": 0.0,
+   "stopped": 1.0,
+   "no_verdict": 0.0,
+   "median_decisions": 4577.780526266968
+  },
+  {
+   "world": "product",
+   "policy": "worst possible inside band 3",
+   "true_harm_if_adopted": 0.039335619884323325,
+   "copies_served_at": 0.8,
+   "adopted": 0.0,
+   "stopped": 1.0,
+   "no_verdict": 0.0,
+   "median_decisions": 23055.87334961813
+  },
+  {
+   "world": "product",
+   "policy": "worst possible inside band 3",
+   "true_harm_if_adopted": 0.039335619884323325,
+   "copies_served_at": 0.75,
+   "adopted": 0.0,
+   "stopped": 0.655,
+   "no_verdict": 0.345,
+   "median_decisions": 188231.65641136636
+  },
+  {
+   "world": "product",
+   "policy": "worst possible inside band 3",
+   "true_harm_if_adopted": 0.039335619884323325,
+   "copies_served_at": 0.7,
+   "adopted": 0.6,
+   "stopped": 0.0275,
+   "no_verdict": 0.3725,
+   "median_decisions": 188751.12086824773
+  },
+  {
+   "world": "product",
+   "policy": "worst possible inside band 3",
+   "true_harm_if_adopted": 0.039335619884323325,
+   "copies_served_at": 0.6,
+   "adopted": 0.99,
+   "stopped": 0.01,
+   "no_verdict": 0.0,
+   "median_decisions": 10231.594570359604
+  },
+  {
+   "world": "timeout",
+   "policy": "worst possible inside band 3",
+   "true_harm_if_adopted": 0.034629905997009436,
+   "copies_served_at": 1.0,
+   "adopted": 0.0,
+   "stopped": 1.0,
+   "no_verdict": 0.0,
+   "median_decisions": 1568.5142417244035
+  },
+  {
+   "world": "timeout",
+   "policy": "worst possible inside band 3",
+   "true_harm_if_adopted": 0.034629905997009436,
+   "copies_served_at": 0.9,
+   "adopted": 0.0,
+   "stopped": 1.0,
+   "no_verdict": 0.0,
+   "median_decisions": 3372.78675904542
+  },
+  {
+   "world": "timeout",
+   "policy": "worst possible inside band 3",
+   "true_harm_if_adopted": 0.034629905997009436,
+   "copies_served_at": 0.8,
+   "adopted": 0.0,
+   "stopped": 1.0,
+   "no_verdict": 0.0,
+   "median_decisions": 23927.059276366435
+  },
+  {
+   "world": "timeout",
+   "policy": "worst possible inside band 3",
+   "true_harm_if_adopted": 0.034629905997009436,
+   "copies_served_at": 0.75,
+   "adopted": 0.0025,
+   "stopped": 0.4825,
+   "no_verdict": 0.515,
+   "median_decisions": 195732.29407236335
+  },
+  {
+   "world": "timeout",
+   "policy": "worst possible inside band 3",
+   "true_harm_if_adopted": 0.034629905997009436,
+   "copies_served_at": 0.7,
+   "adopted": 0.785,
+   "stopped": 0.025,
+   "no_verdict": 0.19,
+   "median_decisions": 194399.53810623556
+  },
+  {
+   "world": "timeout",
+   "policy": "worst possible inside band 3",
+   "true_harm_if_adopted": 0.034629905997009436,
+   "copies_served_at": 0.6,
+   "adopted": 0.995,
+   "stopped": 0.005,
+   "no_verdict": 0.0,
+   "median_decisions": 6779.253271747499
+  }
+ ],
+ "retries": [
+  {
+   "world": "product",
+   "per_decision_cap": 1.03,
+   "true_harm": 0.00012843180578836488,
+   "adopted_per_trial": 0.002,
+   "stopped": 0.305,
+   "no_verdict": 0.693,
+   "trials": 4000
+  },
+  {
+   "world": "product",
+   "per_decision_cap": 1.06,
+   "true_harm": 0.00046154542284226885,
+   "adopted_per_trial": 0.001,
+   "stopped": 0.68375,
+   "no_verdict": 0.31525,
+   "trials": 4000
+  },
+  {
+   "world": "product",
+   "per_decision_cap": "no effect",
+   "true_harm": 0.0,
+   "adopted_per_trial": 0.0065,
+   "stopped": 0.099,
+   "no_verdict": 0.8945,
+   "trials": 4000
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.03,
+   "true_harm": 0.00012995761847034437,
+   "adopted_per_trial": 0.002,
+   "stopped": 0.30525,
+   "no_verdict": 0.69275,
+   "trials": 4000
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": 1.06,
+   "true_harm": 0.00048309609577223966,
+   "adopted_per_trial": 0.00125,
+   "stopped": 0.68875,
+   "no_verdict": 0.31,
+   "trials": 4000
+  },
+  {
+   "world": "timeout",
+   "per_decision_cap": "no effect",
+   "true_harm": 0.0,
+   "adopted_per_trial": 0.00575,
+   "stopped": 0.0925,
+   "no_verdict": 0.90175,
+   "trials": 4000
+  }
+ ]
+}

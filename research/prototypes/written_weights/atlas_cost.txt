@@ -1,0 +1,5 @@
+ONE WEIGHT PER STEP: 8 features x 16 levels = 4294967296 possible inputs, 121 weights. All checks read off the weights: 452 ns per policy (passed 2000000 of 2000000). No table.
+ONE WEIGHT PER STEP: scoring one candidate (8 features) takes 6.7 ns, including generating the input (checksum 43539207620).
+NETWORK WITH HIDDEN UNITS, 4 features x 16 levels =     65536 cells: table 0.005 s (68.9 ns per cell); directions 0.000 s; gate 0.000 s; tie-break bands 0.000 s; second table and diff 0.004 s; everything 0.009 s; memory for two tables 1 MB
+NETWORK WITH HIDDEN UNITS, 5 features x 16 levels =   1048576 cells: table 0.073 s (69.1 ns per cell); directions 0.009 s; gate 0.001 s; tie-break bands 0.001 s; second table and diff 0.062 s; everything 0.146 s; memory for two tables 16 MB
+NETWORK WITH HIDDEN UNITS, 6 features x 16 levels =  16777216 cells: table 1.189 s (70.9 ns per cell); directions 0.205 s; gate 0.021 s; tie-break bands 0.027 s; second table and diff 1.000 s; everything 2.441 s; memory for two tables 256 MB

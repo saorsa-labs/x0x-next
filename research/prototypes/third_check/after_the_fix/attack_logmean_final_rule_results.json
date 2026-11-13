@@ -1,0 +1,618 @@
+{
+ "partA": [
+  {
+   "world": "product",
+   "target_mean_log_ratio": -0.04,
+   "lam": 1.5633320925189764,
+   "harm_arithmetic": 0.011576478204745166,
+   "contested_share": 0.044833333333333336,
+   "mean_log_ratio_on_contested": -0.04001089513163079,
+   "sd_log_ratio": 0.42577475963357997,
+   "geometric_mean_change_all_decisions": -0.0017922138616736083,
+   "twin": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 28148.698884758363,
+    "p90_decisions_to_verdict": 58978.43866171003,
+    "mean_excess_cost_decisions": 0.0,
+    "worst_run_excess_cost_decisions": 0.0,
+    "mean_harm_rate_while_on_trial": 0.0,
+    "mean_extra_messages": 300.54
+   },
+   "split": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 61193.30855018587,
+    "p90_decisions_to_verdict": 224373.2342007435,
+    "mean_excess_cost_decisions": 103.77139345398558,
+    "worst_run_excess_cost_decisions": 274.4415770981421,
+    "mean_harm_rate_while_on_trial": 0.0013246098572112792,
+    "mean_extra_messages": 0.0
+   }
+  },
+  {
+   "world": "product",
+   "target_mean_log_ratio": -0.06,
+   "lam": 1.5953102170442435,
+   "harm_arithmetic": 0.010269472182333317,
+   "contested_share": 0.03707333333333333,
+   "mean_log_ratio_on_contested": -0.060332629033799726,
+   "sd_log_ratio": 0.4543872805837814,
+   "geometric_mean_change_all_decisions": -0.002234232046778528,
+   "twin": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 33420.24815680633,
+    "p90_decisions_to_verdict": 70997.12281963674,
+    "mean_excess_cost_decisions": 0.0,
+    "worst_run_excess_cost_decisions": 0.0,
+    "mean_harm_rate_while_on_trial": 0.0,
+    "mean_extra_messages": 270.58
+   },
+   "split": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 71399.0289516274,
+    "p90_decisions_to_verdict": 261565.36594137744,
+    "mean_excess_cost_decisions": 103.4610351555466,
+    "worst_run_excess_cost_decisions": 509.10984156121356,
+    "mean_harm_rate_while_on_trial": 0.0012102679625669653,
+    "mean_extra_messages": 0.0
+   }
+  },
+  {
+   "world": "product",
+   "target_mean_log_ratio": -0.08,
+   "lam": 1.602675097547035,
+   "harm_arithmetic": 0.009202033242430518,
+   "contested_share": 0.030836666666666665,
+   "mean_log_ratio_on_contested": -0.08008016493631362,
+   "sd_log_ratio": 0.4851536135760873,
+   "geometric_mean_change_all_decisions": -0.0024663588795297287,
+   "twin": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 39611.93384498973,
+    "p90_decisions_to_verdict": 84801.64306561454,
+    "mean_excess_cost_decisions": 0.0,
+    "worst_run_excess_cost_decisions": 0.0,
+    "mean_harm_rate_while_on_trial": 0.0,
+    "mean_extra_messages": 277.86
+   },
+   "split": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 87444.60058372069,
+    "p90_decisions_to_verdict": 313299.10279969743,
+    "mean_excess_cost_decisions": 111.78779998896863,
+    "worst_run_excess_cost_decisions": 331.49525382030015,
+    "mean_harm_rate_while_on_trial": 0.0010300265766319287,
+    "mean_extra_messages": 0.0
+   }
+  },
+  {
+   "world": "product",
+   "target_mean_log_ratio": -0.1,
+   "lam": 1.6113168828724156,
+   "harm_arithmetic": 0.00827375198732283,
+   "contested_share": 0.027121666666666665,
+   "mean_log_ratio_on_contested": -0.10004135083784561,
+   "sd_log_ratio": 0.5036358394430288,
+   "geometric_mean_change_all_decisions": -0.002709610530876705,
+   "twin": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 44023.8431758127,
+    "p90_decisions_to_verdict": 96214.58858231427,
+    "mean_excess_cost_decisions": 0.0,
+    "worst_run_excess_cost_decisions": 0.0,
+    "mean_harm_rate_while_on_trial": 0.0,
+    "mean_extra_messages": 252.58
+   },
+   "split": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 98279.35844650649,
+    "p90_decisions_to_verdict": 357057.70294352615,
+    "mean_excess_cost_decisions": 114.87199432278426,
+    "worst_run_excess_cost_decisions": 558.899224767018,
+    "mean_harm_rate_while_on_trial": 0.0009552457196236508,
+    "mean_extra_messages": 0.0
+   }
+  },
+  {
+   "world": "product",
+   "target_mean_log_ratio": -0.15,
+   "lam": 1.6101428719139221,
+   "harm_arithmetic": 0.006397985273103979,
+   "contested_share": 0.020145,
+   "mean_log_ratio_on_contested": -0.15006378760964756,
+   "sd_log_ratio": 0.5487453342067676,
+   "geometric_mean_change_all_decisions": -0.003018470232064252,
+   "twin": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 60263.09257880367,
+    "p90_decisions_to_verdict": 129923.05783072725,
+    "mean_excess_cost_decisions": 0.0,
+    "worst_run_excess_cost_decisions": 0.0,
+    "mean_harm_rate_while_on_trial": 0.0,
+    "mean_extra_messages": 263.14
+   },
+   "split": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 132762.47207743855,
+    "p90_decisions_to_verdict": 483117.39885827753,
+    "mean_excess_cost_decisions": 120.8749157637429,
+    "worst_run_excess_cost_decisions": 351.44967870966724,
+    "mean_harm_rate_while_on_trial": 0.0007409123502235276,
+    "mean_extra_messages": 0.0
+   }
+  },
+  {
+   "world": "timeout",
+   "target_mean_log_ratio": -0.04,
+   "lam": 1.3910360521094844,
+   "harm_arithmetic": 0.008181501898098409,
+   "contested_share": 0.049563333333333334,
+   "mean_log_ratio_on_contested": -0.040141587617756186,
+   "sd_log_ratio": 0.3564968758805253,
+   "geometric_mean_change_all_decisions": -0.0019875730431523353,
+   "twin": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 50702.80449256843,
+    "p90_decisions_to_verdict": 105420.67388526465,
+    "mean_excess_cost_decisions": 0.0,
+    "worst_run_excess_cost_decisions": 0.0,
+    "mean_harm_rate_while_on_trial": 0.0,
+    "mean_extra_messages": 545.98
+   },
+   "split": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 103967.98708722845,
+    "p90_decisions_to_verdict": 213530.83596744903,
+    "mean_excess_cost_decisions": 105.96822646431507,
+    "worst_run_excess_cost_decisions": 598.9325008334231,
+    "mean_harm_rate_while_on_trial": 0.0009303180477700023,
+    "mean_extra_messages": 0.0
+   }
+  },
+  {
+   "world": "timeout",
+   "target_mean_log_ratio": -0.06,
+   "lam": 1.3944853955308645,
+   "harm_arithmetic": 0.006936531116618072,
+   "contested_share": 0.040765,
+   "mean_log_ratio_on_contested": -0.0600589922323674,
+   "sd_log_ratio": 0.37573021456476774,
+   "geometric_mean_change_all_decisions": -0.0024453101645509623,
+   "twin": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 61523.36563228259,
+    "p90_decisions_to_verdict": 127611.9219919048,
+    "mean_excess_cost_decisions": 0.0,
+    "worst_run_excess_cost_decisions": 0.0,
+    "mean_harm_rate_while_on_trial": 0.0,
+    "mean_extra_messages": 542.08
+   },
+   "split": {
+    "adopted": 0.0025,
+    "stopped": 0.9975,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 125512.08144241382,
+    "p90_decisions_to_verdict": 261381.08671654604,
+    "mean_excess_cost_decisions": 108.68973254496913,
+    "worst_run_excess_cost_decisions": 366.5684908057245,
+    "mean_harm_rate_while_on_trial": 0.0007958767988462828,
+    "mean_extra_messages": 0.0
+   }
+  },
+  {
+   "world": "timeout",
+   "target_mean_log_ratio": -0.08,
+   "lam": 1.4132469173091522,
+   "harm_arithmetic": 0.0059034245807023655,
+   "contested_share": 0.03342333333333333,
+   "mean_log_ratio_on_contested": -0.08004871812496134,
+   "sd_log_ratio": 0.39670078760421706,
+   "geometric_mean_change_all_decisions": -0.0026719190419326466,
+   "twin": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 74334.29739702801,
+    "p90_decisions_to_verdict": 157189.58811209735,
+    "mean_excess_cost_decisions": 0.0,
+    "worst_run_excess_cost_decisions": 0.0,
+    "mean_harm_rate_while_on_trial": 0.0,
+    "mean_extra_messages": 564.42
+   },
+   "split": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 156372.79345766432,
+    "p90_decisions_to_verdict": 330466.7398025332,
+    "mean_excess_cost_decisions": 125.71404499633638,
+    "worst_run_excess_cost_decisions": 377.3526967642534,
+    "mean_harm_rate_while_on_trial": 0.0006573418223759317,
+    "mean_extra_messages": 0.0
+   }
+  },
+  {
+   "world": "timeout",
+   "target_mean_log_ratio": -0.1,
+   "lam": 1.4010376409714809,
+   "harm_arithmetic": 0.005039953536188024,
+   "contested_share": 0.028563333333333333,
+   "mean_log_ratio_on_contested": -0.10001905931189545,
+   "sd_log_ratio": 0.41146012220133327,
+   "geometric_mean_change_all_decisions": -0.002852800739040817,
+   "twin": {
+    "adopted": 0.0025,
+    "stopped": 0.9975,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 86089.39199439841,
+    "p90_decisions_to_verdict": 181673.47415100946,
+    "mean_excess_cost_decisions": 0.0,
+    "worst_run_excess_cost_decisions": 0.0,
+    "mean_harm_rate_while_on_trial": 0.0,
+    "mean_extra_messages": 494.02
+   },
+   "split": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 178095.46038044113,
+    "p90_decisions_to_verdict": 380550.82273310784,
+    "mean_excess_cost_decisions": 119.91442223746517,
+    "worst_run_excess_cost_decisions": 397.1358942550651,
+    "mean_harm_rate_while_on_trial": 0.0005795435447269813,
+    "mean_extra_messages": 0.0
+   }
+  },
+  {
+   "world": "timeout",
+   "target_mean_log_ratio": -0.15,
+   "lam": 1.3834698128903256,
+   "harm_arithmetic": 0.0033437740139097283,
+   "contested_share": 0.01902,
+   "mean_log_ratio_on_contested": -0.15202610036053538,
+   "sd_log_ratio": 0.4460133913745845,
+   "geometric_mean_change_all_decisions": -0.0028873599638343794,
+   "twin": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 131282.86014721348,
+    "p90_decisions_to_verdict": 274453.207150368,
+    "mean_excess_cost_decisions": 0.0,
+    "worst_run_excess_cost_decisions": 0.0,
+    "mean_harm_rate_while_on_trial": 0.0,
+    "mean_extra_messages": 573.92
+   },
+   "split": {
+    "adopted": 0.0075,
+    "stopped": 0.9925,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 276524.71083070454,
+    "p90_decisions_to_verdict": 1039305.9936908518,
+    "mean_excess_cost_decisions": 130.9984805101357,
+    "worst_run_excess_cost_decisions": 676.0056456964471,
+    "mean_harm_rate_while_on_trial": 0.0003969250920823355,
+    "mean_extra_messages": 0.0
+   }
+  }
+ ],
+ "partB": [],
+ "partC": [],
+ "partD": [
+  {
+   "world": "product",
+   "band": 3,
+   "weights": {
+    "rtt": [
+     32,
+     12,
+     3,
+     12,
+     2,
+     1,
+     2,
+     2,
+     2,
+     12,
+     6,
+     8,
+     8,
+     32,
+     32
+    ],
+    "loss": [
+     12,
+     3,
+     2,
+     2,
+     3,
+     12,
+     12
+    ],
+    "delivery": [
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   "passes_version3_read_checks": true,
+   "largest_to_smallest_step_all_features": 32.0,
+   "harm_arithmetic": 0.001820667963912559,
+   "contested_share": 0.041161666666666666,
+   "mean_log_ratio_on_contested": -0.1374094002873461,
+   "twin": {
+    "adopted": 0.0,
+    "stopped": 0.42,
+    "rejected": 0.58,
+    "median_decisions_to_verdict": 494877.92039518966,
+    "p90_decisions_to_verdict": 505258.93833259103,
+    "mean_excess_cost_decisions": 0.0,
+    "worst_run_excess_cost_decisions": 0.0,
+    "mean_harm_rate_while_on_trial": 0.0,
+    "mean_extra_messages": 3370.72
+   },
+   "watch_twin10": {
+    "reverted": 0.3875,
+    "median_decisions_to_revert": 1245430.6191035348,
+    "p90_decisions_to_revert": 1245430.6191035348,
+    "mean_excess_cost_decisions": 1811.535780483196,
+    "mean_harm_rate_until_reverted": 0.001860499640946105
+   }
+  },
+  {
+   "world": "product",
+   "band": 6,
+   "weights": {
+    "rtt": [
+     4,
+     3,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     32,
+     32,
+     32,
+     32,
+     32
+    ],
+    "loss": [
+     2,
+     1,
+     2,
+     1,
+     1,
+     2,
+     1
+    ],
+    "delivery": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "passes_version3_read_checks": true,
+   "largest_to_smallest_step_all_features": 32.0,
+   "harm_arithmetic": 0.009092814966595197,
+   "contested_share": 0.04867833333333333,
+   "mean_log_ratio_on_contested": -0.1072612276582169,
+   "twin": {
+    "adopted": 0.0,
+    "stopped": 1.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 52281.98719485055,
+    "p90_decisions_to_verdict": 110307.8029239566,
+    "mean_excess_cost_decisions": 0.0,
+    "worst_run_excess_cost_decisions": 0.0,
+    "mean_harm_rate_while_on_trial": 0.0,
+    "mean_extra_messages": 673.06
+   },
+   "watch_twin10": {
+    "reverted": 1.0,
+    "median_decisions_to_revert": 106022.52884582465,
+    "p90_decisions_to_revert": 407045.57126716204,
+    "mean_excess_cost_decisions": 1388.8993298083044,
+    "mean_harm_rate_until_reverted": 0.009237106627736844
+   }
+  },
+  {
+   "world": "timeout",
+   "band": 3,
+   "weights": {
+    "rtt": [
+     32,
+     32,
+     32,
+     1,
+     32,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "loss": [
+     2,
+     1,
+     1,
+     2,
+     32,
+     1,
+     2
+    ],
+    "delivery": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "passes_version3_read_checks": true,
+   "largest_to_smallest_step_all_features": 32.0,
+   "harm_arithmetic": -0.005438113964241209,
+   "contested_share": 0.028646666666666668,
+   "mean_log_ratio_on_contested": -0.2717746676867085,
+   "twin": {
+    "adopted": 0.995,
+    "stopped": 0.005,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 44891.78496625552,
+    "p90_decisions_to_verdict": 93738.65487549454,
+    "mean_excess_cost_decisions": 0.0,
+    "worst_run_excess_cost_decisions": 0.0,
+    "mean_harm_rate_while_on_trial": 0.0,
+    "mean_extra_messages": 334.76
+   },
+   "watch_twin10": {
+    "reverted": 0.0025,
+    "median_decisions_to_revert": 1789527.577379567,
+    "p90_decisions_to_revert": 1789527.577379567,
+    "mean_excess_cost_decisions": -9705.2888442671,
+    "mean_harm_rate_until_reverted": -0.005438302953741781
+   }
+  },
+  {
+   "world": "timeout",
+   "band": 6,
+   "weights": {
+    "rtt": [
+     3,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "loss": [
+     1,
+     1,
+     2,
+     2,
+     1,
+     2,
+     1
+    ],
+    "delivery": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "passes_version3_read_checks": true,
+   "largest_to_smallest_step_all_features": 3.0,
+   "harm_arithmetic": -0.011341132817803024,
+   "contested_share": 0.041446666666666666,
+   "mean_log_ratio_on_contested": -0.30173349392293153,
+   "twin": {
+    "adopted": 1.0,
+    "stopped": 0.0,
+    "rejected": 0.0,
+    "median_decisions_to_verdict": 15912.015441531286,
+    "p90_decisions_to_verdict": 33392.311404214255,
+    "mean_excess_cost_decisions": 0.0,
+    "worst_run_excess_cost_decisions": 0.0,
+    "mean_harm_rate_while_on_trial": 0.0,
+    "mean_extra_messages": 183.84
+   },
+   "watch_twin10": {
+    "reverted": 0.0,
+    "median_decisions_to_revert": 1236866.6559433811,
+    "p90_decisions_to_revert": 1236866.6559433811,
+    "mean_excess_cost_decisions": -14028.166588081853,
+    "mean_harm_rate_until_reverted": -0.011341696795425625
+   }
+  }
+ ],
+ "partE": [
+  {
+   "world": "product",
+   "policy": "honest fit, band 3",
+   "true_change": -0.01890718388527679,
+   "adopted": 0.9975,
+   "stopped": 0.0025,
+   "no_verdict": 0.0,
+   "median_decisions": 20712.676291412834,
+   "mean_copies": 252.98
+  },
+  {
+   "world": "product",
+   "policy": "worst possible, band 3",
+   "true_change": 0.039335619884323325,
+   "adopted": 0.0,
+   "stopped": 1.0,
+   "no_verdict": 0.0,
+   "median_decisions": 3065.7679107015865,
+   "mean_copies": 86.48
+  },
+  {
+   "world": "timeout",
+   "policy": "honest fit, band 3",
+   "true_change": -0.015626056332835425,
+   "adopted": 0.995,
+   "stopped": 0.005,
+   "no_verdict": 0.0,
+   "median_decisions": 20530.626308675026,
+   "mean_copies": 326.28
+  },
+  {
+   "world": "timeout",
+   "policy": "worst possible, band 3",
+   "true_change": 0.034629905997009436,
+   "adopted": 0.0,
+   "stopped": 1.0,
+   "no_verdict": 0.0,
+   "median_decisions": 3011.9322555812164,
+   "mean_copies": 85.44
+  }
+ ]
+}

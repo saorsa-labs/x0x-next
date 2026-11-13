@@ -1,0 +1,41 @@
+
+[product] worst possible inside band 3 (the study's bound): +3.93%
+[product] A  m=0.04 lam= 1.563 | TRUE harm +1.16% | contested  4.5% | mean log ratio -0.040 (sd 0.43) | twin: adopted  55.8% stopped  3.5% median 454606 dec, 3444 copies | split: adopted  21.5% | 6s
+[product] A  m=0.06 lam= 1.595 | TRUE harm +1.03% | contested  3.7% | mean log ratio -0.060 (sd 0.45) | twin: adopted  90.2% stopped  4.0% median 278300 dec, 2453 copies | split: adopted  50.7% | 12s
+[product] A  m=0.08 lam= 1.603 | TRUE harm +0.92% | contested  3.1% | mean log ratio -0.080 (sd 0.49) | twin: adopted  98.2% stopped  1.8% median 315079 dec, 1637 copies | split: adopted  80.0% | 17s
+[product] A  m=0.10 lam= 1.611 | TRUE harm +0.83% | contested  2.7% | mean log ratio -0.100 (sd 0.50) | twin: adopted  97.5% stopped  2.5% median 187138 dec, 1062 copies | split: adopted  94.8% | 23s
+[product] A  m=0.15 lam= 1.610 | TRUE harm +0.64% | contested  2.0% | mean log ratio -0.150 (sd 0.55) | twin: adopted  97.2% stopped  2.8% median 124274 dec, 520 copies | split: adopted  98.0% | 28s
+[product] C  watch on the band-3 attack (control: 10% stay with the fixed rule): true harm +1.03% | reverted in 2.8% of 400 | median 1382773 dec
+[product] C  watch on the band-3 attack (twin 10%): true harm +1.03% | reverted in 3.8% of 400 | median 1382773 dec
+[product] C  watch on the band-3 attack (twin 30%): true harm +1.03% | reverted in 4.5% of 400 | median 462057 dec
+[product] B  3->6: TRUE harm  +1.03% ->  +1.64% (worst possible there +9.5%) | log ratio vs narrower -0.060 | granted  91.8% stopped  4.0% | median 429265 dec | watch (twin 10%) reverts 2.5% | 35s
+[product] B  6->9: TRUE harm  +1.64% ->  +2.11% (worst possible there +17.3%) | log ratio vs narrower -0.060 | granted  89.5% stopped  4.2% | median 537254 dec | watch (twin 10%) reverts 3.8% | 38s
+[product] B  9->12: TRUE harm  +2.11% ->  +2.44% (worst possible there +27.2%) | log ratio vs narrower -0.060 | granted  91.2% stopped  2.8% | median 644875 dec | watch (twin 10%) reverts 4.2% | 42s
+[product] B  12->18: TRUE harm  +2.44% ->  +2.85% (worst possible there +52.8%) | log ratio vs narrower -0.060 | granted  90.5% stopped  2.2% | median 490340 dec | watch (twin 10%) reverts 3.0% | 45s
+[product] B  18->None: TRUE harm  +2.85% ->  +3.42% (worst possible there +211.5%) | log ratio vs narrower -0.060 | granted  78.8% stopped  2.8% | median 797292 dec | watch (twin 10%) reverts 1.5% | 49s
+[product] D  band 3: points table rtt=[32, 12, 3, 12, 2, 1, 2, 2, 2, 12, 6, 8, 8, 32, 32] loss=[12, 3, 2, 2, 3, 12, 12] deliv=[0, 0, 0, 1, 0] | V3 read-checks pass: True | TRUE harm +0.18% | contested 4.1% | mean log ratio -0.137 | twin: adopted 98.2% stopped 1.8% no verdict 0.0% | watch reverts 1.5% | 115s
+[product] D  band 6: points table rtt=[4, 3, 2, 1, 1, 1, 1, 1, 1, 1, 32, 32, 32, 32, 32] loss=[2, 1, 2, 1, 1, 2, 1] deliv=[0, 0, 1, 0, 0] | V3 read-checks pass: True | TRUE harm +0.91% | contested 4.9% | mean log ratio -0.107 | twin: adopted 97.5% stopped 2.5% no verdict 0.0% | watch reverts 2.2% | 233s
+[product] E  raw-outcome test, on copies | honest fit, band 3                     | true -1.89% | adopted  99.2% stopped   0.8% no verdict   0.0% | median 20295 dec, 245 copies
+[product] E  raw-outcome test, on copies | worst possible, band 3                 | true +3.93% | adopted   0.0% stopped 100.0% no verdict   0.0% | median 2843 dec, 84 copies
+[product] E  raw-outcome test, on copies | the Part A attack (m=0.06), band 3     | true +1.03% | adopted   0.0% stopped 100.0% no verdict   0.0% | median 33865 dec, 293 copies
+
+[timeout] worst possible inside band 3 (the study's bound): +3.46%
+[timeout] A  m=0.04 lam= 1.391 | TRUE harm +0.82% | contested  5.0% | mean log ratio -0.040 (sd 0.36) | twin: adopted  59.5% stopped  4.5% median 410959 dec, 3400 copies | split: adopted  26.2% | 239s
+[timeout] A  m=0.06 lam= 1.394 | TRUE harm +0.69% | contested  4.1% | mean log ratio -0.060 (sd 0.38) | twin: adopted  93.2% stopped  2.8% median 252091 dec, 2325 copies | split: adopted  66.8% | 244s
+[timeout] A  m=0.08 lam= 1.413 | TRUE harm +0.59% | contested  3.3% | mean log ratio -0.080 (sd 0.40) | twin: adopted  98.0% stopped  2.0% median 154772 dec, 1405 copies | split: adopted  90.8% | 250s
+[timeout] A  m=0.10 lam= 1.401 | TRUE harm +0.50% | contested  2.9% | mean log ratio -0.100 (sd 0.41) | twin: adopted  97.5% stopped  2.5% median 176888 dec, 1009 copies | split: adopted  97.5% | 256s
+[timeout] A  m=0.15 lam= 1.383 | TRUE harm +0.33% | contested  1.9% | mean log ratio -0.152 (sd 0.45) | twin: adopted  98.8% stopped  1.2% median 124422 dec, 438 copies | split: adopted  97.8% | 262s
+[timeout] C  watch on the band-3 attack (control: 10% stay with the fixed rule): true harm +0.69% | reverted in 2.5% of 400 | median 1257549 dec
+[timeout] C  watch on the band-3 attack (twin 10%): true harm +0.69% | reverted in 3.5% of 400 | median 1257549 dec
+[timeout] C  watch on the band-3 attack (twin 30%): true harm +0.69% | reverted in 2.5% of 400 | median 420213 dec
+[timeout] B  3->6: TRUE harm  +0.69% ->  +1.01% (worst possible there +8.1%) | log ratio vs narrower -0.061 | granted  93.2% stopped  3.2% | median 402247 dec | watch (twin 10%) reverts 2.2% | 274s
+[timeout] B  6->9: TRUE harm  +1.01% ->  +1.16% (worst possible there +14.5%) | log ratio vs narrower -0.060 | granted  93.0% stopped  4.5% | median 661854 dec | watch (twin 10%) reverts 3.2% | 280s
+[timeout] B  9->12: TRUE harm  +1.16% ->  +1.23% (worst possible there +22.6%) | log ratio vs narrower -0.060 | granted  96.0% stopped  1.0% | median 1081317 dec | watch (twin 10%) reverts 3.5% | 286s
+[timeout] B  12->18: TRUE harm  +1.23% ->  +1.33% (worst possible there +42.9%) | log ratio vs narrower -0.060 | granted  90.8% stopped  4.5% | median 851352 dec | watch (twin 10%) reverts 4.0% | 291s
+[timeout] B  18->None: TRUE harm  +1.33% ->  +1.59% (worst possible there +151.9%) | log ratio vs narrower -0.060 | granted  87.8% stopped  2.2% | median 445466 dec | watch (twin 10%) reverts 1.8% | 298s
+[timeout] D  band 3: points table rtt=[32, 32, 32, 1, 32, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] loss=[2, 1, 1, 2, 32, 1, 2] deliv=[0, 0, 0, 0, 0] | V3 read-checks pass: True | TRUE harm -0.54% | contested 2.9% | mean log ratio -0.272 | twin: adopted 99.8% stopped 0.2% no verdict 0.0% | watch reverts 0.5% | 428s
+[timeout] D  band 6: points table rtt=[3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] loss=[1, 1, 2, 2, 1, 2, 1] deliv=[0, 0, 1, 0, 0] | V3 read-checks pass: True | TRUE harm -1.13% | contested 4.1% | mean log ratio -0.302 | twin: adopted 99.8% stopped 0.2% no verdict 0.0% | watch reverts 0.0% | 629s
+[timeout] E  raw-outcome test, on copies | honest fit, band 3                     | true -1.56% | adopted  99.2% stopped   0.8% no verdict   0.0% | median 20602 dec, 328 copies
+[timeout] E  raw-outcome test, on copies | worst possible, band 3                 | true +3.46% | adopted   0.0% stopped 100.0% no verdict   0.0% | median 3084 dec, 93 copies
+[timeout] E  raw-outcome test, on copies | the Part A attack (m=0.06), band 3     | true +0.69% | adopted   0.0% stopped 100.0% no verdict   0.0% | median 61278 dec, 519 copies
+done in 636s
