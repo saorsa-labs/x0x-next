@@ -4,7 +4,7 @@ These are the decisions the design cannot make for you. Each has a recommendatio
 
 The three that matter most are decisions 1, 2 and 7. Decision 1 commits ten to fifteen months before anything replaces what you run today. Decision 2 determines the pace of governance for every weight the network will ever adopt. Decision 7 is the cheapest way to learn whether the learning half of the design is worth building at all.
 
-Rulings of 2026-11-13 are David's; Ben's confirmation is pending.
+Rulings of 2026-11-13 are David's and are final (David, 2026-11-13: proceed without waiting on Ben); Ben reviews asynchronously.
 
 ---
 
