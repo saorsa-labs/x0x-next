@@ -19,4 +19,8 @@ doc:
 demo:
 	cargo run -p policy-poc --bin poc-demo
 
+# Experiment 16 analysis, e.g. `just analyze --holdout-fraction 0.25 .pilot/mac/data`
+analyze *ARGS:
+	cargo run -q -p exp16-analysis --bin exp16 -- {{ARGS}}
+
 ci: fmt-check clippy test doc

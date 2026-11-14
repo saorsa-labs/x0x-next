@@ -1,0 +1,28 @@
+[package]
+name = "exp16-analysis"
+version = "0.1.0"
+description = "Experiment 16 analysis: fit the three scorers on measure-agent traces and score them on the holdout by inverse-propensity weighting"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+measure-agent = { path = "../measure-agent" }
+policy-poc = { path = "../policy-poc", default-features = false }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+
+[[bin]]
+name = "exp16"
+path = "src/bin/exp16.rs"
+
+[lints.rust]
+missing_docs = "warn"
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "warn"
+expect_used = "warn"
+panic = "warn"
